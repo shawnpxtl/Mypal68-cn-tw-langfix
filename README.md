@@ -2,7 +2,7 @@
 
 ## Mypal68 Simplified Chinese language pack
 
-![preview](./image/Preview.png)
+![preview](./image/preview.jpg)
 
 Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包安装后会无法使用（[具体看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此制作了这个语言包。
 
