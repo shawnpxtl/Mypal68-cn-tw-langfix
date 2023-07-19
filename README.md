@@ -11,4 +11,4 @@ Mypal自68.13.0b版本起修改了文本，导致之前的语言包安装后会�
 * [Mypal](https://github.com/Feodor2/Mypal68/releases/latest) 68.13.0b和之后的版本
 
 ## 下载语言包
-直接点击[release](https://github.com/hawnpxtl/Mypal68-zh_CN-xpi/releases/latest)下载即可
+直接点击[release](https://github.com/shawnpxtl/Mypal68-zh_CN-xpi/releases/latest)下载即可
