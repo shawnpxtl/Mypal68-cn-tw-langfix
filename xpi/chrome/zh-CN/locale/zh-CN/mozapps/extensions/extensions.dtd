@@ -1,0 +1,71 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- addon actions -->
+<!ENTITY cmd.enableAddon.label                "启用">
+<!ENTITY cmd.enableAddon.accesskey            "E">
+<!ENTITY cmd.disableAddon.label               "禁用">
+<!ENTITY cmd.disableAddon.accesskey           "D">
+
+<!ENTITY cmd.askToActivate.label              "需要时询问">
+<!ENTITY cmd.askToActivate.tooltip            "每次询问是否使用此附加组件">
+<!ENTITY cmd.alwaysActivate.label             "一律激活">
+<!ENTITY cmd.alwaysActivate.tooltip           "一律使用此附加组件">
+<!ENTITY cmd.neverActivate.label              "永不激活">
+<!ENTITY cmd.neverActivate.tooltip            "永不使用此附加组件">
+<!ENTITY cmd.stateMenu.tooltip                "在此附加组件执行时变更">
+
+<!ENTITY cmd.uninstallAddon.label             "移除">
+<!ENTITY cmd.uninstallAddon.accesskey         "R">
+<!ENTITY cmd.showPreferencesWin.label         "选项">
+<!ENTITY cmd.showPreferencesWin.tooltip       "更改此附加组件的选项">
+<!ENTITY cmd.showPreferencesUnix.label        "首选项">
+<!ENTITY cmd.showPreferencesUnix.tooltip      "更改此附加组件的首选项">
+
+<!ENTITY cmd.showReleaseNotes.label           "显示发行说明">
+<!ENTITY cmd.showReleaseNotes.tooltip         "显示此更新的发行说明">
+<!ENTITY cmd.hideReleaseNotes.label           "隐藏发行说明">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "隐藏此更新的发行说明">
+<!ENTITY cmd.findReplacement.label            "查找替代品">
+
+<!-- download/install progress -->
+<!ENTITY progress.cancel.tooltip              "取消">
+
+<!ENTITY addon.details.label                  "更多信息">
+<!ENTITY addon.details.tooltip                "显示此附加组件的详细信息">
+<!ENTITY addon.unknownDate                    "未知">
+<!-- LOCALIZATION NOTE (addon.legacy.label): This appears in a badge next
+     to the add-on name for extensions that are not webextensions, which
+     will stop working in Firefox 57. -->
+<!ENTITY addon.legacy.label                   "旧式">
+<!ENTITY addon.privateBrowsing.label          "允许在隐私窗口中运行">
+<!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
+     to signify that an add-on is disabled, in the form
+     "<Addon name> <1.0> (disabled)" -->
+<!ENTITY addon.disabled.postfix               "（已禁用）">
+<!-- LOCALIZATION NOTE (addon.update.postfix): This is used in the available
+     updates list to signify that an item is an update, in the form
+     "<Addon name> <1.1> Update". It is fine to use constructs like brackets if
+     necessary -->
+<!ENTITY addon.update.postfix                 "更新">
+<!ENTITY addon.undoAction.label               "撤销">
+<!ENTITY addon.undoAction.tooltip             "撤销此操作">
+<!ENTITY addon.undoRemove.label               "撤销">
+<!ENTITY addon.undoRemove.tooltip             "保持此附加组件安装">
+
+<!ENTITY addon.install.label                  "安装">
+<!ENTITY addon.install.tooltip                "安装此附加组件">
+<!ENTITY addon.updateNow.label                "立即更新">
+<!ENTITY addon.updateNow.tooltip              "安装该附加组件的更新">
+<!ENTITY addon.includeUpdate.label            "包括在此次更新中">
+<!ENTITY addon.updateAvailable.label          "有可用更新">
+<!ENTITY addon.checkingForUpdates.label       "正在检查更新…">
+<!ENTITY addon.releaseNotes.label             "发行说明：">
+<!ENTITY addon.loadingReleaseNotes.label      "正在载入…">
+<!ENTITY addon.errorLoadingReleaseNotes.label "抱歉，载入发行说明时出错。">
+
+<!ENTITY addon.createdBy.label                "创建者 ">
+
+<!ENTITY settings.path.button.label           "浏览…">
+<!ENTITY setting.learnmore "详细了解…">

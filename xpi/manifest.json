@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "zh-CN": {
+      "chrome_resources": {
+        "necko": "chrome/zh-CN/locale/zh-CN/necko/", 
+        "pdf.js": "browser/chrome/zh-CN/locale/pdfviewer/", 
+        "global": "chrome/zh-CN/locale/zh-CN/global/", 
+        "devtools": "browser/chrome/zh-CN/locale/zh-CN/devtools/client/", 
+        "pipnss": "chrome/zh-CN/locale/zh-CN/pipnss/", 
+        "alerts": "chrome/zh-CN/locale/zh-CN/alerts/", 
+        "devtools-startup": "browser/chrome/zh-CN/locale/zh-CN/devtools/startup/", 
+        "branding": "browser/chrome/zh-CN/locale/branding/", 
+        "fxmonitor": "browser/features/fxmonitor@mozilla.org/zh-CN/locale/zh-CN/", 
+        "autoconfig": "chrome/zh-CN/locale/zh-CN/autoconfig/", 
+        "devtools-shared": "browser/chrome/zh-CN/locale/zh-CN/devtools/shared/", 
+        "global-platform": {
+          "win": "chrome/zh-CN/locale/zh-CN/global-platform/win/", 
+          "android": "chrome/zh-CN/locale/zh-CN/global-platform/unix/", 
+          "macosx": "chrome/zh-CN/locale/zh-CN/global-platform/mac/", 
+          "linux": "chrome/zh-CN/locale/zh-CN/global-platform/unix/"
+        }, 
+        "browser-region": "browser/chrome/zh-CN/locale/browser-region/", 
+        "mozapps": "chrome/zh-CN/locale/zh-CN/mozapps/", 
+        "pluginproblem": "chrome/zh-CN/locale/zh-CN/pluginproblem/", 
+        "formautofill": "browser/features/formautofill@mozilla.org/zh-CN/locale/zh-CN/", 
+        "weave": "chrome/zh-CN/locale/zh-CN/services/", 
+        "places": "chrome/zh-CN/locale/zh-CN/places/", 
+        "passwordmgr": "chrome/zh-CN/locale/zh-CN/passwordmgr/", 
+        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/zh-CN/locale/zh-CN/", 
+        "pippki": "chrome/zh-CN/locale/zh-CN/pippki/", 
+        "browser": "browser/chrome/zh-CN/locale/browser/"
+      }, 
+      "version": "20190619233416"
+    }
+  }, 
+  "applications": {
+    "gecko": {
+      "strict_min_version": "68.0", 
+      "id": "langpack-zh-CN@mypal.org", 
+      "strict_max_version": "68.*"
+    }
+  }, 
+  "langpack_id": "zh-CN", 
+  "version": "68.13.0buildid20230609220000", 
+  "name": "Chinese Simplified (zh-CN) Language Pack", 
+  "manifest_version": 2, 
+  "sources": {
+    "browser": {
+      "base_path": "browser/"
+    }
+  }, 
+  "author": "Mozest (contributors: Wen Shaohua, Jin Jian, Rongjun Mu, Xie Yanbo, Cathayan, YFdyh000, xcffl, Shen Hao, Liu Xing),Shawn Lan(平行天翎)Fixed", 
+  "description": "Language pack for Mypal 68.13.0b for zh-CN"
+}

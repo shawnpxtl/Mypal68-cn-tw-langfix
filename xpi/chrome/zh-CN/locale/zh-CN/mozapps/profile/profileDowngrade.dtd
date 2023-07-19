@@ -1,0 +1,20 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE:
+ This UI can be most easily shown by modifying the version in compatibility.ini
+ to a newer version and then starting Firefox.
+ For this feature, "installation" is used to mean "this discrete download of
+ Firefox" and "version" is used to mean "the specific revision number of a
+ given Firefox channel". These terms are not synonymous.
+-->
+<!ENTITY window.title "您启动了旧版的 Firefox">
+<!ENTITY window.style "width: 490px;">
+
+<!ENTITY window.nosync "使用旧版的 Firefox 可能造成现有 Firefox 配置文件中保存的书签和历史记录损坏。为了保护您的信息，请为此版 &brandShortName; 创建新的配置文件。">
+<!ENTITY window.sync "使用旧版的 Firefox 可能造成现有 Firefox 配置文件中保存的书签和历史记录损坏。为了保护您的信息，请为此版 &brandShortName; 创建新的配置文件。您可以随时登录 &syncBrand.fxAccount.label;，在不同的配置之间同步书签与历史记录。">
+
+<!ENTITY window.create "创建新配置文件">
+<!ENTITY window.quit-win "退出">
+<!ENTITY window.quit-nonwin "退出">
