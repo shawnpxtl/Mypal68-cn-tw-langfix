@@ -1,8 +1,10 @@
-# Mypal68 简体中文/繁體中文语言包
+简体中文 | [繁體中文](./README.zh-TW.md)
 
-## Mypal68 Chinese language pack
+# Mypal68 简体中文语言包
 
-![preview](./image/preview.jpg)
+## Mypal68 Simplified Chinese Language Pack
+
+![preview_zh-CN](./image/preview_zh-CN.jpg)
 
 Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包安装后会无法使用（[具体看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此制作了这个语言包。
 
@@ -12,4 +14,4 @@ Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包�
 * 知道如何安装xpi插件
 
 ## 下载语言包
-直接点击[release](https://github.com/shawnpxtl/Mypal68-zh_CN-xpi/releases/latest)下载且安装后切换语言即可。
+直接点击[release](https://github.com/shawnpxtl/Mypal68-zh_CN-xpi/releases/latest)下载zh-CN.xpi且安装后切换语言即可。
