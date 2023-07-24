@@ -1,6 +1,6 @@
-# Mypal68 简体中文语言包
+# Mypal68 简体中文/繁體中文语言包
 
-## Mypal68 Simplified Chinese language pack
+## Mypal68 Chinese language pack
 
 ![preview](./image/preview.jpg)
 
