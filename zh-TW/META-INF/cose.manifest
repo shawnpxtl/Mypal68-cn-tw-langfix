@@ -1,0 +1,1497 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /BvIgLzTBK6y8YoJI+GZbgberkc=
+SHA256-Digest: FfEnHnVpvSWZB2Psqq6lB5vATb3C1ap1KGNPjUISCJ4=
+
+Name: chrome/zh-TW/locale/zh-TW/alerts/alert.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: NXFmMCj6DONMzmoN5JJlf9hOMRk=
+SHA256-Digest: h9I3LXJpX9H41PRaeI+FufHK+DIUilFEqYBrG2PrWQg=
+
+Name: chrome/zh-TW/locale/zh-TW/alerts/alert.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VPQjzYfOkW2KCQOFrg19zbmVUQs=
+SHA256-Digest: 7ytGsy6WL6AKYZ1b1tcwFisXpBYKC/n+Rn+RatTUT4U=
+
+Name: chrome/zh-TW/locale/zh-TW/autoconfig/autoconfig.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 1dDRimasOrBPbBb4zIDBZkGvEmk=
+SHA256-Digest: E9FrtckpQZdpV5uPY8ggxdPIAFZJeBp4ZanfSHGQXjA=
+
+Name: chrome/zh-TW/locale/zh-TW/global/AccessFu.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: V42uFO/mHOUDol8+OLSEkOA6fsE=
+SHA256-Digest: exjtDM5JXetw8X9An6RVzK5sTtWcYQP8/iHUtmmyGps=
+
+Name: chrome/zh-TW/locale/zh-TW/global/aboutReader.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: g48TLwgr7rZeDQpTBbnK+IZc8sU=
+SHA256-Digest: JTNcsseCVFjiYUZYFnLC9+e9cB0s2l7x+0/1jF8gLNE=
+
+Name: chrome/zh-TW/locale/zh-TW/global/aboutStudies.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: rZ63qRJadH3via5dVMODcbifGUo=
+SHA256-Digest: Wg5ElHUVAprYgzKDXw7eD9CZE4StL0gck2P4lkP/Fb4=
+
+Name: chrome/zh-TW/locale/zh-TW/global/aboutWebrtc.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: RxfRMLA2DSW01+r7sGTnfqnkL4I=
+SHA256-Digest: /OR3xd1MAmPd9qz4jrc4zQr71+Dj5n60lClbzNlC1mg=
+
+Name: chrome/zh-TW/locale/zh-TW/global/appPicker.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: BtnizDL6ZfL+VewKy4AFhqOClRk=
+SHA256-Digest: zB3myvI+sDCVdOa3DzH+e2e9u12niaaoDk9tq+hZmV4=
+
+Name: chrome/zh-TW/locale/zh-TW/global/appstrings.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: BqiJ0SX9owQE3EVJUACQ/G3Ou00=
+SHA256-Digest: p08m33zf6DFscx9kIjhR+6/43fBMLI4hyIKIJwz/0/k=
+
+Name: chrome/zh-TW/locale/zh-TW/global/autocomplete.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Lf/cwMSTVAU5sjInU5l6CBQMFuY=
+SHA256-Digest: +VMyzmmvSPK2zd/yCDinZ3Yd9UDFSq2iCHopzJI+MEY=
+
+Name: chrome/zh-TW/locale/zh-TW/global/browser.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Rn8xXfpE0YL+00Nz94BXGiJgIdw=
+SHA256-Digest: +m2zrpJGTSZVIgt4ZFafJtMsoxmXFOEdgHrBk0Nr5Qo=
+
+Name: chrome/zh-TW/locale/zh-TW/global/charsetMenu.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Mn+hJ8rc36pr9SxFL6Us6jdbMAQ=
+SHA256-Digest: +opBGqKq79AKfCKxsDwDjIxZkJwcK8oJxaongutxbRY=
+
+Name: chrome/zh-TW/locale/zh-TW/global/charsetMenu.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: rFmUvLowSK6XdZNfbZXpqS4Sii4=
+SHA256-Digest: DQO6mMoyh7VRjWZa8GPi/jZux0M8+qRflLkdJPMSnQc=
+
+Name: chrome/zh-TW/locale/zh-TW/global/commonDialog.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Y4K5etg5+NMI7a56WydY+Ssh10w=
+SHA256-Digest: BT7YDhq2vrWY5q2VBt3rTbzpWUbv5zq1HXKmV93S7cQ=
+
+Name: chrome/zh-TW/locale/zh-TW/global/commonDialogs.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fZsM3Wex9C/fgz6hDRCKLN5UyY8=
+SHA256-Digest: DEUMQ1LH+gqVr9Y8BFlYme3eU058a9pclIlkCpPT1+w=
+
+Name: chrome/zh-TW/locale/zh-TW/global/contentAreaCommands.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: dly4AbWxGfhSwe4iKnFUYSlxtqY=
+SHA256-Digest: vUyIDwxashOpi2swiPw9zb7Kk26Krr+HkMyx2hl1aHA=
+
+Name: chrome/zh-TW/locale/zh-TW/global/css.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: V5kc26wz1HgtVruF9SS3/WZIIZY=
+SHA256-Digest: pCdDluOkhNXqBBIcirVw2EcecE/pC1iyyGmhbcw+TRs=
+
+Name: chrome/zh-TW/locale/zh-TW/global/datetimebox.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: WpV8Nv6F742Ibg8hWTTGWspkCXU=
+SHA256-Digest: 3V4cjov9NKG9dPJi6goYHJuFTUDikr7eDTNE85/Z51Q=
+
+Name: chrome/zh-TW/locale/zh-TW/global/dialog.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KE7MYQcZ24Si55W/JnB9LEhQQq0=
+SHA256-Digest: MK91enmsD+0H1Rm1zKbnmBAvlJFxCZeCg4SkPCJ3RiU=
+
+Name: chrome/zh-TW/locale/zh-TW/global/dialogOverlay.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VAvW8NCxrLKUysuw6ug1244w4tU=
+SHA256-Digest: ANJ7tik8d3hpgPDZztI+YYuqIbzelvKVSttM4QNdErw=
+
+Name: chrome/zh-TW/locale/zh-TW/global/editMenuOverlay.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ZZ/WDEoY+RQ1OOsBka1WbvdxW20=
+SHA256-Digest: 8TpHGkXFTMpFF6wFo2R5QhHFIFRApbF/9fsFFXTuobU=
+
+Name: chrome/zh-TW/locale/zh-TW/global/extensions.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Obw5rm2OI04WWsUWyM/N0icd1Fg=
+SHA256-Digest: MXry960qND7QRe5AwnEx3aaz9l6wYAQl/lVC2H+b4Xw=
+
+Name: chrome/zh-TW/locale/zh-TW/global/fallbackMenubar.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8FBBRMyWoAnQxt+dHSj2WFFrj3c=
+SHA256-Digest: q78LZB3cKiJKWQdSO1g5bpr1pE/3vHayx8ynb/EPTq8=
+
+Name: chrome/zh-TW/locale/zh-TW/global/filepicker.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: W9yBIN3+1D4yu+iuBXC29IZzEt8=
+SHA256-Digest: o6MmT0uMlB8WTz5GG7OHp5WMSq0waHMOgwVBiBsJh3w=
+
+Name: chrome/zh-TW/locale/zh-TW/global/findbar.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: lPgbGaDTMybvemrWC7jw2hv+vHs=
+SHA256-Digest: 8I2HIMcptjyZYrN1K1Q0DdNwGAzQo5TZzXWCza+IMdw=
+
+Name: chrome/zh-TW/locale/zh-TW/global/global-extension-fields.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: frK6Ai4lwi/iZdI9+qyqw0A6qIo=
+SHA256-Digest: AUrnF7ubkOgPODnKgyf26ls4s4le1eXMnRNiR6qhqcA=
+
+Name: chrome/zh-TW/locale/zh-TW/global/global-strres.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: WsasAvC0bzDymX3+RDj5/1NSSHg=
+SHA256-Digest: dWZovILd0FJBVz6hkXjVBmBMlUmzgPMwdDTScKe0uQ0=
+
+Name: chrome/zh-TW/locale/zh-TW/global/global.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: QJoit4uar/JUQtynqAzncdSLH00=
+SHA256-Digest: RLlO/IA9x3IZ0p/ksr4nUtbZ7bp0qgMEIADgHD4obMU=
+
+Name: chrome/zh-TW/locale/zh-TW/global/globalKeys.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: nOx6Y5jAtym0EixCtS9KaPagA4c=
+SHA256-Digest: UyEXS7TydYlGKPexoAR/8YCPWfexJP2qgDme/hA6Lzw=
+
+Name: chrome/zh-TW/locale/zh-TW/global/intl.css
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VZkhVGtYpH33P84LRX9H+neqQao=
+SHA256-Digest: iDTkz7G+I94kGQMZGBIabExsyWZvA4QcM5vv5Y3cWSs=
+
+Name: chrome/zh-TW/locale/zh-TW/global/intl.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: N+gCW/grRrgfEQOyBpKv4Y69paM=
+SHA256-Digest: 9kmrGxWMqQ8xBqNuNg1qfM/Shc1ggQoriuLOAZiYGRY=
+
+Name: chrome/zh-TW/locale/zh-TW/global/keys.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: w3QtGzeFPmpKSbLngY70y/BghYA=
+SHA256-Digest: 8NQqHHoMtdxx7v3CcXK+/2pMSn5/u5ikWvvuUXHfiVg=
+
+Name: chrome/zh-TW/locale/zh-TW/global/layout_errors.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: epi4BeuI9OaFMcAPhUd8RdoGKsQ=
+SHA256-Digest: 3g/pqJC6Yos+qDLRc11BumhFS7ICEskjymO2dpa3MWY=
+
+Name: chrome/zh-TW/locale/zh-TW/global/mozilla.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: gweu4kSCVbO/hB8/JK8wbrc7a2M=
+SHA256-Digest: my0R+bRrgr4eQ0V32NtkipJ+OHnZ5r6dShb0j/6prpM=
+
+Name: chrome/zh-TW/locale/zh-TW/global/narrate.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ncLde8KpdfnaBg+1w8GPAA8cAHg=
+SHA256-Digest: 1jbBR6TmE1q306d5ARQqky0ueqLtfedRkXYkhsIOkeM=
+
+Name: chrome/zh-TW/locale/zh-TW/global/netError.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: wIqo17jWB3XXZ/yFAx3MsLxQa3Q=
+SHA256-Digest: b573MKMOczOJLSmI7hJVH+lqZsLrDkFdGZlFzWCuuvY=
+
+Name: chrome/zh-TW/locale/zh-TW/global/netErrorApp.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qMEW2t+aqlUsdMF2nFL0DZChkDA=
+SHA256-Digest: IfcTOAFSjz/mJR2jqxYU4EN9c6JhkUGVnsGDF4mE+j4=
+
+Name: chrome/zh-TW/locale/zh-TW/global/notification.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: TKEgQ4R9mAoQ9G+IS5SzpxmS9zE=
+SHA256-Digest: miXPMohrJvEvX8hJNttqkrbwvPDl3AGiMcumOQ08yYs=
+
+Name: chrome/zh-TW/locale/zh-TW/global/nsWebBrowserPersist.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: x6s7J1C7q+R4hRjuTPVKjq8MRTY=
+SHA256-Digest: +Wi1V1jbXBaJ94rcBu2/pP+bvEST0+uOcih7fWOZWIw=
+
+Name: chrome/zh-TW/locale/zh-TW/global/plugins.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oW6jzujq069ij9Xla93J+a474Lc=
+SHA256-Digest: SNJa7++R03FJvyBql+jPBbtL8KKEpfno3umSQgy9qBg=
+
+Name: chrome/zh-TW/locale/zh-TW/global/printdialog.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2htUef2M+hhCferdnIQfDwdLMwM=
+SHA256-Digest: qNjfg5N5vKHJ1DzqVvp+453gS+GM72+HyWHc/ZvJa/E=
+
+Name: chrome/zh-TW/locale/zh-TW/global/printing.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 5dg/LVU8FP1/J5lqVrFDdA6WtTU=
+SHA256-Digest: ET/+m2/ulLMZeVcieze0B4v8wmeZcHpdmUCaTUv+1TM=
+
+Name: chrome/zh-TW/locale/zh-TW/global/resetProfile.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Rl+PJ52vQwzZE9Ne12Kg5KZpslQ=
+SHA256-Digest: aUqVewW1RQsNVrdBTBwtk4LdH0HM+LuAZcci1P7MxsI=
+
+Name: chrome/zh-TW/locale/zh-TW/global/resetProfile.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 6I7OrkYipBKjjTg3Gp4GVIiYmvQ=
+SHA256-Digest: N/Yyv5Q+n1OVHy4lwVyucihEFn8kpuOmi60DM6EoNpM=
+
+Name: chrome/zh-TW/locale/zh-TW/global/textcontext.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PUv6DuHxFQowJAiXcfnQFVr2YSM=
+SHA256-Digest: szcVEktzJJ+y3ncukXon0OrZyLrIOzoxg7gkOqJsAl4=
+
+Name: chrome/zh-TW/locale/zh-TW/global/tree.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 4h4WZTMPuzQS1IEE0pnVxhlqJIA=
+SHA256-Digest: ARfGk9g6GX/8561S1RuHvkm5pIIBkPM/Rv3qAtSJGBI=
+
+Name: chrome/zh-TW/locale/zh-TW/global/videocontrols.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 5w0gf8ukj+SxcjA3nBr3Cf6UL/A=
+SHA256-Digest: p655UzfUpZaUDsk58ySFnDuDoygV+z/+NG1GSGXRKqU=
+
+Name: chrome/zh-TW/locale/zh-TW/global/viewSource.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iTIdSIKIxC4jE2X2Ms92umWwk5M=
+SHA256-Digest: 0UkWVF4C/TRRLbyAa1ozR2BCKyEvqVr/3M378Knpg30=
+
+Name: chrome/zh-TW/locale/zh-TW/global/wizard.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: smBn5QhPAX2yZwsbGc1mmzvr/YM=
+SHA256-Digest: JqMhXDKVT1IFUdiBhSejWlWqV1hZJuGggMlSh/B5nbM=
+
+Name: chrome/zh-TW/locale/zh-TW/global/wizard.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ZL2Gzl5a83c1kw8ZQ4kZoVJAKvo=
+SHA256-Digest: LGJ0jhYKiCYUdMQJc/qVSSpglGQ3bdk4F9GQvXnDIfo=
+
+Name: chrome/zh-TW/locale/zh-TW/global/xbl.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: AylXghK1U+NU2wjqwbXkE7rTbSc=
+SHA256-Digest: +GCaMf6zzAvToonX4uwQjo8XuKn7It/k7QfGBh8oDtA=
+
+Name: chrome/zh-TW/locale/zh-TW/global/xul.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Frc2eAzRJuPMBJYJrOZwEv3MaHc=
+SHA256-Digest: OZTqVYhPkFogwrmWpei76bvw0R+FGFzpbE+E9pkXmfk=
+
+Name: chrome/zh-TW/locale/zh-TW/global/dom/dom.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: xbhQYK/96m/YEbbJDCsPpj3UKCY=
+SHA256-Digest: 166HFFZqox0uQDSOQU8yK4z7kAUNCdUoFHeg88pfrU4=
+
+Name: chrome/zh-TW/locale/zh-TW/global/layout/HtmlForm.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: yxhxb27B8gbzpk3P3BTQx0JR72I=
+SHA256-Digest: czhHAtiflWHO/Wjs42ZqQeWUG6cCsLIf+3HmmKBmhek=
+
+Name: chrome/zh-TW/locale/zh-TW/global/layout/MediaDocument.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: n/8W2SLwcXmhUPiTAO+kP4dG//Y=
+SHA256-Digest: toMRZ2tg+RUIqSKULHeAlwynW5qo/XsuZnYfTHVkDTk=
+
+Name: chrome/zh-TW/locale/zh-TW/global/layout/htmlparser.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: b4mG0oOkp0gLAUxOuIZZXRFvDrI=
+SHA256-Digest: hNizB1x6A86Ej6c65TjgkNHSEvXGOH/tu4NXlTjxnkg=
+
+Name: chrome/zh-TW/locale/zh-TW/global/layout/xmlparser.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: K5+9RgrbEha3MNahItUlIwLraKU=
+SHA256-Digest: uCBCWrNxC5eeZ5qQ4MxxlPR3y0BwPtZAy7fMexzWYAk=
+
+Name: chrome/zh-TW/locale/zh-TW/global/mathml/mathml.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: TDKd82IfxvRO72bk1Zswe3fow7w=
+SHA256-Digest: udmGBPALZT3+to9X0oYhxOnwDLQnnBLdpBr+vhhwxM8=
+
+Name: chrome/zh-TW/locale/zh-TW/global/search/search.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 357C5G+4s56Df6sS8jdvNpW2a0E=
+SHA256-Digest: oEAQ0NkAN+t7Bf5GqE4ILVnxbLJWOIoT14hIjZurqfs=
+
+Name: chrome/zh-TW/locale/zh-TW/global/security/caps.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: cdAAG3q6E7F/HuLWjYaEnva4jZ0=
+SHA256-Digest: rjnTLapz/HG1+ifCVw3Lf4sbQt92N1qnfYfkXgZf1LQ=
+
+Name: chrome/zh-TW/locale/zh-TW/global/security/csp.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: cY5Ld9pnfAYQxQUj+n+hD9SlpZs=
+SHA256-Digest: Prz+axZE0vq25eWkp1zOsi7ZeVtnSwAIefu8gd6JYlc=
+
+Name: chrome/zh-TW/locale/zh-TW/global/security/security.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7gFQT9xb6nzsLy8X/CDm3cYKdzA=
+SHA256-Digest: iujPWh2fV6C0XkWc1pjkAfV4vZTTQnuIX8J3Dyq9eLI=
+
+Name: chrome/zh-TW/locale/zh-TW/global/svg/svg.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ywKIl6ZpUm7XQlpiZullJMs8REE=
+SHA256-Digest: vD93w8PzgIhc1tcitnYBkWm3jypomcikl0aeYcLHD3o=
+
+Name: chrome/zh-TW/locale/zh-TW/global/xml/prettyprint.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: R+gpD8YE0DER25bodCUvlTPbX6k=
+SHA256-Digest: g4vP3c5OVm5jQQCdSuBmEjasJoc04AxmNiXKHACDJ3U=
+
+Name: chrome/zh-TW/locale/zh-TW/global/xslt/xslt.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 5uoyTPfEcQ8a6vep7YMKU05lIks=
+SHA256-Digest: k1khkcVz26RhaZDtxfDc3EKo1vQSE+tFda6WkKVbgqA=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/mac/accessible.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: kJyCK6Vk8nxjEc5oks7QwxQNno0=
+SHA256-Digest: WljjP2NxCOL15yu5UITV1SQt+aAWYVDK1KKklc4kPqg=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/mac/intl.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Nr7+/Bw15haX4s9b1RTwzKUWnYE=
+SHA256-Digest: Dxe3UGmIAYHOb2aeNhNGeqi+Wo9tue05p5Nj/Ioj45g=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/mac/platformKeys.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iTrJRzS6WFPz8t34XCuSKbz2m7Y=
+SHA256-Digest: yKlJuv4X9/9UD5UB3xVdi9olCCHxiUr/nFzIvQUAhXA=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/unix/accessible.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ISoRmqnLdh9CMiOxO7czq7v5wu8=
+SHA256-Digest: hwo93iKiLgnJMoU90nmuKaP55aFiWhTAo1icGjEstPc=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/unix/intl.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Nr7+/Bw15haX4s9b1RTwzKUWnYE=
+SHA256-Digest: Dxe3UGmIAYHOb2aeNhNGeqi+Wo9tue05p5Nj/Ioj45g=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/unix/platformKeys.prope
+ rties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jCqAM2g0BOflURjsBj4tEyYzLYU=
+SHA256-Digest: K/WYMmwrqQ3f2WqzNGWbjvTqWhMQZF0Y0W5DEprM0No=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/win/accessible.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ISoRmqnLdh9CMiOxO7czq7v5wu8=
+SHA256-Digest: hwo93iKiLgnJMoU90nmuKaP55aFiWhTAo1icGjEstPc=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/win/intl.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Nr7+/Bw15haX4s9b1RTwzKUWnYE=
+SHA256-Digest: Dxe3UGmIAYHOb2aeNhNGeqi+Wo9tue05p5Nj/Ioj45g=
+
+Name: chrome/zh-TW/locale/zh-TW/global-platform/win/platformKeys.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: H4WKfu9BDmPeup2WgOQFInmKj0k=
+SHA256-Digest: 1h9Lj6OlcK8nebbxqtgBIDfXQ36dfIX8xxXBYrerWb4=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/downloads/downloads.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jS9e6f1Ai06XZrkVBVMIB1OV7js=
+SHA256-Digest: 5e90XZMqdthiGAFlDdv03pgO8fD2bXNZVkUMa7WYTtw=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/downloads/settingsChange.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 1jaEyhslv7fGjKEcghBpvktzpQM=
+SHA256-Digest: Pfw3OhhoIsMBfv2UjglpkzOa2fxipOJ3jCFXbpx1qgw=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/downloads/unknownContentType.dt
+ d
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: FPokVFPSRkoQC5CMHRbYRATRqVU=
+SHA256-Digest: CZngr5u/at4txBVKrTVd1SNMkFB1uPm+2mbl76afBSU=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/downloads/unknownContentType.pr
+ operties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 1De6LfMUwpjE/KqOjaVTWpAz4MI=
+SHA256-Digest: /yVJ3zf53NpnV7wbIIE0VO38g+Axrj3Slku1dF4ifQs=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/extensions/blocklist.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: WL7K/lBhyvWr6XEGtG/JRBA+ayM=
+SHA256-Digest: zG39BXcNPD0TczWkjHnqbjWzZLXDMee0Va4vT3ukiuA=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/extensions/extensions.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: mXNbpFyXY5aT7vqiUpJUFuHycQ0=
+SHA256-Digest: G12+ncO5NCI91v2W5pScwK1BKfrpQm7D7hNwwh/IhPo=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/extensions/extensions.propertie
+ s
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: p6w8duPYwhFUsWAewfPyBxOCZZg=
+SHA256-Digest: JtuBCUlgEagjVYKG1biMrN9f62XwVieAw0JSk6llq/Q=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/handling/handling.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PxxqnfjEuear+vXJmZsxfr0V7N4=
+SHA256-Digest: LSj9kbYN++ux/qO/eOb/fAoMV9FtP0ynaFXf4E7NXL4=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/handling/handling.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8Ys/9V7NJ/2Gr65qEb22yuBhHLk=
+SHA256-Digest: s4oTx3/0Fl99kVLLqx6WHsf5HqCuG+x4h+c/8+TQZWE=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/profile/createProfileWizard.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: YGDrD3HKF2f3C0QmhrPKj8gvDOM=
+SHA256-Digest: 7EPXklrMWqdWrmnauhskT86p2HZS4LulftrUFGywlVM=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/profile/profileDowngrade.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: xa4wpOzsdUQDgeM81tgv758bDes=
+SHA256-Digest: ckX4BNagnDk/aw0cLYj/2/y6rc67RlCNcxUPe4rpoEY=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/profile/profileSelection.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XIH+TVbbyJHrkdxtsIUpvZE997c=
+SHA256-Digest: Qr3xN5ifuAyehmMF7AT6C8vKymv8J5LhB0RTGfFlvcQ=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/profile/profileSelection.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: J+AmQglcl+BcDXeKb7qN1bCPVDE=
+SHA256-Digest: C6dHBJQqMLlR19rtOPXLj5V7YeDyb/a5o/RyJeqZPsk=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/update/updates.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: lYBOOVy7z9H13FXU9Q0NaiDQCPc=
+SHA256-Digest: 8vjdYmazn3UKYay3JG7GV4mHyw2t0LMqSzxuaQn2/hM=
+
+Name: chrome/zh-TW/locale/zh-TW/mozapps/update/updates.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: C5XZqxe4/+Zj+2E2smnJo7giP7A=
+SHA256-Digest: OCqUXjq9pTfpo8DutqD+WytZ7yshh3M2uz7H/JhyFyw=
+
+Name: chrome/zh-TW/locale/zh-TW/necko/necko.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: dhp/vmGNvHdNBuMpfBAOCxJk5i4=
+SHA256-Digest: hBFHisgUnwiPnx2+6DBlLOUvD6hEeKH48upPu/F/B3g=
+
+Name: chrome/zh-TW/locale/zh-TW/passwordmgr/passwordmgr.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ObtY3iWxbOCpRJZjdUiykcFO+pA=
+SHA256-Digest: eoZwYBdoLGH44SCWWz7LU+Bw6rlBA+b0kKKSoFs0gcU=
+
+Name: chrome/zh-TW/locale/zh-TW/pipnss/nsserrors.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8YJDAN/KGOlCrzgQ1tKRvPNn2X4=
+SHA256-Digest: 4jNRK7iNK5tlnNRBM6e1es1h15GmPGPQeLcRAu+c9nQ=
+
+Name: chrome/zh-TW/locale/zh-TW/pipnss/pipnss.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: q3d4u3YG8wurNexwoHomIhED5g8=
+SHA256-Digest: JnymyLatPj3frrzaVPPk6x4UYgnUZvPVZgq5TQNZry8=
+
+Name: chrome/zh-TW/locale/zh-TW/pippki/pippki.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: JjGOdlwoqKWpKNOadpb6IX4qOmc=
+SHA256-Digest: TmoqeZrjoP6MBotLmYaMD3ehBlDtDkSdnp6WJWUXBh8=
+
+Name: chrome/zh-TW/locale/zh-TW/pippki/pippki.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: YnVOS0FqGhJFbOGEHUWWhivAkZk=
+SHA256-Digest: ZqSCTWTd0xt+MkYihx+Epb6kPj+A8kFRcdVeHn+Ndzo=
+
+Name: chrome/zh-TW/locale/zh-TW/places/places.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: eaSF9vDFshxZlaTfGsKJXEj97hk=
+SHA256-Digest: XjVn1HZf9Gs9XuPJyXIN4HWkCtVuR11Xe3qiLD0lEYU=
+
+Name: chrome/zh-TW/locale/zh-TW/pluginproblem/pluginproblem.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 9Gc1u0J156etm/dM6lXzJW5N17M=
+SHA256-Digest: zTr3M41vzr9AZv9eNbZ/87gvEtTNvFJCfNqMs7Rl8NE=
+
+Name: chrome/zh-TW/locale/zh-TW/services/sync.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: c5wMdwPZaYLiRqBWKlFvqXCHA1k=
+SHA256-Digest: q0CUgRETTTGQQuptvzHTDpCjTgvKKM5Ih/EuD6Hd7LE=
+
+Name: localization/zh-TW/crashreporter/aboutcrashes.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: dfqjpWLL2UhwdVzejnuUr5TgeYU=
+SHA256-Digest: GVudCyG9DwBnKyNPEAVlVfbdDDSM1IpzB1T3sCMK4SI=
+
+Name: localization/zh-TW/security/certificates/certManager.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: eoJbHE8Pg48aJaNhYHVU2P1waS8=
+SHA256-Digest: 7YawADnd7m+ibEcV/t1KV6Gb0uBjNI5fQZ0Egjq3b8I=
+
+Name: localization/zh-TW/security/certificates/deviceManager.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oIP0Lzu3QD+gQPn0w38/wQP6Ug0=
+SHA256-Digest: HquGvEMHrm3xJgwY1jiafJzmACXpnK4dxUcj2QOOfGM=
+
+Name: localization/zh-TW/toolkit/about/aboutAbout.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: U4fSp+y7/TOpCLQ6AwDKCGsOKo0=
+SHA256-Digest: SmzOTqnX2Jx4U0zHtsU/sRva4Ay3KeIZ1dxgQUUrKOI=
+
+Name: localization/zh-TW/toolkit/about/aboutAddons.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: +nI5z5WZgtJYZ//Ux3PZ1NaeB40=
+SHA256-Digest: nEj+ZHNa3ih8iBbGcpLqVZsD2kqLavwXyI8tHzzZGsU=
+
+Name: localization/zh-TW/toolkit/about/aboutCompat.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: FcAtU+R6c2IfytbnBmrT8XU6qxw=
+SHA256-Digest: 9jDlvLZMN7o8Hlw/wHDqRgaRC2EuF9tSMH7vqEqaJWI=
+
+Name: localization/zh-TW/toolkit/about/aboutConfig.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: vwmGRFApz8Z8Ki7/SeDTdg4nOIU=
+SHA256-Digest: IiBjctD3AwN0zNXYOyhS2ipEdUHJG0CkUZi/9TA2zFU=
+
+Name: localization/zh-TW/toolkit/about/aboutNetworking.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: mThu6TkfTrPSTXXHaLYAc4Nvw6k=
+SHA256-Digest: 7AoZYU3U+17Yr2+xdM1ZNE3owDR+hXKIFAAVu6iUWuA=
+
+Name: localization/zh-TW/toolkit/about/aboutPerformance.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PrgZpxfG2yV36GGNtHRFOES47rQ=
+SHA256-Digest: Zyh7ZhCsRQW2R+NvDrORLu7WIoCN9XTwfKbNy2KONho=
+
+Name: localization/zh-TW/toolkit/about/aboutPlugins.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: dY1ez7y3hilCPj7otG2fBaRgNgA=
+SHA256-Digest: K5/x2/QxnxjpgYYRvkKcfSL0J2LHHRZDKhIFUe12rwM=
+
+Name: localization/zh-TW/toolkit/about/aboutProfiles.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KdzTi8hu/WDvW4Bc8diT57C6MYE=
+SHA256-Digest: QxdjWW0gdliDFbi9tv1YPxw0VY7vASTtkA1vtbmItsQ=
+
+Name: localization/zh-TW/toolkit/about/aboutRights.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iYcOhLA+U3n2q3Q8NVyO7ko4TPg=
+SHA256-Digest: wHiEdiYXCemGNu3ItaOyhQluZAWuzDrB1ESlweOr6BI=
+
+Name: localization/zh-TW/toolkit/about/aboutServiceWorkers.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oswrD0SM8mwan0e4SJPCuO6eogM=
+SHA256-Digest: 3znNY4qdW7EXturrCbkM4wv+ZvayqMHVdn3TFB2Sj9M=
+
+Name: localization/zh-TW/toolkit/about/aboutSupport.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2maQxeB1QcSr3bWbq8QXZHT+TNE=
+SHA256-Digest: 81Wt9tX8MSBhsixRe267v0aXF4h6x47b8wYyLxTM/X8=
+
+Name: localization/zh-TW/toolkit/about/aboutTelemetry.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: lK4euyCUT31oD/RB1ccdlZSi4qY=
+SHA256-Digest: 51ma8hmKCrAf/reNwneYy6rkDak2cUVVrI8QgvnzZao=
+
+Name: localization/zh-TW/toolkit/about/abuseReports.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qGQGNmz6JIkNvohOvdwKcX7TXac=
+SHA256-Digest: Ux9ClYAmjsR+Cyjam5GyOmLyg4mkwzu43ZieKaJhGEM=
+
+Name: localization/zh-TW/toolkit/about/url-classifier.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: MQU1WxwD8vfr3xdSHT7wognBLYs=
+SHA256-Digest: VQ54LsIW3BYYfbKgJmOlRF85OczMyFyM6j8mGpH5Fkc=
+
+Name: localization/zh-TW/toolkit/global/processTypes.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 96HOyRAV+8w6FM9QfGzA/+kVxxc=
+SHA256-Digest: nOYYoWTkCLVtGMfi2lQPwT2oAMcXNlagNjXEvAGVQoU=
+
+Name: localization/zh-TW/toolkit/global/resetProfile.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: tlLGJ9Gv+ZsM2x7iqzjC4DvRlOk=
+SHA256-Digest: sZkOLvGQxx5IQTM1CjZ/GmItesEbo561X82vOWbfilQ=
+
+Name: localization/zh-TW/toolkit/global/videocontrols.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: YWx29E7tQgWVkPfhiTSUOYkpyh4=
+SHA256-Digest: PqA2aAYO3uRvitMj4qk4/bQt10bFVgxAzzIMEF761Dc=
+
+Name: localization/zh-TW/toolkit/intl/languageNames.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: HydoZEC0ENSgRnB4+pj6LBhgSt8=
+SHA256-Digest: SmI/PKeqHAr2Ng5HhwXyTtG3kOA212kE3bVJD31oGUU=
+
+Name: localization/zh-TW/toolkit/intl/regionNames.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 0ff+LjWRgkQvIyWp/XZkvMHjES4=
+SHA256-Digest: +pPXPyulxC7gQ3CQzf+/cCtH10BQrN22Wg1KPqSyMbk=
+
+Name: localization/zh-TW/toolkit/main-window/editmenu.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: LGP5vevQJwq568Ybeyp0AMq/mzk=
+SHA256-Digest: bLcXU1gjRKf5TlEEJbd3MoI7QvTZz0mIoldxb3wdpbQ=
+
+Name: localization/zh-TW/toolkit/main-window/findbar.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jx9xYp4Ys2aN+CRgtEssKS6sQyc=
+SHA256-Digest: Rtl8+OA06kUHV08ywSVtAu4HyAsETzP8QkdDyU/iUp8=
+
+Name: localization/zh-TW/toolkit/passwordmgr/passwordManagerList.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: CjtrgjCU6WV+AmsYmcgqir8Qb0Y=
+SHA256-Digest: 5jj2GgqUudYgP7h2z0H5OHfakFVdiQr1gbrRto4NP8Y=
+
+Name: localization/zh-TW/toolkit/preferences/preferences.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: axrNFuiuEmgjLyTAv8yfeVzxfPQ=
+SHA256-Digest: 9m7LfYocqolOKkF0xLFkSZxRIhSmq7NKiKnZyn7o20c=
+
+Name: localization/zh-TW/toolkit/printing/printDialogs.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: aiDM/bkiDxCWvRyprFx4UssLBio=
+SHA256-Digest: 4z/QlvNlY33CZphJ302v141U9Z5XMAOd3bykTDk6HEs=
+
+Name: localization/zh-TW/toolkit/printing/printPreview.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2UjWt9NBJsNvBe50OjgrHOdY2sw=
+SHA256-Digest: x7EDBLr+zPWR9YiwO3Mr5eHBOfNTeRrzbGTW66w1jvw=
+
+Name: localization/zh-TW/toolkit/updates/history.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: netS3L8NQUsUN36vCpIGHm/3Wmo=
+SHA256-Digest: hnvPEICEb7AFBNzp+V93crxnzdPlloKsGlCLqBy714Q=
+
+Name: browser/chrome/zh-TW/locale/branding/brand.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7V8dbo+IvRzAZ0sLAMpyq1mafyw=
+SHA256-Digest: a4miIJ3LRCELrhxxZvZPF5Qc+pJ0OTQ1iVgbvjgUt+A=
+
+Name: browser/chrome/zh-TW/locale/branding/brand.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fcY8uHd97NwnFoUbWV+YjlrNk8c=
+SHA256-Digest: EKn26kFi5Zxkfk94Ineyzd8ZoW1tR67lDoD1+XCezFA=
+
+Name: browser/chrome/zh-TW/locale/browser/accounts.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XAjgUhiZcCJkX87QZ+uAls0dWm8=
+SHA256-Digest: qVWHyDySPTP0feEMqBUdfgF4g1HXVEhnLfgIo3Nqclw=
+
+Name: browser/chrome/zh-TW/locale/browser/app-extension-fields.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 0mkzPr+ok70xvjsDo23m0prV3Jc=
+SHA256-Digest: hsTC6GiJcUichnKaiPdDrrt8BOVEIZPnKeEoSdxDCJo=
+
+Name: browser/chrome/zh-TW/locale/browser/appstrings.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: c0GQIm/ZSc1RdDXDUjBI6dDfdao=
+SHA256-Digest: YRppAJ2RBzlU4KhJe2nkIiUB8oIJRtCDKfqAVus/RF0=
+
+Name: browser/chrome/zh-TW/locale/browser/baseMenuOverlay.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iJjCASA5vZWthoTQwv0iS9MFM3E=
+SHA256-Digest: gRcMOXrdiGITAhLNkrw2ZwSYes4vb+a6m9dVWS61TXQ=
+
+Name: browser/chrome/zh-TW/locale/browser/bookmarks.html
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /oCSAQainE6I+kEcUec4x5T/ad4=
+SHA256-Digest: CIwVcvjx+dcsIp4KV/rYYc2mYGi4hTGyGCvG6NcxGbU=
+
+Name: browser/chrome/zh-TW/locale/browser/browser.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: BIdndR7Ef5lDvNcQlUyWdqYtOPc=
+SHA256-Digest: hqhSCSJr2YmGOqXfzkS6u+kuz4cfQURPxaIqnJg5Pd0=
+
+Name: browser/chrome/zh-TW/locale/browser/browser.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /bV7tyMsPNFszE45wvsC55yOZUs=
+SHA256-Digest: W7W5P5an7JDBuIlQ+wLMvadF0m+ztBX5y8CbKWzbL3M=
+
+Name: browser/chrome/zh-TW/locale/browser/netError.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: sP0y2kkYZcjWjtUyNpad5yajOQQ=
+SHA256-Digest: cnQNa+iT2O3rzwzzXkjR2ZvclE5ejOulqbC74QcITkM=
+
+Name: browser/chrome/zh-TW/locale/browser/newInstall.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KSVnrLq7dbjHtTrY8u53aPx+NaI=
+SHA256-Digest: 7YVB8V8KavINU++A+UVMZ0zbceh1fABS90zYjfezUGc=
+
+Name: browser/chrome/zh-TW/locale/browser/pocket.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: VbRw+4xi0fuKSMKToa4tKuzt1jQ=
+SHA256-Digest: JoTVZGlN7G7Zumu14X0dyDghUafeFW9v8VHUTVHxeEw=
+
+Name: browser/chrome/zh-TW/locale/browser/search.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: H+iyedJpw5U5Y5cXKzRXvPE2vyg=
+SHA256-Digest: EghEOr9XvGM/Xy29fdnhFLsx96ogr9Yzba5vFh7G4M8=
+
+Name: browser/chrome/zh-TW/locale/browser/setDesktopBackground.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: xfEcEqX1dvUO7Temn3MRGc+8Wc0=
+SHA256-Digest: siKijLMJA04DsB8KC/zsv+fsfFejnhX4V2WwYcKMAaE=
+
+Name: browser/chrome/zh-TW/locale/browser/shellservice.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ZQylu2jfB/sb4GDM8CURV3VT3Ak=
+SHA256-Digest: 2rv3RI8cxUbqIUVUnuCRFK2pLIBwPnbTtbZFzmWLF+w=
+
+Name: browser/chrome/zh-TW/locale/browser/siteData.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: M2PpQT40QhEeHlz7YPV9dz5p8zE=
+SHA256-Digest: ZJ/fj5+l2ZZhdJiEsUGcidXnk3aEAuFXH0EEfJo3Xds=
+
+Name: browser/chrome/zh-TW/locale/browser/sitePermissions.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: vYrWjQSf0ooNlECqNU42W2e2NV4=
+SHA256-Digest: BhGeF0bv5HsvtO/7SGwt05yw3wyOyTKQGru8oUSixUI=
+
+Name: browser/chrome/zh-TW/locale/browser/syncBrand.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 1THlvpla/Q1cZe20A7kGxMAU4Gs=
+SHA256-Digest: 9LySBd5mlWH4sz7e3BuFCRUVxXP0PLma+GrSeC8FVGk=
+
+Name: browser/chrome/zh-TW/locale/browser/syncSetup.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: gDRTEPCfhoUSXajN7JKZjDM67Co=
+SHA256-Digest: OodRDnD549uUh1ZXtST/rwu/o8Lwd01souwUMbutcDI=
+
+Name: browser/chrome/zh-TW/locale/browser/tabbrowser.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Y1Dl36qafwFSQiC7vKo847GE+cg=
+SHA256-Digest: dOQswWk0aANlH7FSZFq0qwx0n/WjW/lytQesZgSM69o=
+
+Name: browser/chrome/zh-TW/locale/browser/taskbar.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Cn+53AeBttMVYnW8k345D/dSF6k=
+SHA256-Digest: LC521l3okMLZm47uuBxt+aXkUcNCVV9t3ocElGusgRA=
+
+Name: browser/chrome/zh-TW/locale/browser/translation.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: RX2G2xukpMgLIFZ7QczFQoCg1qo=
+SHA256-Digest: jKvP0l5mE+TwLpkrGrHiexk5B8gxNad4HEDRrrRfwSo=
+
+Name: browser/chrome/zh-TW/locale/browser/translation.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qQG2441D8SppJ5GcBZd/Ow+HEcU=
+SHA256-Digest: stvKUW+G8RCbAK229YCbHKaEWDGDeM8DKjrBU5fbSOM=
+
+Name: browser/chrome/zh-TW/locale/browser/uiDensity.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: sDs1ur29TJ8TlIPTxazFoyMfhdE=
+SHA256-Digest: jilW5yRrYIXant0dZ7XqEBcL9OWKt+KYI6VPfbYprmg=
+
+Name: browser/chrome/zh-TW/locale/browser/webrtcIndicator.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: hHXNGBieuLqs9rfrrawrL1VM7D8=
+SHA256-Digest: coOzoHtcOwiageqojLaIGmmW6vOc8a9ngbYecXTUa60=
+
+Name: browser/chrome/zh-TW/locale/browser/customizableui/customizableWi
+ dgets.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: bt9XrUH/yu+WAVSqEDe7Or2Et0Y=
+SHA256-Digest: jWrKYk21kVl3F/ZfMg1njmJzWui4C7UKLkceQga4Kxc=
+
+Name: browser/chrome/zh-TW/locale/browser/downloads/downloads.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: bhKckrLZ+64XLu/SGMcmyorLC4M=
+SHA256-Digest: W3jN8sYCq+hVs0050Ugr646aX8bidoqwzpB6pKAVhjE=
+
+Name: browser/chrome/zh-TW/locale/browser/downloads/downloads.propertie
+ s
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: TWzfswaBBEjjvdXjIKDZTHgjlcc=
+SHA256-Digest: pMWcgyUBdLq8p+xVHagn012l84Js9vXAEG39yvw5gIA=
+
+Name: browser/chrome/zh-TW/locale/browser/downloads/settingsChange.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XGRA9xsVm/YsXsxQOBXkQX4WT/Q=
+SHA256-Digest: yET3CxlqIV438ME+evDh9Wa3K6OeI3DPuJmInkbvwiQ=
+
+Name: browser/chrome/zh-TW/locale/browser/feeds/subscribe.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7NukY4fcI/OJOcxR2WBwmv58Ndk=
+SHA256-Digest: YdhBFD3eJk6wab0QC2CM9scQ7A67YH+gBS6OaELh45U=
+
+Name: browser/chrome/zh-TW/locale/browser/migration/migration.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: uj2DaI23sRqp/LWdtNYMZ9xlpj0=
+SHA256-Digest: D4DyPkvQxjPTwoUSZBIHM+Wi9g8A4V2w8iZZKZyK7y4=
+
+Name: browser/chrome/zh-TW/locale/browser/migration/migration.propertie
+ s
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /ckpAG3PU98n1f80lavIFxT4+6Q=
+SHA256-Digest: 9f0ZeayYSWRsiXozlHsF/KPEQ+tWiZcpxxLgd0bcCQc=
+
+Name: browser/chrome/zh-TW/locale/browser/places/bookmarkProperties.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qhf06mJPuma+yxxy0ZpOOH8LwRs=
+SHA256-Digest: pDmbzZ7dQB4sPb5y0OCGwU4TqHxrZqivF6+gsz0ZbG4=
+
+Name: browser/chrome/zh-TW/locale/browser/places/editBookmarkOverlay.dt
+ d
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: XnI+aD6weVxL2KyzptxZI47T2zI=
+SHA256-Digest: 7D/fFCgGBjeENmqs6/lhLBPnic4YrCe7IM7AmFHh4/w=
+
+Name: browser/chrome/zh-TW/locale/browser/places/places.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: V68kmjRyTmYkVt8tT/6oEJo11iU=
+SHA256-Digest: QySBn55eyQArAQfz1E4Fq6wRF17Y9T83RZrXkww6BKg=
+
+Name: browser/chrome/zh-TW/locale/browser/places/places.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: BJRDmlCPoVBYMKkANFXVxYUV6aU=
+SHA256-Digest: IaKIz8bcS6DMhlMOaanGy3iMgTuDHJQQ7uIGpwp6xuo=
+
+Name: browser/chrome/zh-TW/locale/browser/preferences/preferences.prope
+ rties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jmjsVCcHgr8saFa9cXwKEzzmfYo=
+SHA256-Digest: 37JjU3dPRz8jo9/nQqziJhaGRcdbrXqXvOzeuOA1pHU=
+
+Name: browser/chrome/zh-TW/locale/browser/safebrowsing/report-phishing.
+ dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2iDgdg+oA2VDitrelMV1ObWhtiE=
+SHA256-Digest: MTgCJo84eF4RROP3ZgnhVcQz9C9zHJqqo344cjEN61I=
+
+Name: browser/chrome/zh-TW/locale/browser/safebrowsing/safebrowsing.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oTW9Z05fv82dFRNyHSfN5duDo5I=
+SHA256-Digest: HNSxj1529JfqEvv8LqMeGaYIYQwEvd7NFRZ/9/wPOgc=
+
+Name: browser/chrome/zh-TW/locale/browser-region/region.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PvEl1q2rGyorYvB9JTSjaaScGUE=
+SHA256-Digest: Ho+9owJgT28LpG/FTIrTteMK/juPGxgk9vcurwKSgpc=
+
+Name: browser/chrome/zh-TW/locale/pdfviewer/chrome.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: lsyW5RLMZkXn796r+3QQ9Yc6moI=
+SHA256-Digest: lJhfj6A/gPyRhNPJn/BjVNasch55u2+eBRGKnY1OFrI=
+
+Name: browser/chrome/zh-TW/locale/pdfviewer/viewer.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: m+LDapx20bgmS/k/bcmqLDEjbS4=
+SHA256-Digest: /q0fPNtziMMpPu03T3eAjFXKYOulcaeZyYq4mNfRhms=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/VariablesView.d
+ td
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: an/ftcxeb1/VY9jbwZfH8QaRZOQ=
+SHA256-Digest: aiv+LUxG7r68ke/TV2HsWBiZkEZKrgrjm8BAzXtKTs8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/aboutdebugging.
+ dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: x4izzxKnWrapP8t1queIGsrWh/c=
+SHA256-Digest: Og0l0QTq6iTUPdsrr5wYUwTV7Fk6FsH2b9s9jLfBiQI=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/aboutdebugging.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fw0Z34p1i4S2m6SHki9jXGwotgg=
+SHA256-Digest: kca/yuCBO8Kd2VRfOBgffKdth0+liRVKnq/wjgXPwEc=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/accessibility.p
+ roperties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: yMDKH9uiBNoD05AxNYpyDyOgHYA=
+SHA256-Digest: jopMBEeD8lp40EXvNU6rBepWNhtpbehXMvZyZqnQZxY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/animationinspec
+ tor.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: u4Fg4bWdwmppV5qOPR4cyEGEDyg=
+SHA256-Digest: zK0H0F1zWSuEycfoltRfSC+WuJU+3eiuXSFOpNQ4x3M=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/app-manager.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: gTv5FDWe4Loal5WZCt9mXCszVmk=
+SHA256-Digest: HBxfXQzF4UytUTUNbTgz8MFU5MU37DETAJOAoQL6O2o=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/boxmodel.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: V+Ir5jTRiDsQn98fl/ed7BDEbUo=
+SHA256-Digest: VxtqeaiuQEspcZLqW6nZ/o31GIaYonL8RAeKB0QTXQ8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/canvasdebugger.
+ dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: EjbZIzrO03QM+MUHp9TpdXUTgCA=
+SHA256-Digest: OZmBKisaA6WxAfD5ZbJATlmpDYrx2Gc/0UQ/agK49q4=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/canvasdebugger.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 2I/HmqpX2otE6xnWuoJHeflb6t8=
+SHA256-Digest: ioyg7dNWm0Oihn9beC4HMYscDiSq4hREIDu5026TqWs=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/changes.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PlXR3kLOzpxdOvgunq5wve7I/uo=
+SHA256-Digest: yoXhj8Voz4X0q0hsBXGgpoRw3p4RtIuIDadECTTSuYQ=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/components.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: MIxRP5IONEJWzEcQ2uv5ZFTu78U=
+SHA256-Digest: +B2Fglu9tJF/T/nW6V7akciZMgQBwDtq9UOVOCsK97c=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/connection-scre
+ en.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: BqQUCvQB/lDsnqYJhhjh17MU/tM=
+SHA256-Digest: 1ONzH9owYePztfkYSOwTMWldUc42l5X3n25jQSFXQAc=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/connection-scre
+ en.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: S2va9BPXkxicXuZCpC6NeVam6MM=
+SHA256-Digest: JmXzqWlAUgM4WM+MqPs3Ewcs5WjlOMDtCOvtcpOC528=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/debugger.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fepWivsaeyKmQMOT3ueZFdWIPKo=
+SHA256-Digest: a527ozJlhbNHE2yYYq40issHN8+QE1TTs9r6oGO+E7o=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/device.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: GDgEoB61zqnCXjpTsxqxT9cUkbw=
+SHA256-Digest: djweaBSsYKRrbeDP5ai42ZsX9GjYcx11tf02DQQWrmA=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/dom.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /UCVkBRdYJkYsUAG10RTsqetGNU=
+SHA256-Digest: qOmgKVwTLDbnu28XXy0NA4PNO/AQMDlwK4/w6UUGSmY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/filterwidget.pr
+ operties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: uNpFj4swK9QfFRAidZHkfL1XdUY=
+SHA256-Digest: 2xIXGxmk5nNgWv4zUq7+M0hPRdsH4VrdYoE2HWiRuI4=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/font-inspector.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 0qYlJ7TNb88YQCH9c1x/YSvkdIM=
+SHA256-Digest: bYYX/dQx2ZL1gNlbICTXZ4a1gZQvWLB0M30cvmi4mxg=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/graphs.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: rZQLGvCcSZ/ch53HKE7YbhyiufA=
+SHA256-Digest: /Cy6DpyvDr6JP5YskC/pCl60rLm2y0eBpORNQug3ff4=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/har.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: gduYiaoFkw/uKIJ0xjOHrHH4Irs=
+SHA256-Digest: lrYeNsntVHGlg+rx6+Zhz86uF8lS03TKG7OgHdYtC/0=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/inspector.prope
+ rties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 6ZJWjMOCpXSQqCmA1FYBlnm6D+M=
+SHA256-Digest: 2DPIi1yU9dgA8mlTQjMDhl9qmfaw7FER4jkuer/7uXM=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/jit-optimizatio
+ ns.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: HmkmDAmCXjJqKMFl8QALEPS152E=
+SHA256-Digest: f+2nFrIlh8/VVSXOwyRn5Zs/mojGz6BS7pNVeBckkJU=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/jsonview.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 4F+iiNCANvq6c5b1T7sXWy76t4A=
+SHA256-Digest: 5kbx5hZw0F5xwJaiU0SR+O/sJw0/0matkrRyzPjn3dU=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/layout.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: N/YSdmUAZ/oNXOJtRGo8nI+nGzQ=
+SHA256-Digest: T4PuwYDvTahUbw82Wj5DwMko9G21qztw68YZbHjaR88=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/markers.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: sA2FnR11jKBIba1Jzp6u6ydr1J4=
+SHA256-Digest: ymjzYDUrs73OzypoWzleQJ+uoCSArYPRpkefdNqYqag=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/memory.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: /+U6DOrUsyg5NGaol2N1x/KA7Y4=
+SHA256-Digest: wAA4ULc72t+33Nf0SUMEHhynE8TC9mS+8gMoY/sL/zo=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/menus.propertie
+ s
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: RTtspCId+Pt9tNu3+XMF5EK5I04=
+SHA256-Digest: YtxlA/INl35s/rx1K4Cr8p7O9wo/oSTFC4VQxhCRP5w=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/netmonitor.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: m0yqZrp93JM7pKMcyzn9MesZW/U=
+SHA256-Digest: sl9NRWU81FkDJ7Jh7JG0ysU8z2IqRgKDnTHLmHx7KW8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/network-throttl
+ ing.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: CqoPR97rvObTZA9vAGPOElxNssM=
+SHA256-Digest: hnjeHKWkXA/M16vEPSpDk894cTW7WuC9pcryR2orFfk=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/performance.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: owmNRkttQm7F3gmyGIdzfGpxeL4=
+SHA256-Digest: Fbat+RV2EpvudrEkHFCGcw3hGGl9AjHsBvNS83gLq0M=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/performance.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: DrMHMOHMFTHm2D7S0KHgvJemEb8=
+SHA256-Digest: SgYQtHo7cTpEn5oJsMZVQkIogeMNU5P5dC5Pzo6CuHM=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/responsive.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: yVdY9kKPZLS+xfrOh/HoIMvaS6I=
+SHA256-Digest: muw5FbOydIBYslrSPeT01oVBJmxbPZ+v4iMVai4NWh4=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/scratchpad.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: OvEkwnUjBilbZUdaWXRGBnFUMaE=
+SHA256-Digest: aL2aw07Dtc6HJ+JvNbmWSSU6KjWQ/w4Bqhr0Rs1Sv/g=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/scratchpad.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: dzes1tgASnwCFc3imZqteOEamC8=
+SHA256-Digest: eUoEbtoKEvk0X+L+p/BO98qYd6KyOCb0VXFSrYwQng8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/shadereditor.dt
+ d
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 5Pmkea01D6uQ1azCB4ImBfv/IQU=
+SHA256-Digest: xkyg2NCTxszrLtGO+fo4IHDiCiYpo/SGBtnzVsenGeo=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/shadereditor.pr
+ operties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: M+C6VqP98eK8m7DgLQfevISk6Bo=
+SHA256-Digest: CxX1IvWCaZTb/QgAUAIg0qWT786eDqV3Q6FgNmq9EY0=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/shared.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: eGxMLfUEKt3NQdI0erib3cx9G7Y=
+SHA256-Digest: 0bQaPNFNkihzAE/FREdafAEXCiabfBw6UxsXbEG/+Go=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/sourceeditor.dt
+ d
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 7YP6lFC1M6dN3bvmoqG20R0BByc=
+SHA256-Digest: YkEGEi2TS1qfw2RdFWt7tQQgKrijxBKwSemPi1AAo6U=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/sourceeditor.pr
+ operties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ahWV67NkOrWlE2pKdDdyfQISj6c=
+SHA256-Digest: z6pBirk+VQRztQDYrCvv+j9Fs/b7qo2GJFWwNf+nc+0=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/startup.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: QEFnFyz1GDkx+dyu9tc7x5dMm6w=
+SHA256-Digest: K+WWi+B6pNJBB+kUJF5CGap25veNaRh17VQf+nylsPc=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/storage.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: b7RoqszclJkWxMs3dXBO3Ch3IC8=
+SHA256-Digest: mHvIC+zVjJwDf90ouK3ebtTUmqZ4ODpU8syDME6/0W8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/storage.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: sdOuJ1jmvwPmyJ6HE4iNmhKqvRk=
+SHA256-Digest: H89XlXmWsrJMT1kN1r4bbtqzvU9w4ucSXSWNkh6MilE=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/styleeditor.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: YZ6oGGxkl5hLsJkPYwrjPhpXGNY=
+SHA256-Digest: Z9hCl/OIxh+ypu3hyEsDw/daEa+BOPK9pP0CCsAO84U=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/styleeditor.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: J7haVqXOQCrl84KDZ5FeHFtis1g=
+SHA256-Digest: Bip/nkVlfoUflpRYXhFwSNW2LWXiU+9lbkjN7jz76JY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/toolbox.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 9qDDBDt4Y4NUhtI8/NJOIxAyY5c=
+SHA256-Digest: 5iYqY1duKU1c0AQYEc7bzwEuwP2A3Pp3H1W3INJH0Rs=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/toolbox.propert
+ ies
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: U4cXgYBobJ4qJBP93AJopdh/vvM=
+SHA256-Digest: 28PV9dMHzNqzD7Bvlebz+CbGFbn4tC98DrJW4AToSpw=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/webaudioeditor.
+ dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: aES7zpWi7V0Bp/J5a/dqXXx8YgE=
+SHA256-Digest: T2vKplVXS8m64tWyXfMvl8CHJaN2P6nhAsuoyyvk5nY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/webaudioeditor.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: CksqysiArYxNlYTmYsR7XK6u3Vs=
+SHA256-Digest: jSCCzISlglu6rbNj1MwEInvxuk9HdwK+RKNnAxITrQI=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/webconsole.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: xtadUnL3YWTj5oIcXKKCIQrtzsE=
+SHA256-Digest: Uvr27PMKPxDNvbC//TiPOwJaopVbiDjf6OQPE6zje6E=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/webide.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: T9WFFEZSLT8f17WiEhmaywfiJQU=
+SHA256-Digest: eeLzurCNTnjfyoQVZqHv8gfMTLU0fABl4XKn6U6K820=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/client/webide.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jqa6a2ucKuLM9vb4BoY3q+jTd+c=
+SHA256-Digest: NYogZlniQkefTWCtPdMGDpvn7g4Rz74zlxy2EiylovY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/accessibility.p
+ roperties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oN+u4KpaCbgwpsiZyWKxZcFZiow=
+SHA256-Digest: r1c7QqjurMz6tYpZUFmHZYoSkq1q8A6C5lCzsnE4z60=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/browsing-contex
+ t.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: S7Uh2IllUX7YX/eTYSFRSMyDNrw=
+SHA256-Digest: ZqKKVGT+a8NgpWLAcnxDrop353UZ8pzT4I2CEA+gDrw=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/csscoverage.dtd
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 431RIB3hxLX94Un2PJ2hn61T/y4=
+SHA256-Digest: JQlw7iw0nEqFHmBDU21eH/1+I6ZdCSh6qNyMUoirx+M=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/csscoverage.pro
+ perties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KFrxd0+TyOdZXWASWyMp0bUcLQ4=
+SHA256-Digest: 3QyeSOyp5nRH1rnXHjv8e+Jz+4PNDz2oBWqxwhoHTxo=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/debugger.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: uoj5sqll2RZmUx9OceuogwVJpMo=
+SHA256-Digest: 1Mpkc4rvOGgrg7kAw4YQSMwDKqY9IFX4/p8IvAerin8=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/eyedropper.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iLNagMVPK8Y0w1jP7bcdl8oQL6Q=
+SHA256-Digest: 7map68lyJf1W0Q7iMsuG6B6E2WQE2MEfBUQ4PwZ4Zzo=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/highlighters.pr
+ operties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: LReO6hsJK5Xb4f+0v1s36RQq8Vc=
+SHA256-Digest: zbdYDa9GPGPMGCRSqA/io7ueLPceCcSOJhYjDP/4r/A=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/screenshot.prop
+ erties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ulRrLY1EEmFyMNtVUA3TE8NbkTA=
+SHA256-Digest: vqkMLV3RdsAmMhchI4oPmc20vKuAOMwWSjn4qjUPGIY=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/shared.properti
+ es
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: UUoZhcWzq3TnpYTQVGOsBWpC7o4=
+SHA256-Digest: 744qEcSXshnTXWnJSTI239wnrpyMaBkuZiD+g6T3uBE=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/shared/styleinspector.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: m5Fnm/3GePgDgK8p23XQph1SzhA=
+SHA256-Digest: qvayCd+ekv78yqqBdJQFQkoyZsV/6fu6yPRb31ylz7Y=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/startup/key-shortcuts.
+ properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PmB1Y7+aGaGLTy7fJFKHC0Bu5tg=
+SHA256-Digest: 4zfixekndJALY+Go9eFrfmi7ilRLeg1mfr32EY1h8cA=
+
+Name: browser/chrome/zh-TW/locale/zh-TW/devtools/startup/startup.proper
+ ties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: g8B4Umi50DLwVCDTIupW1w+H/sM=
+SHA256-Digest: TEd9ds3IF6R+YvkYwpcU1QmQTGb9+A0A1ifwf577oDI=
+
+Name: browser/features/formautofill@mozilla.org/zh-TW/locale/zh-TW/form
+ autofill.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ehtcXfJQRmasHedlGqD5LKWNMlM=
+SHA256-Digest: AvzTz3V+PI8+yMNyZnXdF6pH33DC+PvNAFdcBSQtt/4=
+
+Name: browser/features/fxmonitor@mozilla.org/zh-TW/locale/zh-TW/fxmonit
+ or.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: p/Sh4sOrpkhMnFqY976v3SJXjmc=
+SHA256-Digest: oGcTVvmUhN4QCOYljlMQDKMRpaHEXSOtGojkAnDl53U=
+
+Name: browser/features/webcompat-reporter@mozilla.org/zh-TW/locale/zh-T
+ W/webcompat.properties
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 3Vj71GK2iK0+gIQvz87uaxct5do=
+SHA256-Digest: 9JATMpLKdq27KSdYg4t41sibAwOdxEUtFs8JpqKeAms=
+
+Name: browser/localization/zh-TW/branding/brand.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: jsOkgF/f1vji02t/oR1WkJ/nYAU=
+SHA256-Digest: aOIweAXUMilKd88P/95BNHHJreGBha0TiCFZHfy5fa8=
+
+Name: browser/localization/zh-TW/browser/aboutCertError.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 1FBvE+ki7mYEvMqBYrBKK3BrTgo=
+SHA256-Digest: 7P+v/wB9Bblf6jAciY9z8qzvNLCT18DIECtoLUqpbys=
+
+Name: browser/localization/zh-TW/browser/aboutConfig.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: YMczAPCOG8kU8O2Dsy2IOjDY7Mo=
+SHA256-Digest: bQFOqw1QRvcM39CzbPdslqHJL5yX2LPvZXJCeoVIq5E=
+
+Name: browser/localization/zh-TW/browser/aboutDialog.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: TyJVbJxaGVLRy4g3pK2PblvoML0=
+SHA256-Digest: jWaSnPFB03wdZbSs17d8HkZMKdRT0sYF16ovtChROqo=
+
+Name: browser/localization/zh-TW/browser/aboutPolicies.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Yi0MQN97kEkUKnojJREibEUSEDo=
+SHA256-Digest: bk8KkWDmfcAztctps7Bf/pkMHFsmYOu8y538jbWmPb0=
+
+Name: browser/localization/zh-TW/browser/aboutPrivateBrowsing.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 9pTG5A7gaXkrvmy2s/XWXeMqwGQ=
+SHA256-Digest: iKnn5zWrtF9kssc0EWykmvMxpYayJFpKTUWsTxCQ92Q=
+
+Name: browser/localization/zh-TW/browser/aboutRestartRequired.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: A7DBnQmNk98+tpD+pNph81P5xqU=
+SHA256-Digest: /R//kU3dfVaMVJJl3T+19WvzMTdx7v0yxWZHdsKT/iQ=
+
+Name: browser/localization/zh-TW/browser/aboutRobots.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 8Dzp5d7/RPdxEr8aK2H4jAHAhBs=
+SHA256-Digest: hnwLRxqNtDVjWpu1bLI5eAXyNRDIPGdDeHVrt7oYEi8=
+
+Name: browser/localization/zh-TW/browser/aboutSessionRestore.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: sGpD9wEl2MFjnHrfTFB3QNK/Zik=
+SHA256-Digest: Gv0zZ86eXacMWet5vvdNbC5NckCaGr3tATbIEKrxOsM=
+
+Name: browser/localization/zh-TW/browser/aboutTabCrashed.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: o6zDclK0b0hJbOr29QGuImeCYPs=
+SHA256-Digest: cUOmU5zsrR6/LL0U2QxRTKaKMLi86KBJnvqlM4HdIL0=
+
+Name: browser/localization/zh-TW/browser/appMenuNotifications.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: r4MohlaxwT/mwKsvtg5x7eMurAs=
+SHA256-Digest: CGe7jdmhvrYLHQ+0kDvBNOuKFc/MFnYfPEEA2DcOnhE=
+
+Name: browser/localization/zh-TW/browser/customizeMode.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: j5ee+5iiqWZL93ybl6Xb/HhwX6o=
+SHA256-Digest: j+5lwcmWKftMWkTGLjgfHn4mKuh+WtTUq87HfUrMeuU=
+
+Name: browser/localization/zh-TW/browser/newInstallPage.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Mhie2G2PbkJNktiCQoESrvxairU=
+SHA256-Digest: ptom4lEMt9iqsS2hh0gQJ5kqMCooXaM8lat4dSUU79Y=
+
+Name: browser/localization/zh-TW/browser/pageInfo.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: FSkKiUUd1Os+XjfNCsOyy4sRZ+w=
+SHA256-Digest: v5Gy+VpHnXXjD1yxyHhucGufG6FAgH0eXRjapCd3iHE=
+
+Name: browser/localization/zh-TW/browser/panicButton.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: LiAr6SeDa1pKURBjs4l/CuxMQdU=
+SHA256-Digest: AlKWcGvs0Bk/x8CmksHWgccmcxdEtm/hsU3HTJ+UXNg=
+
+Name: browser/localization/zh-TW/browser/safeMode.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: rMaXzG1ulJ+J5k3hQL+imijjGXQ=
+SHA256-Digest: gYh46WczUmjFxZzdsNH0Ro8aZ7R1wTuI4p7Yi5BYczU=
+
+Name: browser/localization/zh-TW/browser/sanitize.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: NmcymV+seuE4STPZd1GFPbLL3sQ=
+SHA256-Digest: Y8vu43jnPeXE7nLIwCZ77FSqDIGQRa7aHL1QPUQUl+c=
+
+Name: browser/localization/zh-TW/browser/syncedTabs.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: egHwCK2JODtJbq8IylkUmuvSaow=
+SHA256-Digest: SlxVDPadcLsh61YOj2zTfIDVUhZKnOruJ0aqnq01i4E=
+
+Name: browser/localization/zh-TW/browser/tabContextMenu.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: JEYgjtcOxK7QdJfbmvu75pqxKx4=
+SHA256-Digest: 6KvuoToM28I+ai96NVy1t9WCVAQYd38dysQdtrjRdtc=
+
+Name: browser/localization/zh-TW/browser/toolbarContextMenu.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: DYtGnLuPYygAjJQU5kuwIDBbAoM=
+SHA256-Digest: vyqwJaoaknYuvF6X+LYm5QTg7kvOQDX0PJxSaJPgaEI=
+
+Name: browser/localization/zh-TW/browser/branding/brandings.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: mJa72SW1pznVeWEEkeaiQ1NBSv0=
+SHA256-Digest: trh5c6pvwu68DVixOz3wRGiDRePf7kY39Gz/PwxDn48=
+
+Name: browser/localization/zh-TW/browser/branding/sync-brand.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qpii8hFC3noM5M8eLQU5XEO0gmA=
+SHA256-Digest: UIpP3xzOyPyFBmWvEOLx2y8qJ0IULpgOGdtMQdqTFaw=
+
+Name: browser/localization/zh-TW/browser/newtab/asrouter.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: l6IQikKvaMemNqC86t0CEhFfbH4=
+SHA256-Digest: 9Jb6DtYfk8yXDWIpqiOJqfBdIkiu02GF0Nr64gXvVno=
+
+Name: browser/localization/zh-TW/browser/newtab/onboarding.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 4j7qnxFNLcOFAoBS6MI3uDHNVKk=
+SHA256-Digest: jXAlYOBNAn/yD5xKV6jHFp/2gIfPv+4AukvZmbhN3fY=
+
+Name: browser/localization/zh-TW/browser/policies/policies-descriptions
+ .ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: o4bMrMguN7QJgJ4vh7QPvmMA1PY=
+SHA256-Digest: 9s+SnqOpRNi5dgs9TAE4YUPHF5RiurC00RDrdnA20Do=
+
+Name: browser/localization/zh-TW/browser/preferences/applicationManager
+ .ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: d7wxOdGJHMrXbIPyroPMLNHtIGE=
+SHA256-Digest: Mq8YrinDAAhNW4I3zgLgUaJLRh9l9wH9qasezzRzM2Y=
+
+Name: browser/localization/zh-TW/browser/preferences/blocklists.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: TBzdMxH3kC+tJR809Bd4X9cJcgE=
+SHA256-Digest: n8bSOwYXfn74cDmvrqnvrK371rhqWVhG534OfxK1/2s=
+
+Name: browser/localization/zh-TW/browser/preferences/clearSiteData.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 557pNM3j72qvzF3/E2gyuAmRwl0=
+SHA256-Digest: aE+ExZWmDVahVHQ/7CKmzWIoCrjbKYPIxbjb1oYQh0I=
+
+Name: browser/localization/zh-TW/browser/preferences/colors.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: m1j3cQHZsXtS+niZBVy4ruV2+30=
+SHA256-Digest: O776Xu1OvmoLlOCdI6rjeHjZ7RhRs1Lnk/1gRCT7/Pw=
+
+Name: browser/localization/zh-TW/browser/preferences/connection.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: J6yi8ZdKXIGUF0iOMfR10LMf3vA=
+SHA256-Digest: jC5Tq6d0j1mgJKO+VYieIoC7Is2huY32RVz/pS1s3xM=
+
+Name: browser/localization/zh-TW/browser/preferences/containers.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Ko9I5rvlg3JgZsPqNkNxHAVQHzQ=
+SHA256-Digest: TnDY5gYaDjnLmJIlKjYFmgapYGMbQXMjKCJhWXrTgxI=
+
+Name: browser/localization/zh-TW/browser/preferences/fonts.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: v6uLBmJWiBqvE4LNqDJa2rwi7Fs=
+SHA256-Digest: k9VchT35RD7wTqqwzIPcynxn4WQRe9GFRxoxvCktuCM=
+
+Name: browser/localization/zh-TW/browser/preferences/fxaPairDevice.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: d+Q3EK+LMnWy2X3wG67tcpph2rY=
+SHA256-Digest: dIQJFQq94Oo1dtZ09bvaicPQw5uMXR7B5+PV+Kw4krE=
+
+Name: browser/localization/zh-TW/browser/preferences/languages.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: X/v1j6wNXLP0lcX6gs/oZQTHeBI=
+SHA256-Digest: eRYhB43T1YIe9NJI2nmBnpaCkmOV3Xv0ljFYb3j4UIE=
+
+Name: browser/localization/zh-TW/browser/preferences/permissions.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: oprKLn18SmyW4zASVEIQOmFkLiM=
+SHA256-Digest: +a3MaXCoH1ibkGftrMOUQFLv1NvBmt4D/RSf13vy9ao=
+
+Name: browser/localization/zh-TW/browser/preferences/preferences.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: r22RJt/Li9LV1r7MtD3/0ec/TnI=
+SHA256-Digest: Z4xgELFuA8bp0hf9tBXkXBg4EK3sva1n3emcnfmPuyQ=
+
+Name: browser/localization/zh-TW/browser/preferences/selectBookmark.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 3KzQFOCF0SgiXBc33MzXAFAfehc=
+SHA256-Digest: 0sWzvk/sNPXL3fcfSzSK21jZA8CpvdQEJejYZ1eUlP4=
+
+Name: browser/localization/zh-TW/browser/preferences/siteDataSettings.f
+ tl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: zz9FYOF3VyVwUHmXdHtPWObX1Cc=
+SHA256-Digest: MceAOaeMtO6QDuunz0zv4o/sOTeAXoVoHDsfzZ+/juo=
+
+Name: browser/localization/zh-TW/browser/preferences/syncDisconnect.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: W2q0SW6HZtnbM8genYsL9n2nQXM=
+SHA256-Digest: GvkkdUw23rp39j+Ldxf/UIwv4HEqoU5RBcdt2fusnDg=
+
+Name: browser/localization/zh-TW/browser/preferences/translation.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: FCL1PVNBl5fSO1xZ/WH90KaETpU=
+SHA256-Digest: NTk/KxkjFjL4Ca5PG878ycAXYL2QBI1g1IzDOGms/cQ=
+
+Name: browser/localization/zh-TW/browser/safebrowsing/blockedSite.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: A0Gwzj+2BXYvGDHMCaYq6LwJQ6I=
+SHA256-Digest: QIjaRf1pNFWvaLcuyPPN55B56nBrZWYCHho3knQqAec=
+
+Name: browser/localization/zh-TW/browser/touchbar/touchbar.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: rB5FqQDWQxghDYvl4LYv/XxeB9I=
+SHA256-Digest: NKtt6GTN6y1hX4sCHmihqgWXDWKW45zJ+AKPlDeQsQs=
+
+Name: browser/localization/zh-TW/devtools/aboutdebugging.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fQ4nYs+zZZOYd4VJvcZbC4NDIWA=
+SHA256-Digest: /yBQaT2z0BdScA86ESS4Ck0tf6EHLQQcomJMIeftYkg=
+
+Name: browser/localization/zh-TW/devtools/application.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 9O141UkukGlKaHuP7SNXNN6ScnE=
+SHA256-Digest: DLODa+4H0iXKN82b/g8a8rEuFwyJYjLJtJcw2SdH8RI=
+
+Name: browser/localization/zh-TW/devtools/tooltips.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: t0In8G6xaxGlKNagOaATuaeKqZ0=
+SHA256-Digest: Lt4IUNNi4yiDAgKGyfIEUSoBq5mpOtFzuHcnb1/q8qk=
+
+Name: browser/localization/zh-TW/preview/aboutLogins.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: PdQGINS4/KJ2czuCvn7sQV79RTw=
+SHA256-Digest: AulSlVVy6PEzASncjrjI7elMxkPU5zB3P/B/PwiTWt0=
+
+Name: browser/localization/zh-TW/startup/aboutDevTools.ftl
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: bdmHbZSZ0UHWmQrT1kJJA3L4sRY=
+SHA256-Digest: 4rTlpZWt5NnwZAKyxwiANB9X0R+eoCg9QlQXXmrOY20=
+

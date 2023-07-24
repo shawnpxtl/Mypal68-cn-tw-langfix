@@ -1,0 +1,20 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE:
+ This UI can be most easily shown by modifying the version in compatibility.ini
+ to a newer version and then starting Firefox.
+ For this feature, "installation" is used to mean "this discrete download of
+ Firefox" and "version" is used to mean "the specific revision number of a
+ given Firefox channel". These terms are not synonymous.
+-->
+<!ENTITY window.title "您啟動了舊版的 Firefox">
+<!ENTITY window.style "width: 490px;">
+
+<!ENTITY window.nosync "使用舊版的 Firefox 可能會造成現有 Firefox 設定檔當中的書籤、上網紀錄毀損。為了保護您的資訊，請為這份 &brandShortName; 建立新的設定檔。">
+<!ENTITY window.sync "使用舊版的 Firefox 可能會造成現有 Firefox 設定檔當中的書籤、上網紀錄毀損。為了保護您的資訊，請為這份 &brandShortName; 建立新的設定檔。您可隨時登入 &syncBrand.fxAccount.label;，在不同的設定檔之間同步書籤與上網紀錄。">
+
+<!ENTITY window.create "建立新設定檔">
+<!ENTITY window.quit-win "結束">
+<!ENTITY window.quit-nonwin "離開">

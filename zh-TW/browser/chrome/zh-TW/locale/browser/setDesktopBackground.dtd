@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY position.label             "位置:">
+<!ENTITY tile.label                 "並排顯示">
+<!ENTITY center.label               "置中">
+<!ENTITY stretch.label              "延展">
+<!ENTITY fill.label                 "填滿">
+<!ENTITY fit.label                  "全螢幕">
+<!-- LOCALIZATION NOTE (span.label): This refers to the wallpaper "spanning"
+                       multiple monitors when the user has more than one. Only
+                       some of the entire image will be on each monitor.
+                       This should ideally match the wording in Windows' own
+                       Desktop Background settings page. -->
+<!ENTITY span.label                 "跨螢幕">
+<!ENTITY color.label                "色彩:">
+<!ENTITY setDesktopBackground.title "設為桌布">
+<!ENTITY openDesktopPrefs.label     "開啟桌面設定">
+<!ENTITY closeWindow.key            "w">
+<!ENTITY previewUnavailable         "無法提供預覽">

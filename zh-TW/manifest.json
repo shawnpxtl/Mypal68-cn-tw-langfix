@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "zh-TW": {
+      "chrome_resources": {
+        "necko": "chrome/zh-TW/locale/zh-TW/necko/", 
+        "pdf.js": "browser/chrome/zh-TW/locale/pdfviewer/", 
+        "global": "chrome/zh-TW/locale/zh-TW/global/", 
+        "devtools": "browser/chrome/zh-TW/locale/zh-TW/devtools/client/", 
+        "pipnss": "chrome/zh-TW/locale/zh-TW/pipnss/", 
+        "alerts": "chrome/zh-TW/locale/zh-TW/alerts/", 
+        "devtools-startup": "browser/chrome/zh-TW/locale/zh-TW/devtools/startup/", 
+        "branding": "browser/chrome/zh-TW/locale/branding/", 
+        "fxmonitor": "browser/features/fxmonitor@mozilla.org/zh-TW/locale/zh-TW/", 
+        "autoconfig": "chrome/zh-TW/locale/zh-TW/autoconfig/", 
+        "devtools-shared": "browser/chrome/zh-TW/locale/zh-TW/devtools/shared/", 
+        "global-platform": {
+          "win": "chrome/zh-TW/locale/zh-TW/global-platform/win/", 
+          "android": "chrome/zh-TW/locale/zh-TW/global-platform/unix/", 
+          "macosx": "chrome/zh-TW/locale/zh-TW/global-platform/mac/", 
+          "linux": "chrome/zh-TW/locale/zh-TW/global-platform/unix/"
+        }, 
+        "browser-region": "browser/chrome/zh-TW/locale/browser-region/", 
+        "mozapps": "chrome/zh-TW/locale/zh-TW/mozapps/", 
+        "pluginproblem": "chrome/zh-TW/locale/zh-TW/pluginproblem/", 
+        "formautofill": "browser/features/formautofill@mozilla.org/zh-TW/locale/zh-TW/", 
+        "weave": "chrome/zh-TW/locale/zh-TW/services/", 
+        "places": "chrome/zh-TW/locale/zh-TW/places/", 
+        "passwordmgr": "chrome/zh-TW/locale/zh-TW/passwordmgr/", 
+        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/zh-TW/locale/zh-TW/", 
+        "pippki": "chrome/zh-TW/locale/zh-TW/pippki/", 
+        "browser": "browser/chrome/zh-TW/locale/browser/"
+      }, 
+      "version": "20190619131401"
+    }
+  }, 
+  "applications": {
+    "gecko": {
+      "strict_min_version": "68.0", 
+      "id": "langpack-zh-TW@firefox.mozilla.org", 
+      "strict_max_version": "68.*"
+    }
+  }, 
+  "langpack_id": "zh-TW", 
+  "version": "68.0buildid20200817150009", 
+  "name": "Traditional Chinese (zh-TW) Language Pack", 
+  "manifest_version": 2, 
+  "sources": {
+    "browser": {
+      "base_path": "browser/"
+    }
+  }, 
+  "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Peter Pin-Guang Chen(petercpg)),Shawn Lan(平行天翎)Fixed", 
+  "description": "Language pack for Firefox for zh-TW"
+}
