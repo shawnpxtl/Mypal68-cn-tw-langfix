@@ -14,4 +14,4 @@ Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包�
 * 知道如何安装xpi插件
 
 ## 下载语言包
-直接点击[release](https://github.com/shawnpxtl/Mypal68-zh_CN-xpi/releases/latest)下载zh-CN.xpi且安装后切换语言即可。
+直接点击[release](https://github.com/shawnpxtl/Mypal68-chinese-xpi/releases/latest)下载zh-CN.xpi且安装后切换语言即可。
