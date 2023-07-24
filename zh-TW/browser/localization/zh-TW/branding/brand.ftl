@@ -13,11 +13,11 @@
 ##
 ## Reference: https://www.mozilla.org/styleguide/communications/translation/
 
--brand-shorter-name = Firefox
--brand-short-name = Firefox
--brand-full-name = Mozilla Firefox
+-brand-shorter-name = Mypal
+-brand-short-name = Mypal
+-brand-full-name = Mypal
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Nightly, Beta, etc.).
--brand-product-name = Firefox
--vendor-short-name = Mozilla
-trademarkInfo = Firefox 字樣與 Firefox 標誌為 Mozilla 基金會之註冊商標。
+-brand-product-name = Mypal
+-vendor-short-name = Feodor2
+

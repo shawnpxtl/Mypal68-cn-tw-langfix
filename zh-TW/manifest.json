@@ -36,7 +36,7 @@
   "applications": {
     "gecko": {
       "strict_min_version": "68.0", 
-      "id": "langpack-zh-TW@firefox.mozilla.org", 
+      "id": "langpack-zh-TW@mypal.org", 
       "strict_max_version": "68.*"
     }
   }, 
@@ -50,5 +50,5 @@
     }
   }, 
   "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Peter Pin-Guang Chen(petercpg)),Shawn Lan(平行天翎)Fixed", 
-  "description": "Language pack for Firefox for zh-TW"
+  "description": "Language pack for Mypal for zh-TW"
 }
