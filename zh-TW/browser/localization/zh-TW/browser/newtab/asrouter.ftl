@@ -2,8 +2,15 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## These messages are used as headings in the recommendation doorhanger
+
 cfr-doorhanger-extension-heading = 推薦擴充套件
+cfr-doorhanger-feature-heading = 推薦功能
 cfr-doorhanger-pintab-heading = 試試看: 釘選分頁
+
+
+
 cfr-doorhanger-extension-sumo-link =
     .tooltiptext = 為什麼我會看到這個？
 cfr-doorhanger-extension-cancel-button = 現在不要
@@ -60,3 +67,38 @@ cfr-doorhanger-bookmark-fxa-link-text = 立即同步書籤…
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
     .aria-label = 關閉按鈕
     .title = 關閉
+
+## Protections panel
+
+cfr-protections-panel-header = 上網不被追蹤
+cfr-protections-panel-body = 自己保留自己的資料。{ -brand-short-name } 不讓常見的追蹤器記錄您的上網行為。
+cfr-protections-panel-link-text = 了解更多
+
+## What's New toolbar button and panel
+
+cfr-whatsnew-button =
+    .label = 有什麼新鮮事
+    .tooltiptext = 有什麼新鮮事
+cfr-whatsnew-panel-header = 有什麼新鮮事
+
+## Bookmark Sync
+
+cfr-doorhanger-sync-bookmarks-header = 在手機上使用此書籤
+cfr-doorhanger-sync-bookmarks-body = 將您的書籤、密碼、瀏覽紀錄等資料，同步到登入至 { -brand-product-name } 的所有裝置。
+cfr-doorhanger-sync-bookmarks-ok-button = 開啟 { -sync-brand-short-name }
+    .accesskey = T
+
+## Send Tab
+
+cfr-doorhanger-send-tab-header = 在通勤的時候閱讀這篇文章
+cfr-doorhanger-send-tab-recipe-header = 把這個食譜帶進廚房
+cfr-doorhanger-send-tab-body = Send Tab 可讓您很簡單就將連結分享到手機，或是任何登入至 { -brand-product-name } 的裝置。
+cfr-doorhanger-send-tab-ok-button = 試試分頁傳送功能
+    .accesskey = T
+
+## Firefox Send
+
+cfr-doorhanger-firefox-send-header = 安全地分享這份 PDF
+cfr-doorhanger-firefox-send-body = 使用端對端加密，以及會在使用完之後自動消失的鏈結，來確保您敏感性文件的安全。
+cfr-doorhanger-firefox-send-ok-button = 試用 { -send-brand-name }
+    .accesskey = T

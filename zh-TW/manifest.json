@@ -30,7 +30,7 @@
         "pippki": "chrome/zh-TW/locale/zh-TW/pippki/", 
         "browser": "browser/chrome/zh-TW/locale/browser/"
       }, 
-      "version": "20230724234501"
+      "version": "20190816145516"
     }
   }, 
   "applications": {
@@ -41,7 +41,7 @@
     }
   }, 
   "langpack_id": "zh-TW", 
-  "version": "68.0buildid20200817150009", 
+  "version": "68.13.2bbuildid20230725090800", 
   "name": "Traditional Chinese (zh-TW) Language Pack", 
   "manifest_version": 2, 
   "sources": {
@@ -49,6 +49,6 @@
       "base_path": "browser/"
     }
   }, 
-  "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Peter Pin-Guang Chen(petercpg)),Shawn Lan(平行天翎)Fixed", 
+  "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Fixed by Shawn Lan(平行天翎) and louies0623", 
   "description": "Language pack for Mypal for zh-TW"
 }

@@ -54,6 +54,8 @@ connection-proxy-socks5 =
 connection-proxy-noproxy = 直接連線
     .accesskey = n
 connection-proxy-noproxy-desc = 範例: .mozilla.org, .net.tw, 192.168.1.0/24
+# Do not translate localhost, 127.0.0.1 and ::1.
+connection-proxy-noproxy-localhost-desc = 與 localhost、127.0.0.1 與 ::1 的連線永遠不會經過代理伺服器。
 connection-proxy-autotype =
     .label = Proxy 自動設定網址
     .accesskey = A
@@ -70,12 +72,6 @@ connection-proxy-socks-remote-dns =
 connection-dns-over-https =
     .label = 開啟 DNS over HTTPS
     .accesskey = H
-# Variables:
-#   $url (String) - URL for the DNS over HTTPS provider
-connection-dns-over-https-url-default =
-    .label = 使用預設值（{ $url }）
-    .accesskey = Ｕ
-    .tooltiptext = 使用預設網址來解析 DNS over HTTPS
 connection-dns-over-https-url-resolver = 使用供應商
     .accesskey = P
 # Variables:

@@ -23,10 +23,10 @@
 <!ENTITY cmd.showPreferencesUnix.label        "偏好設定">
 <!ENTITY cmd.showPreferencesUnix.tooltip      "修改此附加元件的偏好設定">
 
-<!ENTITY cmd.showReleaseNotes.label           "顯示新鮮事">
-<!ENTITY cmd.showReleaseNotes.tooltip         "顯示此次更新的新鮮事">
-<!ENTITY cmd.hideReleaseNotes.label           "隱藏新鮮事">
-<!ENTITY cmd.hideReleaseNotes.tooltip         "隱藏此次更新的新鮮事">
+<!ENTITY cmd.showReleaseNotes.label           "顯示發行公告">
+<!ENTITY cmd.showReleaseNotes.tooltip         "顯示此次更新的發行公告">
+<!ENTITY cmd.hideReleaseNotes.label           "隱藏發行公告">
+<!ENTITY cmd.hideReleaseNotes.tooltip         "隱藏此次更新的發行公告">
 <!ENTITY cmd.findReplacement.label            "尋找替代套件">
 
 <!-- download/install progress -->
@@ -61,9 +61,9 @@
 <!ENTITY addon.includeUpdate.label            "包含於更新當中">
 <!ENTITY addon.updateAvailable.label          "有可用的更新">
 <!ENTITY addon.checkingForUpdates.label       "正在檢查更新…">
-<!ENTITY addon.releaseNotes.label             "新鮮事:">
+<!ENTITY addon.releaseNotes.label             "發行公告:">
 <!ENTITY addon.loadingReleaseNotes.label      "載入中…">
-<!ENTITY addon.errorLoadingReleaseNotes.label "抱歉，載入新鮮事時發生錯誤。">
+<!ENTITY addon.errorLoadingReleaseNotes.label "抱歉，載入發行公告時發生錯誤。">
 
 <!ENTITY addon.createdBy.label                "作者：">
 

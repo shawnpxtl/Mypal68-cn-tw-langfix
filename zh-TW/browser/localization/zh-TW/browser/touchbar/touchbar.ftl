@@ -18,3 +18,4 @@ reader-view = 閱讀畫面
 open-location = 搜尋或輸入網址
 share = 分享
 close-window = 關閉視窗
+open-sidebar = 側邊欄

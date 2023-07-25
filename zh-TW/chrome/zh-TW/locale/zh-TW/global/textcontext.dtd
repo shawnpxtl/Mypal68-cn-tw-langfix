@@ -29,7 +29,9 @@
 
 <!ENTITY fillLoginMenu.label          "填入登入資訊">
 <!ENTITY fillLoginMenu.accesskey      "F">
-<!ENTITY fillGeneratedPassword.label  "使用由Mypal生成的安全密碼">
+<!ENTITY fillSuggestedPassword.label  "使用建議的密碼">
+<!ENTITY fillSuggestedPassword.accesskey "S">
+<!ENTITY fillGeneratedPassword.label  "使用自動產生的安全密碼">
 <!ENTITY fillGeneratedPassword.accesskey "S">
 <!ENTITY fillPasswordMenu.label       "填入密碼">
 <!ENTITY fillPasswordMenu.accesskey   "F">
@@ -37,4 +39,3 @@
 <!ENTITY fillUsernameMenu.accesskey   "F">
 <!ENTITY noLoginSuggestions.label     "（無登入建議）">
 <!ENTITY viewSavedLogins.label        "檢視已存的登入資訊">
-

@@ -69,3 +69,5 @@ serviceworker-empty-suggestions-debugger = 註冊您的 Service Worker，查看�
 # Suggestion to go to about:debugging in order to see Service Workers for all domains.
 # Clicking on the link will open about:debugging in a new tab.
 serviceworker-empty-suggestions-aboutdebugging = 檢測來自其他網域的 Service Worker。<a>開啟 about:debugging</a>
+# Text displayed when no manifest was found for the current page.
+manifest-empty-intro = 沒有找到可檢測的 manifest。

@@ -57,3 +57,13 @@ rcwn-avg-long = 長平均
 rcwn-std-dev-long = 長標準差
 rcwn-cache-slow = 快取較慢數量
 rcwn-cache-not-slow = 快取較快數量
+networkid = 網路 ID
+networkid-id = 網路 ID
+
+## Link is intended as "network link"
+
+networkid-isUp = 網路已連線
+networkid-statusKnown = 已知網路連線狀態
+
+
+

@@ -43,3 +43,5 @@ customize-mode-undo-cmd =
     .label = 復原
 customize-mode-lwthemes-my-themes =
     .value = 我的佈景主題
+customize-mode-touchbar-cmd =
+    .label = 自訂觸控列…

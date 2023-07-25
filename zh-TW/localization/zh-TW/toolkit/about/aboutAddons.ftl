@@ -66,7 +66,7 @@ cmd-install-addon =
     .label = 安裝
     .accesskey = I
 cmd-contribute =
-    .label = 捐助
+    .label = 贊助
     .accesskey = C
     .tooltiptext = 贊助這個元件的開發
 discover-title = 什麼是附加元件？
@@ -81,8 +81,8 @@ detail-version =
 detail-last-updated =
     .label = 最近更新時間
 detail-contributions-description = 這個元件的開發者希望您透過小小的捐獻協助其後續開發。
-detail-contributions-button = 貢獻
-    .title = 參與開發此附加元件
+detail-contributions-button = 贊助
+    .title = 贊助這個元件的開發
     .accesskey = C
 detail-update-type =
     .value = 自動更新
@@ -154,9 +154,6 @@ legacy-extensions =
     .value = 傳統擴充套件
 legacy-extensions-description = 這些擴充套件不符合 { -brand-short-name } 目前的標準，已被停用。 <label data-l10n-name="legacy-learn-more">了解附加元件有什麼變動</label>
 private-browsing-description2 = { -brand-short-name } 將調整擴充套件於隱私瀏覽模式中運作的方式。預設情況下，任何新安裝至 { -brand-short-name } 的擴充套件都無法在隱私瀏覽視窗中執行。我們這樣做是為了確保您的隱私瀏覽過程更加私密；除非您在設定中允許，否則擴充套件將無法在隱私瀏覽模式中運作，也無法在該模式中存取您的線上行為。<label data-l10n-name="private-browsing-learn-more">了解如何管理擴充套件設定。</label>
-extensions-view-discover =
-    .name = 安裝附加元件
-    .tooltiptext = { extensions-view-discover.name }
 extensions-view-discopane =
     .name = 推薦項目
     .tooltiptext = { extensions-view-discopane.name }
@@ -252,6 +249,12 @@ shortcuts-modifier-other = 包含 Ctrl 或 Alt
 shortcuts-invalid = 無效的快速鍵
 shortcuts-letter = 按下一個字母
 shortcuts-system = 無法蓋過 { -brand-short-name } 的快速鍵
+# String displayed in warning label when there is a duplicate shortcut
+shortcuts-duplicate = 快速鍵重複
+# String displayed when a keyboard shortcut is already assigned to more than one add-on
+# Variables:
+#   $shortcut (string) - Shortcut string for the add-on
+shortcuts-duplicate-warning-message = 有超過一種情況使用 { $shortcut } 作為快捷鍵，重複的快速鍵可能會有無法預期的行為。
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
 #   $addon (string) - Name of the add-on
@@ -301,10 +304,20 @@ preferences-addon-button =
        *[other] 偏好設定
     }
 details-addon-button = 詳細資訊
-release-notes-addon-button = 新鮮事
+release-notes-addon-button = 發行公告
 permissions-addon-button = 權限
 addons-enabled-heading = 已啟用
 addons-disabled-heading = 已停用
+extension-enabled-heading = 啟用
+extension-disabled-heading = 停用
+theme-enabled-heading = 啟用
+theme-disabled-heading = 停用
+plugin-enabled-heading = 啟用
+plugin-disabled-heading = 停用
+dictionary-enabled-heading = 啟用
+dictionary-disabled-heading = 停用
+locale-enabled-heading = 啟用
+locale-disabled-heading = 停用
 ask-to-activate-button = 啟用時詢問
 always-activate-button = 總是啟用
 never-activate-button = 永不啟用
@@ -357,7 +370,7 @@ addon-badge-recommended =
 available-updates-heading = 可用的更新
 recent-updates-heading = 最近的更新
 release-notes-loading = 載入中…
-release-notes-error = 抱歉，載入新鮮事時發生錯誤。
+release-notes-error = 抱歉，載入發行公告時發生錯誤。
 addon-permissions-empty = 此擴充套件並未要求任何權限
 recommended-extensions-heading = 推薦的擴充套件
 recommended-themes-heading = 推薦的佈景主題

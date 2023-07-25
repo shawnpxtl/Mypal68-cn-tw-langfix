@@ -13,8 +13,8 @@ safeb-blocked-harmful-page-short-desc = { -brand-short-name } 已封鎖此頁面
 safeb-palm-advisory-desc = 公告內容由 <a data-l10n-name='advisory_provider'>{ $advisoryname }</a> 提供。
 safeb-palm-accept-label = 回上一頁
 safeb-palm-see-details-label = 檢視詳細資訊
-safeb-blocked-phishing-page-error-desc-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為含有釣魚網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>，或是<a data-l10n-name='ignore_warning_link'>忽略此風險</a>並繼續前往這個不安全的網站。
-safeb-blocked-phishing-page-error-desc-no-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為含有釣魚網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>。
+safeb-blocked-phishing-page-error-desc-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為詐騙網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>，或是<a data-l10n-name='ignore_warning_link'>忽略此風險</a>並繼續前往這個不安全的網站。
+safeb-blocked-phishing-page-error-desc-no-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為含有詐騙網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>。
 safeb-blocked-phishing-page-learn-more = 請到 <a data-l10n-name='learn_more_link'>www.antiphishing.org</a> 了解關於釣魚與詐騙網站的更多資訊。也可以到 <a data-l10n-name='firefox_support'>support.mozilla.org</a> 了解關於 { -brand-short-name } 的防釣魚及惡意軟體保護機制的更多資訊。
 safeb-blocked-malware-page-error-desc-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為含有惡意軟體的網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>，或是<a data-l10n-name='ignore_warning_link'>忽略此風險</a>並繼續前往這個不安全的網站。
 safeb-blocked-malware-page-error-desc-no-override = <span data-l10n-name='sitename'>{ $sitename }</span> 已被<a data-l10n-name='error_desc_link'>回報為含有惡意軟體的網站</a>。您可以<a data-l10n-name='report_detection'>回報偵測有誤</a>。

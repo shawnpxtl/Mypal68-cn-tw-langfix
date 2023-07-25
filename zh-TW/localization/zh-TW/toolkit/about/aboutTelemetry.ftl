@@ -4,6 +4,7 @@
 
 about-telemetry-ping-data-source = Ping 資料來源:
 about-telemetry-show-current-ping-data = 目前的 ping 資料
+about-telemetry-show-current-data = 目前的資料
 about-telemetry-show-archived-ping-data = 已封存的 ping 資料
 about-telemetry-show-subsession-data = 顯示 subsession 資料
 about-telemetry-choose-ping = 選擇 ping:
@@ -74,7 +75,8 @@ about-telemetry-settings-explanation = Telemetry 正在收集{ about-telemetry-d
 #   $name (String): ping name, e.g. “saved-session”
 #   $timeStamp (String): ping localized timestamp, e.g. “2017/07/08 10:40:46”
 about-telemetry-ping-details = 每組資訊將集合在「<a data-l10n-name="ping-link">pings</a>」送出，您正在看的是 { $name }, { $timestamp } ping。
-about-telemetry-ping-details-current = 每組資訊將集合在「<a data-l10n-name="ping-link">pings</a>」送出，您正在看的是 目前 ping。
+about-telemetry-ping-details-current = 每組資訊將集合在「<a data-l10n-name="ping-link">pings</a>」送出，您正在看的是目前的 ping。
+about-telemetry-data-details-current = 每組資訊將集合在「<a data-l10n-name="ping-link">pings</a>」送出，您正在看的是目前的資料。
 # string used as a placeholder for the search field
 # More info about it can be found here:
 # https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/data/main-ping.html
@@ -101,6 +103,8 @@ about-telemetry-no-search-results-all = 抱歉！所有段落中都沒有「{ $s
 about-telemetry-no-data-to-display = 抱歉！目前沒有「{ $sectionName }」的資料。
 # used as a tooltip for the “current” ping title in the sidebar
 about-telemetry-current-ping-sidebar = 目前的 ping
+# used as a tooltip for the “current” ping title in the sidebar
+about-telemetry-current-data-sidebar = 目前的資料
 # used in the “Ping Type” select
 about-telemetry-telemetry-ping-type-all = 全部
 # button label to copy the histogram

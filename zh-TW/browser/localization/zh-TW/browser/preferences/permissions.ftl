@@ -67,6 +67,10 @@ permissions-exceptions-content-blocking-window =
     .title = 例外 - 內容封鎖
     .style = { permissions-window.style }
 permissions-exceptions-content-blocking-desc = 您已針對這些網站停用內容封鎖功能。
+permissions-exceptions-etp-window =
+    .title = 加強型追蹤保護的例外
+    .style = { permissions-window.style }
+permissions-exceptions-etp-desc = 您已針對下列網站關閉保護。
 
 ## Exceptions - Cookies
 
