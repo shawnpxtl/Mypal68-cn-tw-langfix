@@ -57,3 +57,13 @@ rcwn-avg-long = 长操作平均
 rcwn-std-dev-long = 长操作标准差
 rcwn-cache-slow = 缓存较慢次数
 rcwn-cache-not-slow = 缓存非慢次数
+networkid = 网络 ID
+networkid-id = 网络 ID
+
+## Link is intended as "network link"
+
+networkid-isUp = 网络已连接
+networkid-statusKnown = 已知网络连接状态
+
+
+

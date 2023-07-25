@@ -29,11 +29,6 @@ search-input-box =
             [windows] 在选项中查找
            *[other] 在首选项中查找
         }
-policies-notice =
-    { PLATFORM() ->
-        [windows] 您的组织已禁用某些选项。
-       *[other] 您的组织已禁用某些首选项。
-    }
 managed-notice = 您的浏览器正由组织管理。
 pane-general-title = 常规
 category-general =
@@ -90,7 +85,7 @@ extension-controlled-web-notifications = 扩展 <img data-l10n-name="icon"/> { $
 extension-controlled-default-search = 您的默认搜索引擎由扩展 <img data-l10n-name="icon"/> { $name } 设置。
 # This string is shown to notify the user that Container Tabs
 # are being enabled by an extension.
-extension-controlled-privacy-containers = 扩展 <img data-l10n-name="icon"/> { $name } 需要启用身份标签页功能才能使用。
+extension-controlled-privacy-containers = 扩展 <img data-l10n-name="icon"/> { $name } 要求启用身份标签页功能。
 # This string is shown to notify the user that their content blocking "All Detected Trackers"
 # preferences are being controlled by an extension.
 extension-controlled-websites-content-blocking-all-trackers = 扩展 <img data-l10n-name="icon"/> { $name } 正在控制此设置。
@@ -123,7 +118,7 @@ startup-header = 启动
 separate-profile-mode =
     .label = 允许 { -brand-short-name } 和 Firefox 同时运行
 use-firefox-sync = 提示：这将使用单独的配置文件，可使用“{ -sync-brand-short-name }”在两套浏览器间共享数据。
-get-started-not-logged-in = 登录到{ -sync-brand-short-name }…
+get-started-not-logged-in = 登录至{ -sync-brand-short-name }…
 get-started-configured = 打开{ -sync-brand-short-name }服务首选项
 always-check-default =
     .label = 总是检查 { -brand-short-name } 是否是您的默认浏览器
@@ -151,7 +146,7 @@ warn-on-close-multiple-tabs =
     .label = 关闭多个标签页时警告您
     .accesskey = m
 warn-on-open-many-tabs =
-    .label = 打开多个标签页可能拖慢 { -brand-short-name } 时警告我
+    .label = 打开多个标签页可能拖慢 { -brand-short-name } 前提醒我
     .accesskey = d
 switch-links-to-new-tabs =
     .label = 在新标签页中打开链接时，立即切换过去
@@ -394,6 +389,45 @@ choose-bookmark =
     .label = 使用书签…
     .accesskey = B
 
+## Home Section - Firefox Home Content Customization
+
+home-prefs-content-header = Firefox 主页内容
+home-prefs-content-description = 选择要在您的 Firefox 主页上显示的版块。
+home-prefs-content-discovery-description = Firefox 主页中的“内容发现”可助您发现网络上的高品质、有价值的文章。
+home-prefs-search-header =
+    .label = 网络搜索
+home-prefs-topsites-header =
+    .label = 常用网站
+home-prefs-topsites-description = 您经常访问的网站
+# Variables:
+#  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+home-prefs-recommended-by-header =
+    .label = { $provider } 推荐
+home-prefs-recommended-by-description = 来自网络的精彩内容，为您量身打造
+home-prefs-recommended-by-learn-more = 使用方法
+home-prefs-recommended-by-option-sponsored-stories =
+    .label = 赞助内容
+home-prefs-highlights-header =
+    .label = 集锦
+home-prefs-highlights-description = 您访问过或保存过的网站精选
+home-prefs-highlights-option-visited-pages =
+    .label = 访问过的页面
+home-prefs-highlights-options-bookmarks =
+    .label = 书签
+home-prefs-highlights-option-most-recent-download =
+    .label = 最近下载
+home-prefs-highlights-option-saved-to-pocket =
+    .label = 保存在 { -pocket-brand-name } 的页面
+# For the "Snippets" feature traditionally on about:home.
+# Alternative translation options: "Small Note" or something that
+# expresses the idea of "a small message, shortened from something else,
+# and non-essential but also not entirely trivial and useless.
+home-prefs-snippets-header =
+    .label = 只言片语
+home-prefs-snippets-description = 来自 { -vendor-short-name } 和 { -brand-product-name } 的快讯
+home-prefs-sections-rows-option =
+    .label = { $num } 行
+
 ## Search Section
 
 search-bar-header = 搜索栏
@@ -558,6 +592,9 @@ forms-exceptions =
 forms-generate-passwords =
     .label = 建议并生成高强度密码
     .accesskey = u
+forms-fill-logins-and-passwords =
+    .label = 自动填写登录名和密码
+    .accesskey = i
 forms-saved-logins =
     .label = 已保存的登录信息…
     .accesskey = L
@@ -634,6 +671,10 @@ sitedata-block-desc = 阻止类型
     .accesskey = T
 sitedata-option-block-trackers =
     .label = 第三方跟踪器
+sitedata-option-block-cross-site-trackers =
+    .label = 跨网站跟踪器
+sitedata-option-block-cross-site-and-social-media-trackers =
+    .label = 跨网站和社交媒体跟踪器
 sitedata-option-block-unvisited =
     .label = 未访问网站的 Cookie
 sitedata-option-block-all-third-party =
@@ -668,7 +709,7 @@ addressbar-suggestions-settings = 更改搜索引擎建议的首选项
 ## Privacy Section - Content Blocking
 
 content-blocking-header = 内容拦截
-content-blocking-description = 拦截会在网络上跟踪您的第三方内容。控制多大程度上您要让不同网站保留并互相分享您的上网活动。
+content-blocking-enhanced-tracking-protection = 增强型跟踪保护
 content-blocking-section-description = 在浏览时保护您的隐私。拦截会跟踪您访问活动，并分析用户特征的隐藏内容。拦截此类内容也可能使页面加载更快。
 content-blocking-learn-more = 详细了解
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
@@ -682,28 +723,38 @@ content-blocking-setting-strict =
 content-blocking-setting-custom =
     .label = 自定义
     .accesskey = C
-content-blocking-standard-description = 仅在隐私窗口中拦截已知的跟踪器
 content-blocking-standard-desc = 平衡保护与性能。允许部分跟踪器以确保网站运行正常。
-content-blocking-strict-desc = 拦截 { -brand-short-name } 检测到的所有跟踪器。可能导致某些网站异常。
 content-blocking-strict-description = 更强的保护，可能导致某些网站异常。
 content-blocking-custom-desc = 选择要拦截的内容。
 content-blocking-private-trackers = 仅在隐私窗口中拦截已知的跟踪器
-content-blocking-third-party-cookies = 第三方跟踪 Cookie
+content-blocking-third-party-cookies = 第三方跟踪型 Cookie
+content-blocking-etp-standard-desc = 平衡保护和性能。页面将正常加载。
+content-blocking-etp-strict-desc = 更强大的保护，但可能导致某些网站异常。
+content-blocking-etp-custom-desc = 选择要拦截的跟踪器和脚本。
+content-blocking-private-windows = 隐私窗口中的跟踪性内容
+content-blocking-cross-site-tracking-cookies = 跨网站跟踪型 Cookie
+content-blocking-social-media-trackers = 社交媒体跟踪器
 content-blocking-all-cookies = 所有 Cookie
 content-blocking-unvisited-cookies = 未访问网站的 Cookie
 content-blocking-all-windows-trackers = 在所有窗口拦截已知的跟踪器
+content-blocking-all-windows-tracking-content = 所有窗口中的跟踪性内容
 content-blocking-all-third-party-cookies = 所有第三方 Cookie
 content-blocking-cryptominers = 加密货币挖矿程序
 content-blocking-fingerprinters = 数字指纹跟踪程序
 content-blocking-warning-title = 注意！
 content-blocking-warning-description = 拦截内容后可能导致某些网站异常。但对您信任的网站禁用拦截非常简单。
 content-blocking-learn-how = 了解方法
+content-blocking-etp-warning-description = 拦截跟踪器可能会影响某些网站的功能。放行跟踪器，重载页面即可加载所有内容。
+content-blocking-warning-learn-how = 了解要如何做
 content-blocking-reload-description = 需要重新载入标签页才能应用变更。
 content-blocking-reload-tabs-button =
     .label = 重新载入所有标签页
     .accesskey = R
 content-blocking-trackers-label =
     .label = 跟踪器
+    .accesskey = T
+content-blocking-tracking-content-label =
+    .label = 跟踪性内容
     .accesskey = T
 content-blocking-tracking-protection-option-all-windows =
     .label = 所有窗口

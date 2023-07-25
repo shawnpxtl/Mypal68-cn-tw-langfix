@@ -49,3 +49,5 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
 
 <!ENTITY showAllAppsCmdMac.label        "显示全部">
+
+<!ENTITY touchBarCmdMac.label           "自定义触控栏…">

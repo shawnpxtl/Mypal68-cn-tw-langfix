@@ -18,3 +18,4 @@ reader-view = 阅读器视图
 open-location = 搜索或输入网址
 share = 共享
 close-window = 关闭窗口
+open-sidebar = 侧栏

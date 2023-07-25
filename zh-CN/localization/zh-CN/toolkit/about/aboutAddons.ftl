@@ -152,9 +152,6 @@ legacy-extensions-description = 这些扩展不符合现今的 { -brand-short-na
 private-browsing-description2 =
     扩展在 { -brand-short-name } 隐私浏览模式中的运行权限有所调整。默认情况下，任何新添加至 { -brand-short-name } 的扩展均不会在隐私窗口中运行。除非您在设置中明确允许，否则扩展将在隐私浏览模式中停止运行，也无法获知您的在线活动。这项调整旨在确保您的隐私浏览足够私密。
     <label data-l10n-name="private-browsing-learn-more">了解如何管理扩展设置。</label>
-extensions-view-discover =
-    .name = 获取附加组件
-    .tooltiptext = { extensions-view-discover.name }
 extensions-view-discopane =
     .name = 推荐
     .tooltiptext = { extensions-view-discopane.name }
@@ -250,6 +247,12 @@ shortcuts-modifier-other = 包括 Ctrl 或 Alt
 shortcuts-invalid = 组合无效
 shortcuts-letter = 输入一个字母
 shortcuts-system = 不可覆盖 { -brand-short-name } 的快捷键
+# String displayed in warning label when there is a duplicate shortcut
+shortcuts-duplicate = 快捷键重复
+# String displayed when a keyboard shortcut is already assigned to more than one add-on
+# Variables:
+#   $shortcut (string) - Shortcut string for the add-on
+shortcuts-duplicate-warning-message = { $shortcut } 被不止一个附加组件设为快捷键，重复的快捷键可能会导致意外行为。
 # String displayed when a keyboard shortcut is already used by another add-on
 # Variables:
 #   $addon (string) - Name of the add-on
@@ -303,6 +306,16 @@ release-notes-addon-button = 发行说明
 permissions-addon-button = 权限
 addons-enabled-heading = 已启用
 addons-disabled-heading = 已禁用
+extension-enabled-heading = 已启用
+extension-disabled-heading = 已禁用
+theme-enabled-heading = 已启用
+theme-disabled-heading = 已禁用
+plugin-enabled-heading = 已启用
+plugin-disabled-heading = 已禁用
+dictionary-enabled-heading = 已启用
+dictionary-disabled-heading = 已禁用
+locale-enabled-heading = 已启用
+locale-disabled-heading = 已禁用
 ask-to-activate-button = 需要时询问
 always-activate-button = 一律激活
 never-activate-button = 永不激活

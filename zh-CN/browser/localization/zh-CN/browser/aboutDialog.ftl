@@ -24,7 +24,7 @@ update-unsupported = 您无法在这个系统上进一步更新。<label data-l1
 update-restarting = 正在重开…
 channel-description = 您目前在 <label data-l10n-name="current-channel"></label> 更新通道。
 warningDesc-version = { -brand-short-name } 是实验性的测试版本，可能不够稳定。
-community-2 = { -brand-short-name } 是由 <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> 制作的为 Windows XP/Server 2003/Vista 适配的浏览器。
+community-2 = { -brand-short-name } 是由 <label data-l10n-name="community-mozillaLink">{ -vendor-short-name }</label> 所开发适用于 Windows XP / Server 2003 / Vista 的浏览器。
 helpus = 想帮忙吗？<label data-l10n-name="helpus-donateLink">向我们捐赠</label>或者<label data-l10n-name="helpus-getInvolvedLink">一起来参与！</label>
 bottomLinks-license = 授权信息
 bottomLinks-rights = 最终用户权利

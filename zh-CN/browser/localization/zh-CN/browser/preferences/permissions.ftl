@@ -67,6 +67,10 @@ permissions-exceptions-content-blocking-window =
     .title = 例外 - 内容拦截
     .style = { permissions-window.style }
 permissions-exceptions-content-blocking-desc = 您在这些网站上已禁用内容拦截。
+permissions-exceptions-etp-window =
+    .title = 例外 - 增强型跟踪保护
+    .style = { permissions-window.style }
+permissions-exceptions-etp-desc = 你已关闭对下列网站的保护。
 
 ## Exceptions - Cookies
 

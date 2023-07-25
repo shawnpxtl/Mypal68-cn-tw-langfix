@@ -36,4 +36,4 @@ synced-tabs-context-open-all-in-tabs =
 synced-tabs-context-manage-devices =
     .label = 管理设备…
     .accesskey = D
-fxa-sign-in = 登录{ -sync-brand-short-name }服务
+fxa-sign-in = 登录至{ -sync-brand-short-name }

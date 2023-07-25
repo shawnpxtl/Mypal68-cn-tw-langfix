@@ -54,6 +54,8 @@ connection-proxy-socks5 =
 connection-proxy-noproxy = 不使用代理
     .accesskey = n
 connection-proxy-noproxy-desc = 例如：.mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate localhost, 127.0.0.1 and ::1.
+connection-proxy-noproxy-localhost-desc = 与 localhost、127.0.0.1 和 ::1 的连接永不经过代理。
 connection-proxy-autotype =
     .label = 自动代理配置的 URL（PAC）
     .accesskey = A
@@ -70,12 +72,6 @@ connection-proxy-socks-remote-dns =
 connection-dns-over-https =
     .label = 启用基于 HTTPS 的 DNS
     .accesskey = H
-# Variables:
-#   $url (String) - URL for the DNS over HTTPS provider
-connection-dns-over-https-url-default =
-    .label = 使用默认值（{ $url }）
-    .accesskey = Ｕ
-    .tooltiptext = 使用默认 URL 完成基于 HTTPS 的 DNS 解析
 connection-dns-over-https-url-resolver = 选用提供商
     .accesskey = P
 # Variables:

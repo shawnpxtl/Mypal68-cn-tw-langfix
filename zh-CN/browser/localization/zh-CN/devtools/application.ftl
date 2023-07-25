@@ -69,3 +69,11 @@ serviceworker-empty-suggestions-debugger = 逐步注册您的 Service Worker，�
 # Suggestion to go to about:debugging in order to see Service Workers for all domains.
 # Clicking on the link will open about:debugging in a new tab.
 serviceworker-empty-suggestions-aboutdebugging = 查看其他域名的 Service Worker。<a>打开 about:debugging</a>
+# Text displayed while we are loading the manifest file
+manifest-loading = 正在载入清单文件…
+# Text displayed when the manifest has been successfully loaded
+manifest-loaded-ok = 清单文件加载完毕。
+# Text displayed when there has been an error while trying to load the manifest
+manifest-loaded-error = 载入清单文件时发生错误：
+# Text displayed when the page has no manifest available
+manifest-non-existing = 未发现要查看的清单文件。

@@ -29,9 +29,11 @@
 
 <!ENTITY fillLoginMenu.label          "填充登录信息">
 <!ENTITY fillLoginMenu.accesskey      "F">
-<!ENTITY fillGeneratedPassword.label  "使用由Mypal生成的安全密码">
+<!ENTITY fillSuggestedPassword.label  "使用建议的密码">
+<!ENTITY fillSuggestedPassword.accesskey "S">
+<!ENTITY fillGeneratedPassword.label  "使用生成的安全密码">
 <!ENTITY fillGeneratedPassword.accesskey "S">
-<!ENTITY fillPasswordMenu.label       "Fill Password">
+<!ENTITY fillPasswordMenu.label       "填充密码">
 <!ENTITY fillPasswordMenu.accesskey   "F">
 <!ENTITY fillUsernameMenu.label       "填充用户名">
 <!ENTITY fillUsernameMenu.accesskey   "F">
