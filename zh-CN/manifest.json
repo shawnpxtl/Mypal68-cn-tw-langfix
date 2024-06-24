@@ -30,7 +30,7 @@
         "pippki": "chrome/zh-CN/locale/zh-CN/pippki/", 
         "browser": "browser/chrome/zh-CN/locale/browser/"
       }, 
-      "version": "20190821101321"
+      "version": "20240624185500"
     }
   }, 
   "applications": {
@@ -41,7 +41,7 @@
     }
   }, 
   "langpack_id": "zh-CN", 
-  "version": "68.13.2bbuildid20230725090800", 
+  "version": "68.13.X", 
   "name": "Chinese Simplified (zh-CN) Language Pack", 
   "manifest_version": 2, 
   "sources": {
@@ -49,6 +49,6 @@
       "base_path": "browser/"
     }
   }, 
-  "author": "Mozest (contributors: Wen Shaohua, Jin Jian, Rongjun Mu, Xie Yanbo, Cathayan, YFdyh000, xcffl, Shen Hao, Liu Xing), Modified by Shawn Lan(平行天翎) and louies0623", 
+  "author": "Mozest (contributors: Wen Shaohua, Jin Jian, Rongjun Mu, Xie Yanbo, Cathayan, YFdyh000, xcffl, Shen Hao, Liu Xing), Modified by Shawn Lan(平行天翎)", 
   "description": "Language pack for Mypal for zh-CN"
 }
