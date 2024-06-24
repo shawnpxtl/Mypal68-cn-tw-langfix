@@ -4,7 +4,7 @@
 
 ## Mypal68 Simplified Chinese Language Pack
 
-![preview_zh-CN](./image/preview_zh-CN.jpg)
+[![preview_zh-CN(Pixiv id:108396628)](./image/preview_zh-CN.jpg)](https://www.pixiv.net/artworks/108396628)
 
 Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包安装后会无法使用（[具体看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此制作了这个语言包。
 
