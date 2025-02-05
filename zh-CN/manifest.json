@@ -30,18 +30,18 @@
         "pippki": "chrome/zh-CN/locale/zh-CN/pippki/", 
         "browser": "browser/chrome/zh-CN/locale/browser/"
       }, 
-      "version": "20240624185500"
+      "version": "20250205222200"
     }
   }, 
   "applications": {
     "gecko": {
-      "strict_min_version": "68.0", 
+      "strict_min_version": "68.14.0", 
       "id": "langpack-zh-CN@mypal.org", 
       "strict_max_version": "68.*"
     }
   }, 
   "langpack_id": "zh-CN", 
-  "version": "68.13.X", 
+  "version": "68.14.7", 
   "name": "Chinese Simplified (zh-CN) Language Pack", 
   "manifest_version": 2, 
   "sources": {
