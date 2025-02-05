@@ -9,7 +9,7 @@
 Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包安装后会无法使用（[具体看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此制作了这个语言包。
 
 ## 安装和使用该语言包的要求
-* 一台配置不算太老，且装有Windows XP以上系统的电脑(目前Windows 2000要安装此浏览器请先安装黑翼猫扩展内核)
+* 一台配置不算太老，且装有Windows XP以上系统的电脑
 * [Mypal](https://github.com/Feodor2/Mypal68/releases/latest) 68.13.0b和之后的版本
 * 知道如何安装xpi插件
 
@@ -19,7 +19,7 @@ Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包�
 ## 已经无法打开浏览器，但是想在保留数据的前提下更新语言包
 请打开以下目录：
    ```bash
-   Windows 2000/XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
+   Windows XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
    Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机乱码".default-default\extensions
    ```
 然后删除langpack-"zh-CN"@mypal.org.xpi，删除后重新打开浏览器，这时候你会发现界面变英文了，不用慌，安装新版本语言包即可。  
