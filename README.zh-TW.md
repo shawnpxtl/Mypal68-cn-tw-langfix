@@ -7,7 +7,7 @@
 Mypal自68.13.0b版本起修改了一些文本位置，導致之前的語言包安裝後會無法使用（[具體看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此製作了這個語言包。
 
 ## 安裝和使用該語言包的要求
-* 一台配置不算太老，且裝有Windows XP以上系統的電腦(目前Windows 2000系統要安裝此瀏覽器請先安裝黑翼貓擴充核心)
+* 一台配置不算太老，且裝有Windows XP以上系統的電腦(目前Windows 2000要安裝此瀏覽器請先安裝黑翼貓擴充核心)
 * [Mypal](https://github.com/Feodor2/Mypal68/releases/latest) 68.13.0b和之後的版本
 * 知道如何安裝xpi插件
 
