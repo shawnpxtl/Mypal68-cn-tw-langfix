@@ -2,7 +2,7 @@
 
 ## Mypal68 Traditional Chinese Language Pack
 
-[![preview_zh-TW(Pixiv id:108396628)](./helpbook/preview_zh-TW.jpg)](https://www.pixiv.net/artworks/108396628)
+[![preview_zh-TW(Pixiv id:108396628)](./helpbook/preview_zh-TW.JPG)](https://www.pixiv.net/artworks/108396628)
 
 Mypal自68.13.0b版本起修改了一些文本位置，導致之前的語言包安裝後會無法使用（[具體看此issue](https://github.com/Feodor2/Mypal68/issues/203)），因此製作了這個語言包。
 
