@@ -15,3 +15,12 @@ Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包�
 
 ## 下载语言包
 直接点击[release](https://github.com/shawnpxtl/Mypal68-chinese-xpi/releases/latest)下载zh-CN.xpi且安装后切换语言即可。
+
+## 已经无法打开浏览器，但是想在保留数据的前提下更新语言包
+请打开以下目录：
+   ```bash
+   Windows 2000/XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
+   Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机乱码".default-default\extensions
+   ```
+然后删除langpack-"zh-CN"@mypal.org.xpi，删除后重新打开浏览器，这时候你会发现界面变英文了，不用慌，安装新版本语言包即可。
+PS：其它语言同样可以用此方法修复（总之就是删除langpack-"**"@mypal.org.xpi这个文件即可）
