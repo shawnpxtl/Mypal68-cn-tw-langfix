@@ -18,8 +18,8 @@ Mypal自68.13.0b版本起修改了一些文本位置，導致之前的語言包�
 **Q1：已經無法開啟瀏覽器，但是想在保留資料的前提下更新語言包，怎麼辦？**  
 A1：請開啟以下目錄：
    ```bash
-   Windows XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
-   Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机乱码".default-default\extensions
+   Windows XP：%APPDATA%\Mypal68\Profiles\"随机字符串".default-default\extensions
+   Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机字符串".default-default\extensions
    ```
 然後刪除langpack-"zh-TW"@mypal.org.xpi，刪除後重新開啟瀏覽器，這時候你會發現介面變英文了，不用慌，安裝新版本語言包即可。  
 PS：其它語言同樣可以用此方法修復（總之就是刪除langpack-"**"@mypal.org.xpi這個檔案即可）
