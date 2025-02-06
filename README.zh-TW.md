@@ -14,8 +14,9 @@ Mypal自68.13.0b版本起修改了一些文本位置，導致之前的語言包�
 ## 下載語言包
 直接點擊[release](https://github.com/shawnpxtl/Mypal68-chinese-xpi/releases/latest)下載zh-TW.xpi且安裝後切換語言即可。
 
-## 已經無法開啟瀏覽器，但是想在保留資料的前提下更新語言包
-請開啟以下目錄：
+## Q&A
+**Q1：已經無法開啟瀏覽器，但是想在保留資料的前提下更新語言包，怎麼辦？**  
+A1：請開啟以下目錄：
    ```bash
    Windows XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
    Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机乱码".default-default\extensions

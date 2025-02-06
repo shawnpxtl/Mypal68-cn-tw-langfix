@@ -16,8 +16,9 @@ Mypal自68.13.0b版本起修改了一些文本位置，导致之前的语言包�
 ## 下载语言包
 直接点击[release](https://github.com/shawnpxtl/Mypal68-chinese-xpi/releases/latest)下载zh-CN.xpi且安装后切换语言即可。
 
-## 已经无法打开浏览器，但是想在保留数据的前提下更新语言包
-请打开以下目录：
+## Q&A
+**Q1：已经无法打开浏览器，但是想在保留数据的前提下更新语言包，怎么办？**  
+A1：请打开以下目录：
    ```bash
    Windows XP：%APPDATA%\Mypal68\Profiles\"随机乱码".default-default\extensions
    Windows Vista及以上：%APPDATA%\Roaming\Mypal68\Profiles\"随机乱码".default-default\extensions
