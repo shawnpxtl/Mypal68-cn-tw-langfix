@@ -37,7 +37,7 @@
     "gecko": {
       "strict_min_version": "68.14.0", 
       "id": "langpack-zh-CN@mypal.org", 
-      "strict_max_version": "68.*"
+      "strict_max_version": "74.*"
     }
   }, 
   "langpack_id": "zh-CN", 
