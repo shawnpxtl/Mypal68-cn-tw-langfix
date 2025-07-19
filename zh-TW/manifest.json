@@ -30,18 +30,18 @@
         "pippki": "chrome/zh-TW/locale/zh-TW/pippki/", 
         "browser": "browser/chrome/zh-TW/locale/browser/"
       }, 
-      "version": "20250205222200"
+      "version": "20250719100000"
     }
   }, 
   "applications": {
     "gecko": {
-      "strict_min_version": "68.14.0", 
+      "strict_min_version": "74.0", 
       "id": "langpack-zh-TW@mypal.org", 
-      "strict_max_version": "68.*"
+      "strict_max_version": "74.*"
     }
   }, 
   "langpack_id": "zh-TW", 
-  "version": "68.14.7", 
+  "version": "74.1.0", 
   "name": "Traditional Chinese (zh-TW) Language Pack", 
   "manifest_version": 2, 
   "sources": {
