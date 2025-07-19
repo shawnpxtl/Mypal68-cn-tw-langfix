@@ -1,4 +1,4 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
+﻿<!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
@@ -75,9 +75,11 @@ when there are no windows but Firefox is still running. -->
 
 <!ENTITY menubarCmd.label "菜单栏">
 <!ENTITY menubarCmd.accesskey "M">
+<!ENTITY navbar.accessibleLabel "导航">
 <!ENTITY navbarCmd.label "导航工具栏">
 <!ENTITY personalbarCmd.label "书签工具栏">
 <!ENTITY personalbarCmd.accesskey "B">
+<!ENTITY personalbar.accessibleLabel "书签">
 <!ENTITY bookmarksToolbarItem.label "书签工具栏项目">
 
 <!ENTITY pageSourceCmd.label "页面源代码">
@@ -246,6 +248,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY urlbar.webAuthnAnchor.tooltip                    "打开 Web 认证面板">
 <!ENTITY urlbar.storageAccessAnchor.tooltip               "打开上网活动权限面板">
 
+<!ENTITY urlbar.permissionsGranted.tooltip       "您已授予此站点更多权限。">
 <!ENTITY urlbar.webRTCShareDevicesNotificationAnchor.tooltip      "管理您是否与该网站共享摄像头和麦克风">
 <!ENTITY urlbar.webRTCShareMicrophoneNotificationAnchor.tooltip   "管理您是否与该网站共享麦克风">
 <!ENTITY urlbar.webRTCShareScreenNotificationAnchor.tooltip       "管理您是否与该网站共享窗口或屏幕">
@@ -818,6 +821,8 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connection "连接">
 <!ENTITY identity.connectionSecure "安全连接">
+<!ENTITY identity.connectionSecure3 "安全连接">
+
 
 <!-- LOCALIZATION NOTE (identity.securityView.label2)
      This is the header of the security subview in the Site Identity panel. -->
@@ -825,6 +830,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 
 <!ENTITY identity.connectionSecure2 "安全连接">
 <!ENTITY identity.connectionNotSecure "连接不安全">
+<!ENTITY identity.connectionNotSecure2 "连接不安全">
 <!ENTITY identity.connectionNotSecureSecurityView "您并未安全地连接至此网站。">
 <!ENTITY identity.connectionFile "此页面存储在您的计算机上。">
 <!ENTITY identity.connectionVerified2 "您已安全连接至此网站。网站所有者：">
@@ -869,6 +875,7 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY identity.clearSiteData "清除 Cookie 和网站数据…">
 
 <!ENTITY identity.permissions "权限">
+<!ENTITY identity.permissions3 "权限">
 
 <!-- LOCALIZATION NOTE (identity.permissions2): "set" as in "configured for this website" -->
 <!ENTITY identity.permissions2 "权限设置">

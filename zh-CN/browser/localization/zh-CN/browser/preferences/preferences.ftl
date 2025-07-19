@@ -1,4 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
+﻿# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -14,6 +14,11 @@ pref-page =
             [windows] 选项
            *[other] 首选项
         }
+pref-page-title =
+    { PLATFORM() ->
+        [windows] 选项
+       *[other] 首选项
+    }
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible
 #
@@ -249,6 +254,66 @@ applications-type-column =
 applications-action-column =
     .label = 操作
     .accesskey = A
+# Variables:
+#   $extension (String) - file extension (e.g .TXT)
+applications-file-ending = { $extension } 文件
+applications-action-save =
+    .label = 保存文件
+# Variables:
+#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+applications-use-app =
+    .label = 使用 { $app-name }
+# Variables:
+#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+applications-use-app-default =
+    .label = 使用 { $app-name } 处理（默认）
+applications-use-other =
+    .label = 使用其他…
+applications-select-helper = 选择助手应用程序
+applications-manage-app =
+    .label = 应用程序详细信息…
+applications-always-ask =
+    .label = 每次都问我
+applications-type-pdf = 便携式文档格式 (PDF)
+# Variables:
+#   $type (String) - the MIME type (e.g application/binary)
+applications-type-pdf-with-type = { applications-type-pdf } ({ $type })
+# Variables:
+#   $type-description (String) - Description of the type (e.g "Portable Document Format")
+#   $type (String) - the MIME type (e.g application/binary)
+applications-type-description-with-type = { $type-description } ({ $type })
+# Variables:
+#   $extension (String) - file extension (e.g .TXT)
+#   $type (String) - the MIME type (e.g application/binary)
+applications-file-ending-with-type = { applications-file-ending } ({ $type })
+# Variables:
+#   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
+applications-use-plugin-in =
+    .label = 使用 { $plugin-name } （在 { -brand-short-name } 中）
+applications-preview-inapp =
+    .label = 在 { -brand-short-name } 中预览
+
+## The strings in this group are used to populate
+## selected label element based on the string from
+## the selected menu item.
+
+applications-use-plugin-in-label =
+    .value = { applications-use-plugin-in.label }
+applications-action-save-label =
+    .value = { applications-action-save.label }
+applications-use-app-label =
+    .value = { applications-use-app.label }
+applications-preview-inapp-label =
+    .value = { applications-preview-inapp.label }
+applications-always-ask-label =
+    .value = { applications-always-ask.label }
+applications-use-app-default-label =
+    .value = { applications-use-app-default.label }
+applications-use-other-label =
+    .value = { applications-use-other.label }
+
+##
+
 drm-content-header = 采用数字版权管理（DRM）的内容
 play-drm-content =
     .label = 播放采用 DRM 的内容
@@ -474,11 +539,22 @@ search-keyword-warning-bookmark = 您选择的关键词已用于某个书签，�
 
 ## Containers Section
 
-containers-back-link = « 返回
+containers-back-link = ? 返回
+containers-back-button =
+    .aria-label =
+        { PLATFORM() ->
+            [windows] 返回“选项”
+           *[other] 返回“首选项”
+        }
+        
+containers-back-link = ? 返回
 containers-header = 身份标签页
 containers-add-button =
     .label = 添加新身份
     .accesskey = A
+containers-new-tab-check =
+    .label = 每次新建标签页，均需选择身份
+    .accesskey = S
 containers-preferences-button =
     .label = 首选项
 containers-remove-button =
@@ -604,6 +680,8 @@ forms-master-pw-use =
 forms-master-pw-change =
     .label = 修改主密码…
     .accesskey = M
+forms-master-pw-fips-title = 您正处于 FIPS 模式。该模式需要一个非空的主密码。
+forms-master-pw-fips-desc = 密码修改失败
 
 ## Privacy Section - History
 
@@ -669,6 +747,8 @@ sitedata-disallow-cookies-option =
 # The list items are the strings named sitedata-block-*-option*.
 sitedata-block-desc = 阻止类型
     .accesskey = T
+sitedata-option-block-nothing =
+    .label = 无
 sitedata-option-block-trackers =
     .label = 第三方跟踪器
 sitedata-option-block-cross-site-trackers =

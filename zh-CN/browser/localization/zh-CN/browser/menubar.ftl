@@ -1,4 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
+﻿# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -257,27 +257,13 @@ menu-help =
 menu-help-product =
     .label = { -brand-shorter-name } 帮助
     .accesskey = H
-menu-help-show-tour =
-    .label = { -brand-shorter-name } 导览
-    .accesskey = o
-menu-help-keyboard-shortcuts =
-    .label = 键盘快捷键
-    .accesskey = K
 menu-help-troubleshooting-info =
     .label = 故障排除信息
     .accesskey = T
-menu-help-feedback-page =
-    .label = 提交反馈…
-    .accesskey = S
 menu-help-safe-mode-without-addons =
     .label = 以安全模式重新打开…
     .accesskey = R
 menu-help-safe-mode-with-addons =
     .label = 重新打开并启用附加组件
     .accesskey = R
-# Label of the Help menu item. Either this or
-# safeb.palm.notdeceptive.label from
-# phishing-afterload-warning-message.dtd is shown.
-menu-help-report-deceptive-site =
-    .label = 举报诈骗网站…
-    .accesskey = D
+

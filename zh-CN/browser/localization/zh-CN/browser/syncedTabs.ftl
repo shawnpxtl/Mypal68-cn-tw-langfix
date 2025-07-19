@@ -1,4 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
+﻿# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -36,4 +36,7 @@ synced-tabs-context-open-all-in-tabs =
 synced-tabs-context-manage-devices =
     .label = 管理设备…
     .accesskey = D
+synced-tabs-context-sync-now =
+    .label = 立即同步
+    .accesskey = S
 fxa-sign-in = 登录至{ -sync-brand-short-name }

@@ -1,8 +1,8 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
+﻿<!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Values for changepassword.xul -->
+<!-- Values for changepassword.xhtml -->
 <!ENTITY setPassword.title  "修改主密码">
 <!ENTITY setPassword.tokenName.label "安全设备">
 <!ENTITY setPassword.oldPassword.label "当前密码:">
@@ -10,7 +10,7 @@
 <!ENTITY setPassword.reenterPassword.label "新密码(重复):">
 <!ENTITY setPassword.meter.label "密码强度">
 
-<!-- Values for resetpassword.xul -->
+<!-- Values for resetpassword.xhtml -->
 <!ENTITY resetPasswordButtonLabel "重置">
 <!ENTITY resetPassword.title  "重置主密码">
 <!ENTITY resetPassword.text  "如果您重置您的主密码，您存储的所有网站和电子邮箱密码、表单数据、个人证书以及私钥，都将被丢弃。您确实要重置主密码吗？">

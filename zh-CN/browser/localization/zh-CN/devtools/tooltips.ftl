@@ -1,4 +1,4 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
+﻿# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -30,6 +30,8 @@ inactive-css-not-flex-item = 由于不是弹性项目，<strong>{ $property }</s
 inactive-css-not-flex-container = 由于不是弹性容器，<strong>{ $property }</strong> 对此元素无效。
 inactive-css-not-inline-or-tablecell = 由于不是内联或表格单元格元素，<strong>{ $property }</strong> 对此元素无效。
 inactive-css-property-because-of-display = 由于其有 <strong>{ $display }</strong> 的 display 属性，<strong>{ $property }</strong> 对此元素没有影响。
+inactive-css-not-display-block-on-floated = 由于是 <strong>floated<strong> 元素，引擎已将 <strong>display</strong> 值更改为 <strong>block</strong>。
+inactive-css-property-is-impossible-to-override-in-visited = 由于 <strong>:visited</strong> 的限制，无法覆盖 <strong>{ $property }</strong>。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -45,3 +47,4 @@ inactive-css-not-flex-container-fix = 请尝试添加 <strong>display:flex</stro
 inactive-css-not-inline-or-tablecell-fix = 请尝试添加 <strong>display:inline</strong> 或 <strong>display:table-cell</strong>。{ learn-more }
 inactive-css-non-replaced-inline-or-table-row-or-row-group-fix = 请尝试添加 <strong>display:inline-block</strong> 或 <strong>display:block</strong>。{ learn-more }
 inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = 请尝试添加 <strong>display:inline-block</strong>。{ learn-more }
+inactive-css-not-display-block-on-floated-fix = 请尝试移除 <strong>float</ strong> 或添加 <strong>display:block</strong>。{ learn-more }
