@@ -1,8 +1,5 @@
 简体中文 | [繁體中文](./README.zh-TW.md)
 
-## 一些事情
-因为Mypal 68.14.8开始又改了一些语言的位置，导致无法使用现有的汉化包，并且原作者的更新是一口气提交的，我实在没时间研究更新了啥，只能先停更了，如果你是Windows XP以上有现代网页需求的暂时先用Supermium吧。。。
-
 # Mypal68 简体中文语言包
 
 ## Mypal68 Simplified Chinese Language Pack
