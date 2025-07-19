@@ -36,4 +36,7 @@ synced-tabs-context-open-all-in-tabs =
 synced-tabs-context-manage-devices =
     .label = 管理裝置…
     .accesskey = D
+synced-tabs-context-sync-now =
+    .label = 立即同步
+    .accesskey = S
 fxa-sign-in = 登入至 { -sync-brand-short-name }

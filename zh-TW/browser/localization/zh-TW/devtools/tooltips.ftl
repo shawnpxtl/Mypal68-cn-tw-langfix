@@ -30,6 +30,8 @@ inactive-css-not-flex-item = 由於不是 Flex 項目，<strong>{ $property }</s
 inactive-css-not-flex-container = 由於不是 Flex 容器，<strong>{ $property }</strong> 對此元素沒有影響。
 inactive-css-not-inline-or-tablecell = 由於不是行內或表格欄位元素，<strong>{ $property }</strong> 對此元素沒有影響。
 inactive-css-property-because-of-display = 由於此元素的 display 屬性值為 <strong>{ $display }</strong>，<strong>{ $property }</strong> 對此元素沒有影響。
+inactive-css-not-display-block-on-floated = 由於是 <strong>floated<strong> 元素，引擎已將 <strong>display</strong> 值更改為 <strong>block</strong>。
+inactive-css-property-is-impossible-to-override-in-visited = 由於 <strong>:visited</strong> 的限制，無法覆蓋 <strong>{ $property }</strong>。
 
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
@@ -45,3 +47,4 @@ inactive-css-not-flex-container-fix = 請嘗試加入 <strong>display:flex</stro
 inactive-css-not-inline-or-tablecell-fix = 請嘗試加入 <strong>display:inline</strong> 或 <strong>display:table-cell</strong>。{ learn-more }
 inactive-css-non-replaced-inline-or-table-row-or-row-group-fix = 請嘗試加入 <strong>display:inline-block</strong> 或 <strong>display:block</strong>。{ learn-more }
 inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = 請嘗試加入 <strong>display:inline-block</strong>。{ learn-more }
+inactive-css-not-display-block-on-floated-fix = 請嘗試移除 <strong>float</ strong> 或添加 <strong>display:block</strong>。{ learn-more }

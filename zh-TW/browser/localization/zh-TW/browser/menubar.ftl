@@ -257,27 +257,12 @@ menu-help =
 menu-help-product =
     .label = { -brand-shorter-name } 說明
     .accesskey = H
-menu-help-show-tour =
-    .label = { -brand-shorter-name } 導覽
-    .accesskey = o
-menu-help-keyboard-shortcuts =
-    .label = 快速鍵
-    .accesskey = K
 menu-help-troubleshooting-info =
     .label = 疑難排解資訊
     .accesskey = T
-menu-help-feedback-page =
-    .label = 送出意見回饋…
-    .accesskey = S
 menu-help-safe-mode-without-addons =
     .label = 重新啟動但停用附加元件…
     .accesskey = R
 menu-help-safe-mode-with-addons =
     .label = 重新啟動並啟用附加元件
     .accesskey = R
-# Label of the Help menu item. Either this or
-# safeb.palm.notdeceptive.label from
-# phishing-afterload-warning-message.dtd is shown.
-menu-help-report-deceptive-site =
-    .label = 回報詐騙網站…
-    .accesskey = D

@@ -14,6 +14,11 @@ pref-page =
             [windows] 選項
            *[other] 偏好設定
         }
+pref-page-title =
+    { PLATFORM() ->
+        [windows] 選項
+       *[other] 首選項
+    }
 # This is used to determine the width of the search field in about:preferences,
 # in order to make the entire placeholder string visible
 #
@@ -241,6 +246,66 @@ applications-type-column =
 applications-action-column =
     .label = 動作
     .accesskey = A
+# Variables:
+#   $extension (String) - file extension (e.g .TXT)
+applications-file-ending = { $extension } 文件
+applications-action-save =
+    .label = 儲存檔案
+# Variables:
+#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+applications-use-app =
+    .label = 使用 { $app-name }
+# Variables:
+#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+applications-use-app-default =
+    .label = 使用 { $app-name } 处理（默认）
+applications-use-other =
+    .label = 使用其他…
+applications-select-helper = 選擇助手應用程式
+applications-manage-app =
+    .label = 應用程式詳細信息…
+applications-always-ask =
+    .label = 每次都問我
+applications-type-pdf = 便攜式文件格式 (PDF)
+# Variables:
+#   $type (String) - the MIME type (e.g application/binary)
+applications-type-pdf-with-type = { applications-type-pdf } ({ $type })
+# Variables:
+#   $type-description (String) - Description of the type (e.g "Portable Document Format")
+#   $type (String) - the MIME type (e.g application/binary)
+applications-type-description-with-type = { $type-description } ({ $type })
+# Variables:
+#   $extension (String) - file extension (e.g .TXT)
+#   $type (String) - the MIME type (e.g application/binary)
+applications-file-ending-with-type = { applications-file-ending } ({ $type })
+# Variables:
+#   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
+applications-use-plugin-in =
+    .label = 使用 { $plugin-name } （在 { -brand-short-name } 中）
+applications-preview-inapp =
+    .label = 在 { -brand-short-name } 中預覽
+
+## The strings in this group are used to populate
+## selected label element based on the string from
+## the selected menu item.
+
+applications-use-plugin-in-label =
+    .value = { applications-use-plugin-in.label }
+applications-action-save-label =
+    .value = { applications-action-save.label }
+applications-use-app-label =
+    .value = { applications-use-app.label }
+applications-preview-inapp-label =
+    .value = { applications-preview-inapp.label }
+applications-always-ask-label =
+    .value = { applications-always-ask.label }
+applications-use-app-default-label =
+    .value = { applications-use-app-default.label }
+applications-use-other-label =
+    .value = { applications-use-other.label }
+
+##
+
 drm-content-header = 數位權利管理（DRM）內容
 play-drm-content =
     .label = 播放 DRM 內容
@@ -467,10 +532,21 @@ search-keyword-warning-bookmark = 您選用的關鍵字目前正被書籤項目�
 ## Containers Section
 
 containers-back-link = « 返回
+containers-back-button =
+    .aria-label =
+        { PLATFORM() ->
+            [windows] 返回“選項”
+           *[other] 返回“首選項”
+        }
+        
+containers-back-link = « 返回
 containers-header = 容器分頁
 containers-add-button =
     .label = 新增容器
     .accesskey = A
+containers-new-tab-check =
+    .label = 每次新建標籤頁，均需選擇身份
+    .accesskey = S
 containers-preferences-button =
     .label = 偏好設定
 containers-remove-button =
@@ -596,6 +672,8 @@ forms-master-pw-use =
 forms-master-pw-change =
     .label = 變更主控密碼…
     .accesskey = M
+forms-master-pw-fips-title = 您正處於 FIPS 模式。此模式需要一個非空的主密碼。
+forms-master-pw-fips-desc = 密碼修改失敗
 
 ## Privacy Section - History
 
@@ -661,6 +739,8 @@ sitedata-disallow-cookies-option =
 # The list items are the strings named sitedata-block-*-option*.
 sitedata-block-desc = 要封鎖的類型
     .accesskey = T
+sitedata-option-block-nothing =
+    .label = 無
 sitedata-option-block-trackers =
     .label = 第三方追蹤器
 sitedata-option-block-cross-site-trackers =
