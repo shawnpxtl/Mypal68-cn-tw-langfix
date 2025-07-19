@@ -539,7 +539,7 @@ search-keyword-warning-bookmark = 您选择的关键词已用于某个书签，�
 
 ## Containers Section
 
-containers-back-link = ? 返回
+containers-back-link = « 返回
 containers-back-button =
     .aria-label =
         { PLATFORM() ->
@@ -547,7 +547,7 @@ containers-back-button =
            *[other] 返回“首选项”
         }
         
-containers-back-link = ? 返回
+containers-back-link = « 返回
 containers-header = 身份标签页
 containers-add-button =
     .label = 添加新身份
