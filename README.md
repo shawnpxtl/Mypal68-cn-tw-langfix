@@ -1,8 +1,8 @@
 简体中文 | [繁體中文](./README.zh-TW.md)
 
-# Mypal68 简体中文语言包 
+# Mypal 简体中文语言包 
 
-## Mypal68 Simplified Chinese Language Pack
+## Mypal Simplified Chinese Language Pack
 
 [![preview_zh-CN(Pixiv id:108396628)](./helpbook/preview_zh-CN.JPG)](https://www.pixiv.net/artworks/108396628)
 
