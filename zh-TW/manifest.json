@@ -5,7 +5,7 @@
     "gecko": {
       "strict_max_version": "78.*",
       "id": "langpack-zh-TW@mypal.org",
-      "strict_min_version": "68.0"
+      "strict_min_version": "78.0"
     }
   },
   "name": "Traditional Chinese (zh-TW) Language Pack",
@@ -43,7 +43,7 @@
     }
   },
   "version": "78.1.2",
-  "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Peter Pin-Guang Chen(petercpg))",
+  "author": "Mozilla Taiwan Community (MozTW) (contributors: Hung-Te Lin(piaip), Wei-Lun Sun(josesun), Tim Guan-Tin Chien(timdream), Peter Pin-Guang Chen(petercpg)), shawnpxtl and deepseek fix mypal",
   "langpack_id": "zh-TW",
   "sources": {
     "browser": {

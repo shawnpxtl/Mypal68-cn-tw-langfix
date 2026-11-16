@@ -1,9 +1,9 @@
 {
   "name": "Chinese Simplified (zh-CN) Language Pack",
-  "author": "Mozest (contributors: Wen Shaohua, Jin Jian, Rongjun Mu, Xie Yanbo, Cathayan, YFdyh000, xcffl, Shen Hao, Liu Xing); packed for Mypal 78.1.2",
+  "author": "Mozest (contributors: Wen Shaohua, Jin Jian, Rongjun Mu, Xie Yanbo, Cathayan, YFdyh000, xcffl, Shen Hao, Liu Xing), shawnpxtl and deepseek fix mypal; packed for Mypal 78.1.2",
   "applications": {
     "gecko": {
-      "strict_min_version": "68.0",
+      "strict_min_version": "78.0",
       "strict_max_version": "78.*",
       "id": "langpack-zh-CN@mypal.org"
     }
