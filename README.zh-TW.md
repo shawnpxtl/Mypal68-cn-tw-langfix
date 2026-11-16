@@ -1,6 +1,6 @@
-# Mypal68 繁體中文語言包
+# Mypal 繁體中文語言包
 
-## Mypal68 Traditional Chinese Language Pack
+## Mypal Traditional Chinese Language Pack
 
 [![preview_zh-TW(Pixiv id:108396628)](./helpbook/preview_zh-TW.JPG)](https://www.pixiv.net/artworks/108396628)
 
