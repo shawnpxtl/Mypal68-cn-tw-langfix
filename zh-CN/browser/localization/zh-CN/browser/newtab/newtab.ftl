@@ -15,6 +15,7 @@ newtab-settings-button =
 newtab-search-box-search-button =
     .title = 搜索
     .aria-label = 搜索
+
 newtab-search-box-search-the-web-text = 在网络上搜索
 newtab-search-box-search-the-web-input =
     .placeholder = 在网络上搜索
@@ -29,10 +30,12 @@ newtab-topsites-edit-topsites-header = 编辑常用网站
 newtab-topsites-title-label = 标题
 newtab-topsites-title-input =
     .placeholder = 输入标题
+
 newtab-topsites-url-label = 网址
 newtab-topsites-url-input =
     .placeholder = 输入或粘贴网址
 newtab-topsites-url-validation = 需要有效的网址
+
 newtab-topsites-image-url-label = 自定义图像网址
 newtab-topsites-use-image-link = 使用自定义图像…
 newtab-topsites-image-validation = 图像载入失败。请尝试其他网址。
@@ -44,9 +47,6 @@ newtab-topsites-delete-history-button = 从历史记录中删除
 newtab-topsites-save-button = 保存
 newtab-topsites-preview-button = 预览
 newtab-topsites-add-button = 添加
-
-## Top Sites - Delete history confirmation dialog. 
-
 
 ## Top Sites - Delete history confirmation dialog.
 
@@ -60,6 +60,12 @@ newtab-confirm-delete-history-p2 = 此操作不能撤销。
 newtab-menu-section-tooltip =
     .title = 打开菜单
     .aria-label = 打开菜单
+
+# Tooltip for dismiss button
+newtab-dismiss-button-tooltip =
+    .title = 移除
+    .aria-label = 移除
+
 # This tooltip is for the context menu of Pocket cards or Topsites
 # Variables:
 #  $title (String): The label or hostname of the site. This is for screen readers when the context menu button is focused/active.
@@ -83,14 +89,22 @@ newtab-menu-delete-history = 从历史记录中删除
 newtab-menu-save-to-pocket = 保存到 { -pocket-brand-name }
 newtab-menu-delete-pocket = 从 { -pocket-brand-name } 删除
 newtab-menu-archive-pocket = 在 { -pocket-brand-name } 中存档
+newtab-menu-show-privacy-info = 我们的赞助商﹠您的隐私
+
+## Message displayed in a modal window to explain privacy and provide context for sponsored content.
+
+newtab-privacy-modal-button-done = 完成
+newtab-privacy-modal-button-manage = 管理赞助内容设置
+newtab-privacy-modal-header = 隐私是公民的基本权利。
+newtab-privacy-modal-paragraph-2 = 除了提供引人入胜的文章之外，我们还与赞助商合作展示有价值，且经甄选的内容。请放心，<strong>您的浏览数据永远只会留在本机 { -brand-product-name }</strong> 中 — 我们看不到，我们的赞助商亦然。
+newtab-privacy-modal-link = 了解新标签页如何保障您的隐私
+
+##
+
 # Bookmark is a noun in this case, "Remove bookmark".
 newtab-menu-remove-bookmark = 移除书签
 # Bookmark is a verb here.
 newtab-menu-bookmark = 添加书签
-
-## Context Menu - Downloaded Menu. "Download" in these cases is not a verb, 
-## it is a noun. As in, "Copy the link that belongs to this downloaded item".
-
 
 ## Context Menu - Downloaded Menu. "Download" in these cases is not a verb,
 ## it is a noun. As in, "Copy the link that belongs to this downloaded item".
@@ -121,9 +135,15 @@ newtab-label-recommended = 趋势
 newtab-label-saved = 已保存到 { -pocket-brand-name }
 newtab-label-download = 已下载
 
-## Section Menu: These strings are displayed in the section context menu and are 
-## meant as a call to action for the given section.
+# This string is used in the story cards to indicate sponsored content
+# Variables:
+#  $sponsorOrSource (String): This is the name of a company or their domain
+newtab-label-sponsored = { $sponsorOrSource } · 赞助
 
+# This string is used at the bottom of story cards to indicate sponsored content
+# Variables:
+#  $sponsor (String): This is the name of a sponsor
+newtab-label-sponsored-by = 由 { $sponsor } 赞助
 
 ## Section Menu: These strings are displayed in the section context menu and are
 ## meant as a call to action for the given section.
@@ -157,10 +177,12 @@ newtab-section-header-pocket = { $provider } 推荐
 ## Empty Section States: These show when there are no more items in a section. Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 
 newtab-empty-section-highlights = 开始网上冲浪之旅吧，之后这里会显示您最近看过或加了书签的精彩文章、视频与其他页面。
+
 # Ex. When there are no more Pocket story recommendations, in the space where there would have been stories, this is shown instead.
 # Variables:
 #  $provider (String): Name of the content provider for this section, e.g "Pocket".
 newtab-empty-section-topstories = 所有文章都读完啦！晚点再来，{ $provider } 将推荐更多热门文章。等不及了？选择一个热门话题，找到更多网上的好文章。
+
 
 ## Empty Section (Content Discovery Experience). These show when there are no more stories or when some stories fail to load.
 
@@ -176,7 +198,7 @@ newtab-discovery-empty-section-topstories-timed-out = 哎呀！无法完全加�
 # This is shown at the bottom of the trending stories section and precedes a list of links to popular topics.
 newtab-pocket-read-more = 热门主题：
 newtab-pocket-more-recommendations = 更多推荐
-newtab-pocket-how-it-works = 使用方法
+newtab-pocket-learn-more = 详细了解
 newtab-pocket-cta-button = 获取 { -pocket-brand-name }
 newtab-pocket-cta-text = 将您喜爱的故事保存到 { -pocket-brand-name }，用精彩的读物为思想注入活力。
 
@@ -185,3 +207,7 @@ newtab-pocket-cta-text = 将您喜爱的故事保存到 { -pocket-brand-name }�
 
 newtab-error-fallback-info = 哎呀，载入内容时发生错误。
 newtab-error-fallback-refresh-link = 刷新页面以重试。
+
+
+# added for Mypal 78.1.2 compatibility: 1 message(s)
+newtab-pocket-how-it-works = 工作原理

@@ -39,7 +39,7 @@
      to the add-on name for extensions that are not webextensions, which
      will stop working in Firefox 57. -->
 <!ENTITY addon.legacy.label                   "傳統">
-<!ENTITY addon.privateBrowsing.label          "允許於隱私視窗中運作">
+<!ENTITY addon.privateBrowsing.label          "允許於隱私瀏覽視窗運作">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
      "<Addon name> <1.0> (disabled)" -->
@@ -68,4 +68,5 @@
 <!ENTITY addon.createdBy.label                "作者：">
 
 <!ENTITY settings.path.button.label           "瀏覽…">
+
 <!ENTITY setting.learnmore "更多資訊…">

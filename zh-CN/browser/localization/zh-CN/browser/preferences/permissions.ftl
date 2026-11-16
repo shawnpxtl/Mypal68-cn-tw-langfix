@@ -5,50 +5,66 @@
 permissions-window =
     .title = 例外
     .style = width: 45em
+
 permissions-close-key =
     .key = w
+
 permissions-address = 网站地址
     .accesskey = d
+
 permissions-block =
     .label = 阻止
     .accesskey = B
+
 permissions-session =
     .label = 在这次浏览期间允许
     .accesskey = S
+
 permissions-allow =
     .label = 允许
     .accesskey = A
+
 permissions-site-name =
     .label = 网站
+
 permissions-status =
     .label = 状态
+
 permissions-remove =
     .label = 移除网站
     .accesskey = R
+
 permissions-remove-all =
     .label = 移除全部网站
     .accesskey = e
+
 permissions-button-cancel =
     .label = 取消
     .accesskey = C
+
 permissions-button-ok =
     .label = 保存更改
     .accesskey = S
+
 permissions-autoplay-menu = 所有网站的默认值：
+
 permissions-searchbox =
     .placeholder = 搜索网站
+
 permissions-capabilities-autoplay-allow =
     .label = 允许音频和视频
 permissions-capabilities-autoplay-block =
     .label = 阻止音频
 permissions-capabilities-autoplay-blockall =
     .label = 阻止音频和视频
+
 permissions-capabilities-allow =
     .label = 允许
 permissions-capabilities-block =
     .label = 阻止
 permissions-capabilities-prompt =
     .label = 每次都问我
+
 permissions-capabilities-listitem-allow =
     .value = 允许
 permissions-capabilities-listitem-block =
@@ -67,6 +83,7 @@ permissions-exceptions-content-blocking-window =
     .title = 例外 - 内容拦截
     .style = { permissions-window.style }
 permissions-exceptions-content-blocking-desc = 您在这些网站上已禁用内容拦截。
+
 permissions-exceptions-etp-window =
     .title = 例外 - 增强型跟踪保护
     .style = { permissions-window.style }
@@ -129,10 +146,20 @@ permissions-site-notification-disable-desc = 所有列表外的网站将无法�
 permissions-site-location-window =
     .title = 设置 - 位置权限
     .style = { permissions-window.style }
-permissions-site-location-desc = 下列网站曾请求获知您的位置。您可选择允许哪些网站得获知的位置，还可禁止新的获取位置请求。
+permissions-site-location-desc = 下列网站曾请求获知您的位置。您可选择允许哪些网站获知您的位置，还可禁止新的获取位置请求。
 permissions-site-location-disable-label =
     .label = 禁止新的获取位置请求
 permissions-site-location-disable-desc = 所有列表外的网站将无法请求获知您的位置。禁止此权限可能会影响某些网站的功能。
+
+## Site Permissions - Virtual Reality
+
+permissions-site-xr-window =
+    .title = 设置 - 虚拟现实权限
+    .style = { permissions-window.style }
+permissions-site-xr-desc = 下列网站曾请求使用您的虚拟现实设备。您可选择允许哪些网站使用您的虚拟现实设备，也可禁止提出对虚拟现实设备的权限请求。
+permissions-site-xr-disable-label =
+    .label = 禁止网站提出虚拟现实设备使用请求
+permissions-site-xr-disable-desc = 将阻止上述之外的网站请求使用您的虚拟现实设备。不授予虚拟现实设备权限可能会影响某些网站的功能。
 
 ## Site Permissions - Camera
 

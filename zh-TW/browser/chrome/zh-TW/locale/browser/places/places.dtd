@@ -70,9 +70,6 @@
 <!ENTITY cmd.new_separator.label           "新增分隔線">
 <!ENTITY cmd.new_separator.accesskey       "S">
 
-<!ENTITY cmd.reloadLivebookmark.label      "重新載入即時書籤">
-<!ENTITY cmd.reloadLivebookmark.accesskey  "R">
-
 <!ENTITY col.name.label          "名稱">
 <!ENTITY col.tags.label          "標籤">
 <!ENTITY col.url.label           "網址">

@@ -1,4 +1,4 @@
-﻿# This Source Code Form is subject to the terms of the Mozilla Public
+# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -59,12 +59,12 @@ close-button =
 
 ## Browser Restart Dialog
 
-feature-enable-requires-restart = 必须重新打开 { -brand-short-name } 才能启用此功能。
-feature-disable-requires-restart = 必须重新打开 { -brand-short-name } 才能禁用此功能。
-should-restart-title = 重新打开 { -brand-short-name }
-should-restart-ok = 立即重开 { -brand-short-name }
+feature-enable-requires-restart = 必须重新启动 { -brand-short-name } 才能启用此功能。
+feature-disable-requires-restart = 必须重新启动 { -brand-short-name } 才能禁用此功能。
+should-restart-title = 重新启动 { -brand-short-name }
+should-restart-ok = 立即重启 { -brand-short-name }
 cancel-no-restart-button = 取消
-restart-later = 稍后重开
+restart-later = 稍后重启浏览器
 
 ## Extension Control Notifications
 ##
@@ -123,7 +123,7 @@ startup-header = 启动
 separate-profile-mode =
     .label = 允许 { -brand-short-name } 和 Firefox 同时运行
 use-firefox-sync = 提示：这将使用单独的配置文件，可使用“{ -sync-brand-short-name }”在两套浏览器间共享数据。
-get-started-not-logged-in = 登录至{ -sync-brand-short-name }…
+get-started-not-logged-in = 登录{ -sync-brand-short-name }服务…
 get-started-configured = 打开{ -sync-brand-short-name }服务首选项
 always-check-default =
     .label = 总是检查 { -brand-short-name } 是否是您的默认浏览器
@@ -148,7 +148,7 @@ open-new-link-as-tabs =
     .label = 打开链接在新标签页而非新窗口
     .accesskey = w
 warn-on-close-multiple-tabs =
-    .label = 关闭多个标签页时警告您
+    .label = 批量关闭标签页时向您确认
     .accesskey = m
 warn-on-open-many-tabs =
     .label = 打开多个标签页可能拖慢 { -brand-short-name } 前提醒我
@@ -199,6 +199,15 @@ advanced-fonts =
 colors-settings =
     .label = 颜色…
     .accesskey = C
+# Zoom is a noun, and the message is used as header for a group of options
+preferences-zoom-header = 全局缩放
+preferences-default-zoom = 默认缩放
+    .accesskey = z
+preferences-default-zoom-value =
+    .label = { $percentage }%
+preferences-zoom-text-only =
+    .label = 仅缩放文本
+    .accesskey = t
 language-header = 语言
 choose-language-description = 选择您想要优先使用哪种语言显示页面
 choose-button =
@@ -208,8 +217,8 @@ choose-browser-language-description = 选择 { -brand-short-name } 显示菜单�
 manage-browser-languages-button =
     .label = 设置备用语言…
     .accesskey = l
-confirm-browser-language-change-description = 重开 { -brand-short-name } 以应用这些更改
-confirm-browser-language-change-button = 应用并重新打开
+confirm-browser-language-change-description = 重启 { -brand-short-name } 以应用这些更改
+confirm-browser-language-change-button = 应用并重启浏览器
 translate-web-pages =
     .label = 翻译网页内容
     .accesskey = T
@@ -219,6 +228,10 @@ translate-attribution = 翻译由 <img data-l10n-name="logo"/> 提供
 translate-exceptions =
     .label = 例外…
     .accesskey = x
+# Variables:
+#    $localeName (string) - Localized name of the locale to be used.
+use-system-locale =
+    .label = 根据您操作系统的“{ $localeName }”首选项设置日期、时间、数字格式和单位制。
 check-user-spelling =
     .label = 在您输入时检查拼写
     .accesskey = t
@@ -267,6 +280,13 @@ applications-use-app =
 #   $app-name (String) - Name of an application (e.g Adobe Acrobat)
 applications-use-app-default =
     .label = 使用 { $app-name } 处理（默认）
+applications-use-os-default =
+    .label =
+        { PLATFORM() ->
+            [macos] 使用 macOS 应用程序
+            [windows] 使用 Windows 应用程序
+           *[other] 使用系统默认应用程序
+        }
 applications-use-other =
     .label = 使用其他…
 applications-select-helper = 选择助手应用程序
@@ -290,8 +310,8 @@ applications-file-ending-with-type = { applications-file-ending } ({ $type })
 #   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
 applications-use-plugin-in =
     .label = 使用 { $plugin-name } （在 { -brand-short-name } 中）
-applications-preview-inapp =
-    .label = 在 { -brand-short-name } 中预览
+applications-open-inapp =
+    .label = 在 { -brand-short-name } 中打开
 
 ## The strings in this group are used to populate
 ## selected label element based on the string from
@@ -303,14 +323,16 @@ applications-action-save-label =
     .value = { applications-action-save.label }
 applications-use-app-label =
     .value = { applications-use-app.label }
-applications-preview-inapp-label =
-    .value = { applications-preview-inapp.label }
+applications-open-inapp-label =
+    .value = { applications-open-inapp.label }
 applications-always-ask-label =
     .value = { applications-always-ask.label }
 applications-use-app-default-label =
     .value = { applications-use-app-default.label }
 applications-use-other-label =
     .value = { applications-use-other.label }
+applications-use-os-default-label =
+    .value = { applications-use-os-default.label }
 
 ##
 
@@ -400,6 +422,10 @@ browsing-use-cursor-navigation =
 browsing-search-on-start-typing =
     .label = 若在文本框外输入，则在页面中查找文本
     .accesskey = x
+browsing-picture-in-picture-toggle-enabled =
+    .label = 启用画中画视频控件
+    .accesskey = E
+browsing-picture-in-picture-learn-more = 详细了解
 browsing-cfr-recommendations =
     .label = 在您浏览时推荐扩展
     .accesskey = R
@@ -432,7 +458,7 @@ home-restore-defaults =
 # "Firefox" should be treated as a brand and kept in English,
 # while "Home" and "(Default)" can be localized.
 home-mode-choice-default =
-    .label = Firefox 主页（默认）
+    .label = Mypal 主页（默认）
 home-mode-choice-custom =
     .label = 自定义网址…
 home-mode-choice-blank =
@@ -456,19 +482,24 @@ choose-bookmark =
 
 ## Home Section - Firefox Home Content Customization
 
-home-prefs-content-header = Firefox 主页内容
-home-prefs-content-description = 选择要在您的 Firefox 主页上显示的版块。
-home-prefs-content-discovery-description = Firefox 主页中的“内容发现”可助您发现网络上的高品质、有价值的文章。
+home-prefs-content-header = Mypal 主页内容
+home-prefs-content-description = 选择要在您的 Mypal 主页上显示的版块。
 home-prefs-search-header =
     .label = 网络搜索
 home-prefs-topsites-header =
     .label = 常用网站
 home-prefs-topsites-description = 您经常访问的网站
-# Variables:
-#  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+
+## Variables:
+##  $provider (String): Name of the corresponding content provider, e.g "Pocket".
+
 home-prefs-recommended-by-header =
     .label = { $provider } 推荐
 home-prefs-recommended-by-description = 来自网络的精彩内容，为您量身打造
+home-prefs-recommended-by-description-update = 由 { $provider } 整理提供的网络精选内容
+
+##
+
 home-prefs-recommended-by-learn-more = 使用方法
 home-prefs-recommended-by-option-sponsored-stories =
     .label = 赞助内容
@@ -502,6 +533,13 @@ search-bar-shown =
     .label = 添加搜索栏到工具栏
 search-engine-default-header = 默认搜索引擎
 search-engine-default-desc = 选择在地址栏和搜索栏中搜索时默认使用的搜索引擎。
+search-engine-default-desc-2 = 这是地址栏和搜索栏中的默认搜索引擎，您可以随时切换。
+search-engine-default-private-desc-2 = 为隐私窗口选择不同的默认搜索引擎
+search-separate-default-engine =
+    .label = 在隐私窗口中使用此搜索引擎
+    .accesskey = U
+search-suggestions-header = 搜索建议
+search-suggestions-desc = 选择搜索引擎建议的呈现方式。
 search-suggestions-option =
     .label = 提供搜索建议
     .accesskey = s
@@ -515,6 +553,10 @@ search-show-suggestions-url-bar-option =
 # (appearing before).
 search-show-suggestions-above-history-option =
     .label = 在地址栏显示的结果中，将搜索建议显示在浏览历史上方
+search-show-suggestions-private-windows =
+    .label = 在隐私窗口中显示搜索建议
+suggestions-addressbar-settings = 更改浏览记录、书签、标签页建议的首选项
+suggestions-addressbar-settings-generic = 更改其他地址栏建议首选项
 search-suggestions-cant-show = 由于您已经设置 { -brand-short-name } 不要记住浏览历史，地址栏中将不会显示搜索建议。
 search-one-click-header = 快捷搜索引擎列表
 search-one-click-desc = 请选择在地址栏和搜索栏输入关键词时，您希望显示在下方的其他可选用的搜索引擎。
@@ -546,8 +588,6 @@ containers-back-button =
             [windows] 返回“选项”
            *[other] 返回“首选项”
         }
-        
-containers-back-link = « 返回
 containers-header = 身份标签页
 containers-add-button =
     .label = 添加新身份
@@ -562,6 +602,10 @@ containers-remove-button =
 
 ## Sync Section - Signed out
 
+
+## Firefox Account - Signed out. Note that "Sync" and "Firefox Account" are now
+## more discrete ("signed in" no longer means "and sync is connected").
+
 sync-signedout-caption = 让您个性化的网络体验随身相伴
 sync-signedout-description = 在您的各种设备间同步您的书签、历史记录、标签页、密码、附加组件与首选项。
 sync-signedout-account-title = 使用 { -fxaccount-brand-name }登录，开启同步功能
@@ -570,6 +614,9 @@ sync-signedout-account-create = 没有账户吗？注册一个吧
 sync-signedout-account-signin =
     .label = 登录…
     .accesskey = I
+sync-signedout-account-signin2 =
+    .label = 登录{ -sync-brand-short-name }服务…
+    .accesskey = i
 # This message contains two links and two icon images.
 #   `<img data-l10n-name="android-icon"/>` - Android logo icon
 #   `<a data-l10n-name="android-link">` - Link to Android Download
@@ -578,19 +625,25 @@ sync-signedout-account-signin =
 #
 # They can be moved within the sentence as needed to adapt
 # to your language, but should not be changed or translated.
-sync-mobile-promo = 在 <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> 或者 <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> 上安装 Firefox，让您的个性体验随身相伴。
+sync-mobile-promo = 在 <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> 或者 <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> 上安装 Mypal，让您的个性体验随身相伴。
 
 ## Sync Section - Signed in
+
+
+## Mypal Account - Signed in
 
 sync-profile-picture =
     .tooltiptext = 更改头像
 sync-disconnect =
-    .label = 断开连接…
+    .label = 解绑…
     .accesskey = D
+sync-sign-out =
+    .label = 退出登录…
+    .accesskey = g
 sync-manage-account = 管理账户
     .accesskey = o
 sync-signedin-unverified = { $email } 未验证。
-sync-signedin-login-failure = 请登录以重新连接 { $email }
+sync-signedin-login-failure = 请登录以重新绑定 { $email }
 sync-resend-verification =
     .label = 重发验证邮件
     .accesskey = d
@@ -602,6 +655,48 @@ sync-sign-in =
     .accesskey = g
 sync-signedin-settings-header = 同步设置
 sync-signedin-settings-desc = 选择 { -brand-short-name } 要在您的设备间同步哪些数据。
+
+## Sync section - enabling or disabling sync.
+
+prefs-syncing-on = 同步：开启
+prefs-syncing-off = 同步：关闭
+prefs-sync-setup =
+    .label = 设置{ -sync-brand-short-name }
+    .accesskey = S
+prefs-sync-offer-setup-label = 在您的各种设备间同步您的书签、历史记录、标签页、密码、附加组件与首选项。
+prefs-sync-now =
+    .labelnotsyncing = 立即同步
+    .accesskeynotsyncing = N
+    .labelsyncing = 正在同步...
+
+## The list of things currently syncing.
+
+sync-currently-syncing-heading = 您当前正在同步以下项目：
+sync-currently-syncing-bookmarks = 书签
+sync-currently-syncing-history = 历史记录
+sync-currently-syncing-tabs = 打开的标签页
+sync-currently-syncing-logins-passwords = 登录名和密码
+sync-currently-syncing-addresses = 邮政地址
+sync-currently-syncing-creditcards = 信用卡
+sync-currently-syncing-addons = 附加组件
+sync-currently-syncing-prefs =
+    { PLATFORM() ->
+        [windows] 选项
+       *[other] 首选项
+    }
+sync-change-options =
+    .label = 更改…
+    .accesskey = C
+
+## The "Choose what to sync" dialog.
+
+sync-choose-what-to-sync-dialog =
+    .title = 选择要同步的项目
+    .style = width: 36em; min-height: 35em;
+    .buttonlabelaccept = 保存更改
+    .buttonaccesskeyaccept = S
+    .buttonlabelextra2 = 解绑…
+    .buttonaccesskeyextra2 = D
 sync-engine-bookmarks =
     .label = 书签
     .accesskey = m
@@ -616,6 +711,10 @@ sync-engine-logins =
     .label = 登录信息
     .tooltiptext = 您已保存的用户名和密码
     .accesskey = L
+sync-engine-logins-passwords =
+    .label = 登录名和密码
+    .tooltiptext = 您存入的用户名和密码
+    .accesskey = L
 sync-engine-addresses =
     .label = 邮政地址
     .tooltiptext = 您已保存的邮政地址（仅限桌面版）
@@ -626,7 +725,7 @@ sync-engine-creditcards =
     .accesskey = C
 sync-engine-addons =
     .label = 附加组件
-    .tooltiptext = 用于 Firefox 桌面版的扩展和主题
+    .tooltiptext = 用于 Mypal 桌面版的扩展和主题
     .accesskey = A
 sync-engine-prefs =
     .label =
@@ -636,6 +735,9 @@ sync-engine-prefs =
         }
     .tooltiptext = 您已更改的常规、隐私和安全设置
     .accesskey = s
+
+## The device name controls.
+
 sync-device-name-header = 设备名称
 sync-device-name-change =
     .label = 更改设备名称…
@@ -646,7 +748,7 @@ sync-device-name-cancel =
 sync-device-name-save =
     .label = 保存
     .accesskey = v
-sync-connect-another-device = 连接其他设备
+sync-connect-another-device = 绑定其他设备
 sync-manage-devices = 管理设备
 sync-fxa-begin-pairing = 配对设备
 sync-tos-link = 服务条款
@@ -659,6 +761,13 @@ privacy-header = 浏览器隐私
 ## Privacy Section - Forms
 
 logins-header = 登录信息与密码
+
+## Privacy Section - Logins and Passwords
+
+# The search keyword isn't shown to users but is used to find relevant settings in about:preferences.
+pane-privacy-logins-and-passwords-header = 登录信息与密码
+    .searchkeywords = { -lockwise-brand-short-name }
+# Checkbox to control whether UI is shown to users to save or fill logins/passwords.
 forms-ask-to-save-logins =
     .label = 向您询问是否保存网站的登录名和密码
     .accesskey = r
@@ -668,6 +777,11 @@ forms-exceptions =
 forms-generate-passwords =
     .label = 建议并生成高强度密码
     .accesskey = u
+forms-breach-alerts =
+    .label = 显示有关网站密码外泄的提醒
+    .accesskey = b
+forms-breach-alerts-learn-more-link = 详细了解
+# Checkbox which controls filling saved logins into fields automatically when they appear, in some cases without user interaction.
 forms-fill-logins-and-passwords =
     .label = 自动填写登录名和密码
     .accesskey = i
@@ -682,6 +796,17 @@ forms-master-pw-change =
     .accesskey = M
 forms-master-pw-fips-title = 您正处于 FIPS 模式。该模式需要一个非空的主密码。
 forms-master-pw-fips-desc = 密码修改失败
+
+## OS Authentication dialog
+
+# This message can be seen by trying to add a Master Password.
+master-password-os-auth-dialog-message-win = 请输入 Windows 登录凭据，以创建主密码。这有助于保护您的账户安全。
+# This message can be seen by trying to add a Master Password.
+# The macOS strings are preceded by the operating system with "Firefox is trying to "
+# and includes subtitle of "Enter password for the user "xxx" to allow this." These
+# notes are only valid for English. Please test in your locale.
+master-password-os-auth-dialog-message-macosx = 创建主密码
+master-password-os-auth-dialog-caption = { -brand-full-name }
 
 ## Privacy Section - History
 
@@ -747,14 +872,14 @@ sitedata-disallow-cookies-option =
 # The list items are the strings named sitedata-block-*-option*.
 sitedata-block-desc = 阻止类型
     .accesskey = T
-sitedata-option-block-nothing =
-    .label = 无
 sitedata-option-block-trackers =
     .label = 第三方跟踪器
 sitedata-option-block-cross-site-trackers =
     .label = 跨网站跟踪器
 sitedata-option-block-cross-site-and-social-media-trackers =
     .label = 跨网站和社交媒体跟踪器
+sitedata-option-block-cross-site-and-social-media-trackers-plus-isolate =
+    .label = 跨网站和社交媒体跟踪器，并隔离其余的 Cookie
 sitedata-option-block-unvisited =
     .label = 未访问网站的 Cookie
 sitedata-option-block-all-third-party =
@@ -770,6 +895,9 @@ sitedata-settings =
 sitedata-cookies-permissions =
     .label = 管理权限…
     .accesskey = P
+sitedata-cookies-exceptions =
+    .label = 管理例外…
+    .accesskey = x
 
 ## Privacy Section - Address Bar
 
@@ -784,13 +912,17 @@ addressbar-locbar-bookmarks-option =
 addressbar-locbar-openpage-option =
     .label = 已打开的标签页
     .accesskey = O
+addressbar-locbar-topsites-option =
+    .label = 常用网站
+    .accesskey = T
 addressbar-suggestions-settings = 更改搜索引擎建议的首选项
 
 ## Privacy Section - Content Blocking
 
 content-blocking-header = 内容拦截
-content-blocking-enhanced-tracking-protection = 增强型跟踪保护
 content-blocking-section-description = 在浏览时保护您的隐私。拦截会跟踪您访问活动，并分析用户特征的隐藏内容。拦截此类内容也可能使页面加载更快。
+content-blocking-enhanced-tracking-protection = 增强型跟踪保护
+content-blocking-section-top-level-description = 跟踪器会跟踪您的在线活动，收集您的浏览习惯与兴趣爱好。{ -brand-short-name } 可拦截众多跟踪器和其他恶意脚本。
 content-blocking-learn-more = 详细了解
 # The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
 # "Standard" in this case is an adjective, meaning "default" or "normal".
@@ -807,12 +939,30 @@ content-blocking-standard-desc = 平衡保护与性能。允许部分跟踪器�
 content-blocking-strict-description = 更强的保护，可能导致某些网站异常。
 content-blocking-custom-desc = 选择要拦截的内容。
 content-blocking-private-trackers = 仅在隐私窗口中拦截已知的跟踪器
-content-blocking-third-party-cookies = 第三方跟踪型 Cookie
+content-blocking-third-party-cookies = 第三方跟踪性 Cookie
+
+## These strings are used to define the different levels of
+## Enhanced Tracking Protection.
+
+# "Standard" in this case is an adjective, meaning "default" or "normal".
+enhanced-tracking-protection-setting-standard =
+    .label = 标准
+    .accesskey = d
+enhanced-tracking-protection-setting-strict =
+    .label = 严格
+    .accesskey = r
+enhanced-tracking-protection-setting-custom =
+    .label = 自定义
+    .accesskey = C
+
+##
+
 content-blocking-etp-standard-desc = 平衡保护和性能。页面将正常加载。
 content-blocking-etp-strict-desc = 更强大的保护，但可能导致某些网站异常。
 content-blocking-etp-custom-desc = 选择要拦截的跟踪器和脚本。
 content-blocking-private-windows = 隐私窗口中的跟踪性内容
-content-blocking-cross-site-tracking-cookies = 跨网站跟踪型 Cookie
+content-blocking-cross-site-tracking-cookies = 跨网站跟踪性 Cookie
+content-blocking-cross-site-tracking-cookies-plus-isolate = 跨网站跟踪性 Cookie，并隔离其余的 Cookie
 content-blocking-social-media-trackers = 社交媒体跟踪器
 content-blocking-all-cookies = 所有 Cookie
 content-blocking-unvisited-cookies = 未访问网站的 Cookie
@@ -824,7 +974,7 @@ content-blocking-fingerprinters = 数字指纹跟踪程序
 content-blocking-warning-title = 注意！
 content-blocking-warning-description = 拦截内容后可能导致某些网站异常。但对您信任的网站禁用拦截非常简单。
 content-blocking-learn-how = 了解方法
-content-blocking-etp-warning-description = 拦截跟踪器可能会影响某些网站的功能。放行跟踪器，重载页面即可加载所有内容。
+content-blocking-and-isolating-etp-warning-description = 拦截跟踪器并隔离 Cookie 可能会影响某些网站的功能。放行跟踪器，重载页面即可加载所有内容。
 content-blocking-warning-learn-how = 了解要如何做
 content-blocking-reload-description = 需要重新载入标签页才能应用变更。
 content-blocking-reload-tabs-button =
@@ -871,6 +1021,10 @@ permissions-location = 位置
 permissions-location-settings =
     .label = 设置…
     .accesskey = l
+permissions-xr = 虚拟现实
+permissions-xr-settings =
+    .label = 设置…
+    .accesskey = t
 permissions-camera = 摄像头
 permissions-camera-settings =
     .label = 设置…
@@ -919,6 +1073,8 @@ permissions-a11y-privacy-link = 详细了解
 collection-header = { -brand-short-name } 数据收集与使用
 collection-description = 我们力图为您提供选择权，并保证只收集我们为众人提供和改进 { -brand-short-name } 所需的信息。我们仅在征得您的同意后接收个人信息。
 collection-privacy-notice = 隐私声明
+collection-health-report-telemetry-disabled = 您不再允许 { -vendor-short-name } 捕获技术和交互数据。过去收集的所有数据将在 30 天内删除。
+collection-health-report-telemetry-disabled-link = 详细了解
 collection-health-report =
     .label = 允许 { -brand-short-name } 向 { -vendor-short-name } 发送技术信息及交互数据
     .accesskey = r
@@ -1007,3 +1163,12 @@ choose-download-folder-title = 选择下载文件夹：
 #   $service-name (String) - Name of a cloud storage provider like Dropbox, Google Drive, etc...
 save-files-to-cloud-storage =
     .label = 保存文件至 { $service-name }
+
+
+# added for Mypal 78.1.2 compatibility: 3 message(s)
+applications-preview-inapp =
+    .label = 在 { -brand-short-name } 中预览
+applications-preview-inapp-label =
+    .value = { applications-preview-inapp.label }
+sitedata-option-block-nothing =
+    .label = 无

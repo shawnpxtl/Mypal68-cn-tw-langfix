@@ -34,7 +34,10 @@ app-basics-title = 應用程式一般資訊
 app-basics-name = 名稱
 app-basics-version = 版本
 app-basics-build-id = Build ID
+app-basics-distribution-id = 發行 ID
 app-basics-update-channel = 更新頻道
+# This message refers to the folder used to store updates on the device,
+# as in "Folder for updates". "Update" is a noun, not a verb.
 app-basics-update-dir =
     { PLATFORM() ->
         [linux] 更新目錄
@@ -49,17 +52,16 @@ app-basics-profile-dir =
         [linux] 設定檔目錄
        *[other] 設定檔目錄
     }
-app-basics-enabled-plugins = 已啟用的外掛程式
+app-basics-enabled-plugins = 啟用的外掛程式
 app-basics-build-config = 編譯組態
 app-basics-user-agent = 使用者代理字串（User Agent）
 app-basics-os = 作業系統
 app-basics-memory-use = 記憶體使用量
 app-basics-performance = 效能
-app-basics-service-workers = 已註冊的 Service Workers
+app-basics-service-workers = 註冊的 Service Worker
 app-basics-profiles = 設定檔
-app-basics-launcher-process-status = 啟動器 Process
+app-basics-launcher-process-status = 啟動器處理程序
 app-basics-multi-process-support = 多程序視窗
-app-basics-process-count = 網頁內容處理程序
 app-basics-remote-processes-count = 遠端處理程序
 app-basics-enterprise-policies = 企業政策
 app-basics-location-service-key-google = Google Location Service 金鑰
@@ -72,7 +74,7 @@ show-dir-label =
         [windows] 開啟資料夾
        *[other] 開啟資料夾
     }
-modified-key-prefs-title = 已修改的重要偏好設定
+modified-key-prefs-title = 修改過的重要偏好設定
 modified-prefs-name = 名稱
 modified-prefs-value = 值
 user-js-title = user.js 偏好設定
@@ -91,6 +93,8 @@ graphics-crash-guards-title = 因 Crash Guard 停用的功能
 graphics-workarounds-title = Workarounds
 # Windowing system in use on Linux (e.g. X11, Wayland).
 graphics-window-protocol = 視窗通訊協定
+# Desktop environment in use on Linux (e.g. GNOME, KDE, XFCE, etc).
+graphics-desktop-environment = 桌面環境
 place-database-title = Places 資料庫
 place-database-integrity = 資料完整
 place-database-verify-integrity = 確認資料完整
@@ -115,6 +119,19 @@ sandbox-sys-call-number = 系統呼叫
 sandbox-sys-call-args = 引數
 safe-mode-title = 試試安全模式
 restart-in-safe-mode-label = 重新啟動但停用附加元件…
+clear-startup-cache-title = 嘗試清除啟動快取
+clear-startup-cache-label = 清除啟動快取…
+startup-cache-dialog-title = 清除啟動快取
+startup-cache-dialog-body = 重新啟動 { -brand-short-name } 來清除啟動快取。將不會影響您的設定，或已安裝到 { -brand-short-name } 的擴充套件。
+restart-button-label = 重新啟動
+
+## Media titles
+
+audio-backend = 音效後端
+max-audio-channels = 最大頻道數
+channel-layout = 偏好頻道類型
+sample-rate = 偏好取樣率
+roundtrip-latency = 往返延遲（標準差）
 media-title = 媒體
 media-output-devices-title = 輸出裝置
 media-input-devices-title = 輸入裝置
@@ -126,7 +143,13 @@ media-device-preferred = 偏好使用
 media-device-format = 格式
 media-device-channels = 頻道
 media-device-rate = 取樣率
-media-device-latency = Latency
+media-device-latency = 延滯
+media-capabilities-title = 媒體能力
+# List all the entries of the database.
+media-capabilities-enumerate = 列舉資料庫
+
+##
+
 intl-title = 國際化與在地化
 intl-app-title = 應用程式設定
 intl-locales-requested = 要求使用的語系
@@ -136,6 +159,22 @@ intl-locales-default = 預設語系
 intl-os-title = 作業系統
 intl-os-prefs-system-locales = 系統語系
 intl-regional-prefs = 區域偏好設定
+
+## Remote Debugging
+##
+## The Firefox remote protocol provides low-level debugging interfaces
+## used to inspect state and control execution of documents,
+## browser instrumentation, user interaction simulation,
+## and for subscribing to browser-internal events.
+##
+## See also https://firefox-source-docs.mozilla.org/remote/
+
+remote-debugging-title = 遠端除錯（Chromium 通訊協定）
+remote-debugging-accepting-connections = 接受連線
+remote-debugging-url = 網址
+
+##
+
 # Variables
 # $days (Integer) - Number of days of crashes to log
 report-crash-for-days = 最近 { $days } 天內的錯誤資訊報表
@@ -212,7 +251,9 @@ unknown-failure = 已封鎖，錯誤代碼 { $failureCode }
 d3d11layers-crash-guard = D3D11 合成器
 d3d11video-crash-guard = D3D11 視訊解碼器
 d3d9video-crash-buard = D3D9 視訊解碼器
+d3d9video-crash-guard = D3D9 視訊解碼器
 glcontext-crash-guard = OpenGL
+wmfvpxvideo-crash-guard = WMF VPX 視訊解碼器
 reset-on-next-restart = 下次重新啟動時重設
 gpu-process-kill-button = 結束 GPU 處理程序
 gpu-device-reset = 裝置重設
@@ -221,12 +262,7 @@ uses-tiling = 使用 Tiling
 content-uses-tiling = 使用 Tiling（內容）
 off-main-thread-paint-enabled = 已啟用 Off Main Thread Painting
 off-main-thread-paint-worker-count = Off Main Thread Painting Worker 數量
-low-end-machine = 偵測到效能較差的機器
 target-frame-rate = 目標畫框率
-audio-backend = 音效後端
-max-audio-channels = 最大頻道數
-channel-layout = 偏好頻道類型
-sample-rate = 偏好取樣率
 min-lib-versions = 預期應有的最小版本
 loaded-lib-versions = 使用中的版本
 has-seccomp-bpf = Seccomp-BPF（過濾系統呼叫）
@@ -241,6 +277,11 @@ sandbox-proc-type-content = 內容
 sandbox-proc-type-file = 檔案內容
 sandbox-proc-type-media-plugin = 媒體外掛程式
 sandbox-proc-type-data-decoder = 資料解碼器
+startup-cache-title = 啟動快取
+startup-cache-disk-cache-path = 磁碟快取路徑
+startup-cache-ignore-disk-cache = 忽略磁碟快取
+startup-cache-found-disk-cache-on-init = 在初始化時找到磁碟快取
+startup-cache-wrote-to-disk-cache = 已寫入磁碟快取
 launcher-process-status-0 = 啟用
 launcher-process-status-1 = 由於失敗而停用
 launcher-process-status-2 = 強制停用
@@ -255,7 +296,7 @@ multi-process-status-2 = 已關閉
 multi-process-status-4 = 因輔助工具停用
 multi-process-status-6 = 因不支援的文字輸入工具停用
 multi-process-status-7 = 因附加元件停用
-multi-process-status-8 = 已強制停用
+multi-process-status-8 = 強制停用
 multi-process-status-unknown = 未知狀態
 async-pan-zoom = 異步 Pan/Zoom
 apz-none = 無
@@ -264,6 +305,7 @@ touch-enabled = 已啟用觸控輸入
 drag-enabled = 已開啟捲動列拖曳
 keyboard-enabled = 已啟用鍵盤
 autoscroll-enabled = 已開啟自動捲動
+zooming-enabled = 已開啟平滑手指縮放
 
 ## Variables
 ## $preferenceKey (string) - String ID of preference

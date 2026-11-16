@@ -12,4 +12,4 @@
 <!ENTITY sync "若要與這份安裝的 &brandShortName; 同步您已儲存至 Firefox 的資訊，請登入您的 &syncBrand.fxAccount.label;。">
 <!ENTITY continue-button "繼續">
 
-<!ENTITY mainText "這份安裝的 &brandShortName; 當中有一組全新的設定檔，當中的書籤、密碼、偏好設定等不會與這台電腦上的其他 Firefox（包含 Firefox、Firefox ESR、Firefox Beta、Firefox Developer Edition 及 Firefox Nightly）共用。">
+<!ENTITY mainText "這份安裝的 &brandShortName; 當中有一組全新的設定檔，當中的書籤、密碼、偏好設定等不會與這台電腦上的其他 Mypal（包含 Mypal、Mypal ESR、Mypal Beta、Mypal Developer Edition 及 Mypal Nightly）共用。">

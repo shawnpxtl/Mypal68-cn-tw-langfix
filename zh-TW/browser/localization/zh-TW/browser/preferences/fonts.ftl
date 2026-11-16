@@ -4,6 +4,7 @@
 
 fonts-window =
     .title = 字型
+
 fonts-window-close =
     .key = w
 
@@ -11,6 +12,7 @@ fonts-window-close =
 
 fonts-langgroup-header = 對應此種語言
     .accesskey = F
+
 fonts-langgroup-arabic =
     .label = 阿拉伯文
 fonts-langgroup-armenian =
@@ -75,24 +77,33 @@ fonts-langgroup-other =
 
 fonts-proportional-header = 比例字型
     .accesskey = P
+
 fonts-default-serif =
     .label = 襯線字型 (Serif)
 fonts-default-sans-serif =
     .label = 無襯線字型 (Sans Serif)
+
 fonts-proportional-size = 大小
     .accesskey = z
+
 fonts-serif = 襯線字型
     .accesskey = S
+
 fonts-sans-serif = 無襯線字型
     .accesskey = n
+
 fonts-monospace = 等寬字型
     .accesskey = M
+
 fonts-monospace-size = 大小
     .accesskey = e
+
 fonts-minsize = 最小字型大小
     .accesskey = o
+
 fonts-minsize-none =
     .label = 無
+
 fonts-allow-own =
     .label = 忽略您上面的選擇，優先使用頁面指定的字型
     .accesskey = A
@@ -104,8 +115,10 @@ fonts-allow-own =
 
 fonts-languages-fallback-header = 開啟老舊內容時使用的文字編碼
 fonts-languages-fallback-desc = 將會使用此編碼來開啟未正確宣告其編碼的老舊內容。
+
 fonts-languages-fallback-label = 備用字元編碼
     .accesskey = T
+
 fonts-languages-fallback-name-auto =
     .label = 目前語系的預設值
 fonts-languages-fallback-name-arabic =
@@ -138,9 +151,7 @@ fonts-languages-fallback-name-vietnamese =
     .label = 越南文
 fonts-languages-fallback-name-other =
     .label = 其他（包含西歐語系）
-fonts-very-large-warning-title = 最小字型大小有點大
-fonts-very-large-warning-message = 您選擇了一個很大的最小字型大小（超過 24 畫素）。這可能會讓您難以或無法使用某些重要的設定頁面，例如這一頁。
-fonts-very-large-warning-accept = 保留我的設定
+
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =

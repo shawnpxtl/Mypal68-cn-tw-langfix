@@ -54,6 +54,7 @@
 <!ENTITY viewMenu_resetzoom_accesskey "R">
 
 <!ENTITY projectButton_label "打开应用">
+
 <!ENTITY runtimeButton_label "选择运行环境">
 
 <!-- We try to repicate Firefox' bindings: -->
@@ -77,7 +78,6 @@
 <!ENTITY runtimePanel_usb "USB 设备">
 <!ENTITY runtimePanel_wifi "Wi-Fi 设备">
 <!ENTITY runtimePanel_other "其他">
-<!ENTITY runtimePanel_noadbhelper "安装 ADB 助手">
 <!ENTITY runtimePanel_nousbdevice "看不到您的设备？">
 <!ENTITY runtimePanel_refreshDevices_label "刷新设备">
 
@@ -120,12 +120,6 @@
 
 <!-- Runtime Details -->
 <!ENTITY runtimedetails_title "运行环境信息">
-<!ENTITY runtimedetails_adbIsRoot "ADB 已取得 root 权限：">
-<!ENTITY runtimedetails_summonADBRoot "root 设备">
-<!ENTITY runtimedetails_ADBRootWarning "（需要未锁定的 bootloader）">
-<!ENTITY runtimedetails_unrestrictedPrivileges "不受限的开发者工具权限：">
-<!ENTITY runtimedetails_requestPrivileges "请求更高权限">
-<!ENTITY runtimedetails_privilegesWarning "（将重启设备。需要 root 权限。）">
 
 <!-- Device Preferences and Settings -->
 <!ENTITY device_typeboolean "布尔值">

@@ -9,7 +9,7 @@ cfr-doorhanger-extension-heading = 推薦擴充套件
 cfr-doorhanger-feature-heading = 推薦功能
 cfr-doorhanger-pintab-heading = 試試看: 釘選分頁
 
-
+##
 
 cfr-doorhanger-extension-sumo-link =
     .tooltiptext = 為什麼我會看到這個？
@@ -31,6 +31,14 @@ cfr-doorhanger-extension-author = 由 { $name } 開發
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
 cfr-doorhanger-extension-notification = 推薦
+cfr-doorhanger-extension-notification2 = 推薦
+    .tooltiptext = 推薦擴充套件
+    .a11y-announcement = 有推薦的擴充套件可以使用
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-feature-notification = 推薦
+    .tooltiptext = 推薦功能
+    .a11y-announcement = 有推薦的功能可以使用
 
 ## Add-on statistics
 ## These strings are used to display the total number of
@@ -71,21 +79,84 @@ cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
 ## Protections panel
 
 cfr-protections-panel-header = 上網不被追蹤
-cfr-protections-panel-body = 自己保留自己的資料。{ -brand-short-name } 不讓常見的追蹤器記錄您的上網行為。
+cfr-protections-panel-body = 保留自己的資料。{ -brand-short-name } 不讓常見的追蹤器記錄您的上網行為。
 cfr-protections-panel-link-text = 了解更多
 
 ## What's New toolbar button and panel
 
+# This string is used by screen readers to offer a text based alternative for
+# the notification icon
+cfr-badge-reader-label-newfeature = 新功能:
 cfr-whatsnew-button =
     .label = 有什麼新鮮事
     .tooltiptext = 有什麼新鮮事
 cfr-whatsnew-panel-header = 有什麼新鮮事
+cfr-whatsnew-release-notes-link-text = 閱讀發行公告
+cfr-whatsnew-fx70-title = { -brand-short-name } 現在起為了您的隱私權更加努力
+cfr-whatsnew-fx70-body = 最新版本當中加強了追蹤保護功能，也讓您更簡單就能針對各個網站產生安全的密碼。
+cfr-whatsnew-tracking-protect-title = 保護自己，不被追蹤
+cfr-whatsnew-tracking-protect-body = { -brand-short-name } 會封鎖許多在不同網站間追蹤您的常見社交型及跨網站追蹤器。
+cfr-whatsnew-tracking-protect-link-text = 檢視您的追蹤報告
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $blockedCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-tracking-blocked-title =
+    { $blockedCount ->
+       *[other] 封鎖追蹤器
+    }
+cfr-whatsnew-tracking-blocked-subtitle = 自 { DATETIME($earliestDate, month: "long", year: "numeric") } 起
+cfr-whatsnew-tracking-blocked-link-text = 檢視報告
+cfr-whatsnew-lockwise-backup-title = 備份您的密碼
+cfr-whatsnew-lockwise-backup-body = 可以為任何需要登入的網站產生安全密碼。
+cfr-whatsnew-lockwise-backup-link-text = 開啟備份
+cfr-whatsnew-lockwise-take-title = 密碼隨身帶著走
+cfr-whatsnew-lockwise-take-body = { -lockwise-brand-short-name } 的行動 App 可讓您在任何地方安全地讀取備份下來的密碼。
+cfr-whatsnew-lockwise-take-link-text = 下載 App
+
+## Search Bar
+
+cfr-whatsnew-searchbar-title = 使用網址列，打得更少，找得更多
+cfr-whatsnew-searchbar-body-topsites = 現在只要選擇網址列，就會顯示包含熱門網站連結的方框。
+cfr-whatsnew-searchbar-icon-alt-text = 放大鏡圖示
+
+## Picture-in-Picture
+
+cfr-whatsnew-pip-header = 一邊上網一邊觀看影片
+cfr-whatsnew-pip-body = 使用子母畫面功能將影片放到浮動視窗，邊看影片邊瀏覽其它分頁。
+cfr-whatsnew-pip-cta = 了解更多
+
+## Permission Prompt
+
+cfr-whatsnew-permission-prompt-header = 減少討人厭的彈出視窗
+cfr-whatsnew-permission-prompt-body = 現在起，{ -brand-shorter-name } 會自動封鎖網站詢問您是否可以傳送彈出訊息的請求。
+cfr-whatsnew-permission-prompt-cta = 了解更多
+
+## Fingerprinter Counter
+
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $fingerprinterCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-fingerprinter-counter-header =
+    { $fingerprinterCount ->
+       *[other] 封鎖數位指紋追蹤程式
+    }
+cfr-whatsnew-fingerprinter-counter-body = { -brand-shorter-name } 會封鎖許多偷偷收集裝置資訊與操作行為，以針對您建立廣告資料的數位指紋追蹤程式。
+# Message variation when fingerprinters count is less than 10
+cfr-whatsnew-fingerprinter-counter-header-alt = 數位指紋追蹤程式
+cfr-whatsnew-fingerprinter-counter-body-alt = { -brand-shorter-name } 會封鎖偷偷收集裝置資訊與操作行為，以針對您建立廣告資料的數位指紋追蹤程式。
 
 ## Bookmark Sync
 
 cfr-doorhanger-sync-bookmarks-header = 在手機上使用此書籤
 cfr-doorhanger-sync-bookmarks-body = 將您的書籤、密碼、瀏覽紀錄等資料，同步到登入至 { -brand-product-name } 的所有裝置。
 cfr-doorhanger-sync-bookmarks-ok-button = 開啟 { -sync-brand-short-name }
+    .accesskey = T
+
+## Login Sync
+
+cfr-doorhanger-sync-logins-header = 不再搞丟密碼
+cfr-doorhanger-sync-logins-body = 安全地儲存密碼，並同步到您的所有裝置中。
+cfr-doorhanger-sync-logins-ok-button = 開啟 { -sync-brand-short-name }
     .accesskey = T
 
 ## Send Tab
@@ -102,3 +173,63 @@ cfr-doorhanger-firefox-send-header = 安全地分享這份 PDF
 cfr-doorhanger-firefox-send-body = 使用端對端加密，以及會在使用完之後自動消失的鏈結，來確保您敏感性文件的安全。
 cfr-doorhanger-firefox-send-ok-button = 試用 { -send-brand-name }
     .accesskey = T
+
+## Social Tracking Protection
+
+cfr-doorhanger-socialtracking-ok-button = 請參考保護內容
+    .accesskey = P
+cfr-doorhanger-socialtracking-close-button = 關閉
+    .accesskey = C
+cfr-doorhanger-socialtracking-dont-show-again = 不要再顯示類似的訊息
+    .accesskey = D
+cfr-doorhanger-socialtracking-heading = { -brand-short-name } 防止社群網站在此追蹤您
+cfr-doorhanger-socialtracking-description = 您的隱私相當重要。{ -brand-short-name } 現在起會封鎖常見的社交媒體追蹤器，限制這些網站收集您的線上活動。
+cfr-doorhanger-fingerprinters-heading = { -brand-short-name } 封鎖了此頁面上的數位指紋追蹤程式
+cfr-doorhanger-fingerprinters-description = 您的隱私相當重要。{ -brand-short-name } 現在起會封鎖數位指紋追蹤程式，不讓這些程式為了追蹤您而收集可識別出所使用裝置的相關資訊。
+cfr-doorhanger-cryptominers-heading = { -brand-short-name } 封鎖了此頁面上的加密貨幣採礦程式
+cfr-doorhanger-cryptominers-description = 您的隱私相當重要。{ -brand-short-name } 現在起會封鎖加密貨幣採礦程式，不讓這些程式使用您的電腦運算能力來對數位貨幣「採礦」。
+
+## Enhanced Tracking Protection Milestones
+
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (String) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading =
+    { $blockedCount ->
+       *[other] 從 { $date }起，{ -brand-short-name } 已封鎖超過 <b>{ $blockedCount }</b> 組追蹤器！
+    }
+cfr-doorhanger-milestone-ok-button = 檢視全部
+    .accesskey = S
+
+## What’s New Panel Content for Firefox 76
+
+
+## Lockwise message
+
+cfr-whatsnew-lockwise-header = 輕鬆產生安全的密碼
+cfr-whatsnew-lockwise-body = 要幫每個帳號都想到獨特而安全的密碼並不簡單。註冊帳號時，只要點擊密碼欄位，{ -brand-shorter-name } 就可以自動為您產生安全的密碼。
+cfr-whatsnew-lockwise-icon-alt = { -lockwise-brand-short-name } 圖示
+
+## Vulnerable Passwords message
+
+cfr-whatsnew-passwords-header = 當發現密碼不安全時收到警報通知
+cfr-whatsnew-passwords-body = 駭客知道人們會重複使用相同密碼。若您在多個網站重複使用同一組密碼，當任一個網站發生資料外洩時，就會收到 { -lockwise-brand-short-name } 的警報，提醒您要更改這些網站的密碼。
+cfr-whatsnew-passwords-icon-alt = 不安全的密碼鑰匙圖示
+
+## Picture-in-Picture fullscreen message
+
+cfr-whatsnew-pip-fullscreen-header = 從子母畫面放大成全螢幕
+cfr-whatsnew-pip-fullscreen-body = 當您將影片縮到子母畫面中播放時，只要雙擊該視窗就能用全螢幕播放。
+cfr-whatsnew-pip-fullscreen-icon-alt = 子母畫面圖示
+
+## Protections Dashboard message
+
+cfr-whatsnew-protections-header = 保護項目，一目了然
+cfr-whatsnew-protections-body = 保護資訊儀錶板當中包含了資料外洩事件與密碼管理的相關摘要報告。現在起您可以追蹤已經處理過幾場資料外洩事件，並且看看是否還有已遭外洩的密碼。
+cfr-whatsnew-protections-cta-link = 檢視保護資訊儀錶板
+cfr-whatsnew-protections-icon-alt = 盾牌圖示
+
+## Better PDF message
+
+cfr-whatsnew-better-pdf-header = 更好的 PDF 閱讀體驗
+cfr-whatsnew-better-pdf-body = 現在可以直接在 { -brand-short-name } 直接開啟 PDF 文件，更輕鬆完成工作。

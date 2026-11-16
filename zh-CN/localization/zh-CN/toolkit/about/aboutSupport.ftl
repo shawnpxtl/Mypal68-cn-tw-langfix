@@ -34,7 +34,10 @@ app-basics-title = 应用程序概要
 app-basics-name = 名称
 app-basics-version = 版本
 app-basics-build-id = 版本 ID
+app-basics-distribution-id = 发行 ID
 app-basics-update-channel = 更新通道
+# This message refers to the folder used to store updates on the device,
+# as in "Folder for updates". "Update" is a noun, not a verb.
 app-basics-update-dir =
     { PLATFORM() ->
         [linux] 更新目录
@@ -59,7 +62,6 @@ app-basics-service-workers = 已注册的 Service Worker
 app-basics-profiles = 配置文件
 app-basics-launcher-process-status = 启动器进程
 app-basics-multi-process-support = 多进程窗口
-app-basics-process-count = 网页内容处理进程
 app-basics-remote-processes-count = 远程进程
 app-basics-enterprise-policies = 企业策略
 app-basics-location-service-key-google = Google 位置服务密钥
@@ -91,6 +93,8 @@ graphics-crash-guards-title = 被崩溃守卫禁用的功能
 graphics-workarounds-title = 变通方法
 # Windowing system in use on Linux (e.g. X11, Wayland).
 graphics-window-protocol = 窗口协议
+# Desktop environment in use on Linux (e.g. GNOME, KDE, XFCE, etc).
+graphics-desktop-environment = 桌面环境
 place-database-title = Places 数据库
 place-database-integrity = 完整性
 place-database-verify-integrity = 验证完整性
@@ -114,7 +118,20 @@ sandbox-sys-call-proc-type = 进程类型
 sandbox-sys-call-number = 系统调用
 sandbox-sys-call-args = 参数
 safe-mode-title = 尝试安全模式
-restart-in-safe-mode-label = 以安全模式重新打开…
+restart-in-safe-mode-label = 以安全模式重启浏览器…
+clear-startup-cache-title = 尝试清除启动缓存
+clear-startup-cache-label = 清除启动缓存...
+startup-cache-dialog-title = 清除启动缓存
+startup-cache-dialog-body = 重启 { -brand-short-name } 以清除启动缓存。这不会更改您的设置，也不会移除您添加到 { -brand-short-name } 中的扩展。
+restart-button-label = 重启
+
+## Media titles
+
+audio-backend = 音频后端
+max-audio-channels = 最大声道
+channel-layout = 首选声道布局
+sample-rate = 首选采样率
+roundtrip-latency = 往返延迟（标准差）
 media-title = 媒体
 media-output-devices-title = 输出设备
 media-input-devices-title = 输入设备
@@ -127,6 +144,12 @@ media-device-format = 格式
 media-device-channels = 声道
 media-device-rate = 采样率
 media-device-latency = 延迟
+media-capabilities-title = 媒体能力
+# List all the entries of the database.
+media-capabilities-enumerate = 枚举数据库
+
+##
+
 intl-title = 国际化与本地化
 intl-app-title = 应用程序设置
 intl-locales-requested = 要求的语言环境
@@ -136,6 +159,22 @@ intl-locales-default = 默认语言环境
 intl-os-title = 操作系统
 intl-os-prefs-system-locales = 系统语言环境
 intl-regional-prefs = 地区偏好
+
+## Remote Debugging
+##
+## The Firefox remote protocol provides low-level debugging interfaces
+## used to inspect state and control execution of documents,
+## browser instrumentation, user interaction simulation,
+## and for subscribing to browser-internal events.
+##
+## See also https://firefox-source-docs.mozilla.org/remote/
+
+remote-debugging-title = 远程调试（Chromium 协议）
+remote-debugging-accepting-connections = 接受连接
+remote-debugging-url = URL
+
+##
+
 # Variables
 # $days (Integer) - Number of days of crashes to log
 report-crash-for-days = 近 { $days } 天的崩溃报告
@@ -212,7 +251,9 @@ unknown-failure = 已列入黑名单；故障代码 { $failureCode }
 d3d11layers-crash-guard = D3D11 合成器
 d3d11video-crash-guard = D3D11 视频解码器
 d3d9video-crash-buard = D3D9 视频解码器
+d3d9video-crash-guard = D3D9 视频解码器
 glcontext-crash-guard = OpenGL
+wmfvpxvideo-crash-guard = WMF VPX 视频解码器
 reset-on-next-restart = 下次开启时重置
 gpu-process-kill-button = 终止 GPU 进程
 gpu-device-reset = 设备重置
@@ -221,12 +262,7 @@ uses-tiling = 使用 Tiling
 content-uses-tiling = 使用 Tiling（内容）
 off-main-thread-paint-enabled = 非主线程绘制已启用
 off-main-thread-paint-worker-count = 非主线程绘制工作器数量
-low-end-machine = 检测到性能较弱的机器
 target-frame-rate = 目标帧率
-audio-backend = 音频后端
-max-audio-channels = 最大声道
-channel-layout = 首选声道布局
-sample-rate = 首选采样率
 min-lib-versions = 预期最低版本
 loaded-lib-versions = 目前使用版本
 has-seccomp-bpf = Seccomp-BPF（系统调用过滤）
@@ -241,6 +277,11 @@ sandbox-proc-type-content = 内容
 sandbox-proc-type-file = 文件内容
 sandbox-proc-type-media-plugin = 媒体插件
 sandbox-proc-type-data-decoder = 数据解码器
+startup-cache-title = 启动缓存
+startup-cache-disk-cache-path = 磁盘缓存路径
+startup-cache-ignore-disk-cache = 忽略磁盘缓存
+startup-cache-found-disk-cache-on-init = 在初始化时发现磁盘缓存
+startup-cache-wrote-to-disk-cache = 已写入磁盘缓存
 launcher-process-status-0 = 启用
 launcher-process-status-1 = 因故障而禁用
 launcher-process-status-2 = 强制禁用
@@ -264,6 +305,7 @@ touch-enabled = 触摸输入已启用
 drag-enabled = 滚动条拖动已启用
 keyboard-enabled = 键盘已启用
 autoscroll-enabled = 自动滚动已启用
+zooming-enabled = 已启用平滑捏合缩放
 
 ## Variables
 ## $preferenceKey (string) - String ID of preference

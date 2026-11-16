@@ -54,6 +54,7 @@ import =
 close-button =
     .label = 关闭
     .accesskey = C
+
 show-passwords =
     .label = 显示密码
     .accesskey = P

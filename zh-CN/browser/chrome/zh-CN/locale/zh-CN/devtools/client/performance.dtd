@@ -15,21 +15,16 @@
   -  is displayed as the tooltip for the buffer capacity during a recording. -->
 <!ENTITY performanceUI.bufferStatusTooltip "该分析器会在一个循环的缓冲区中存储样本，当缓冲区记录超过限制时，新的样本将覆盖最开始记录的样本。">
 
-<!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.nonE10SBuild): This string
-  -  is displayed as a message for why the real time overview graph is disabled
-  -  when running on a non-multiprocess build. -->
-<!ENTITY performanceUI.disabledRealTime.nonE10SBuild "在单进程的 Firefox 上，实时呈现数据记录已被禁用。">
-
 <!-- LOCALIZATION NOTE (performanceUI.disabledRealTime.disabledE10S): This string
   -  is displayed as a message for why the real time overview graph is disabled
   -  when running on a build that can run multiprocess Firefox, but just is not enabled. -->
-<!ENTITY performanceUI.disabledRealTime.disabledE10S "在首选项中启用多进程 Firefox 以实时呈现数据记录。">
+<!ENTITY performanceUI.disabledRealTime.disabledE10S "在首选项中启用多进程 Mypal 以实时呈现数据记录。">
 
 <!-- LOCALIZATION NOTE (performanceUI.bufferStatusFull): This string
   -  is displayed when the profiler's circular buffer has started to overlap. -->
 <!ENTITY performanceUI.bufferStatusFull "缓冲区已满。较旧的样本将被覆盖。">
 
-<!-- LOCALIZATION NOTE (performanceUI.loadingNotice): This is the label shown
+<!-- LOCALIZATION NOTE (performanceUI.unavailableNoticePB): This is the label shown
   -  in the details view while the profiler is unavailable, for example, while
   -  in Private Browsing mode. -->
 <!ENTITY performanceUI.unavailableNoticePB "目前无法记录配置信息。请关闭所有的隐私浏览窗口后再试一次。">
@@ -103,7 +98,7 @@
   -  label for the checkbox that toggles the flattening of tree recursion in inspected
   -  functions in the profiler. -->
 <!ENTITY performanceUI.flattenTreeRecursion             "扁平化树递归">
-<!ENTITY performanceUI.flattenTreeRecursion.tooltiptext "扁平化探查函数时的递归。">
+<!ENTITY performanceUI.flattenTreeRecursion.tooltiptext "探查函数时将递归扁平化。">
 
 <!-- LOCALIZATION NOTE (performanceUI.enableMemory): This string
   -  is displayed next to a checkbox determining whether or not memory

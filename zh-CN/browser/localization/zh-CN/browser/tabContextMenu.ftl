@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 reload-tab =
-    .label = 重新载入标签页
+    .label = 重载标签页
     .accesskey = R
 select-all-tabs =
     .label = 选择所有标签页
@@ -21,7 +21,7 @@ close-other-tabs =
     .label = 关闭其他标签页
     .accesskey = o
 reload-tabs =
-    .label = 重新载入标签页
+    .label = 重载标签页
     .accesskey = R
 pin-tab =
     .label = 固定标签页
@@ -55,6 +55,16 @@ move-to-new-window =
     .accesskey = W
 undo-close-tab =
     .label = 恢复关闭的标签页
+    .accesskey = U
+tab-context-close-multiple-tabs =
+    .label = 关闭多个标签页
+    .accesskey = M
+tab-context-undo-close-tabs =
+    .label =
+        { $tabCount ->
+            [1] 恢复关闭的标签页
+           *[other] 恢复关闭的标签页
+        }
     .accesskey = U
 close-tab =
     .label = 关闭标签页

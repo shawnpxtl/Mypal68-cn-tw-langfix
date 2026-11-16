@@ -136,11 +136,6 @@
 <!ENTITY options.timestampMessages.label      "启用时间戳">
 <!ENTITY options.timestampMessages.tooltip    "如果启用此选项，Web 控制台中的命令和输出将显示时间戳">
 
-<!-- LOCALIZATION NOTE (options.warningGroups.label): This is the
-   - label for the checkbox that toggles the warningGroups feature in the Web Console -->
-<!ENTITY options.warningGroups.label      "将相似消息归为一组">
-<!ENTITY options.warningGroups.tooltip    "启用后，相似消息将被归为一组">
-
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->
 <!ENTITY options.debugger.label            "调试器">

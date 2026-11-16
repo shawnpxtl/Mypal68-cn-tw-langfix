@@ -56,6 +56,16 @@ move-to-new-window =
 undo-close-tab =
     .label = 復原已關閉分頁
     .accesskey = U
+tab-context-close-multiple-tabs =
+    .label = 關閉多個分頁
+    .accesskey = M
+tab-context-undo-close-tabs =
+    .label =
+        { $tabCount ->
+            [1] 復原已關閉分頁
+           *[other] 復原已關閉分頁
+        }
+    .accesskey = U
 close-tab =
     .label = 關閉分頁
     .accesskey = c

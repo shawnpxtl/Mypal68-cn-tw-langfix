@@ -26,12 +26,12 @@ appmenu-update-unsupported =
     .secondarybuttonaccesskey = C
 appmenu-update-unsupported-message = 您的系统不支持最新版本的 { -brand-shorter-name }。
 appmenu-update-restart =
-    .label = 重开 { -brand-shorter-name } 以更新。
-    .buttonlabel = 重开并恢复当前浏览状态
+    .label = 重启 { -brand-shorter-name } 以更新。
+    .buttonlabel = 重启并恢复当前浏览状态
     .buttonaccesskey = R
     .secondarybuttonlabel = 暂时不要
     .secondarybuttonaccesskey = N
-appmenu-update-restart-message = 稍等片刻，{ -brand-shorter-name } 重开后将恢复您所有不在隐私浏览模式中打开的标签页和窗口。
+appmenu-update-restart-message = 稍等片刻，{ -brand-shorter-name } 重启后将恢复您所有不在隐私浏览模式中打开的标签页和窗口。
 appmenu-addon-private-browsing-installed =
     .buttonlabel = 好的，明白了
     .buttonaccesskey = O
@@ -47,3 +47,30 @@ appmenu-addon-private-browsing =
     .secondarybuttonaccesskey = O
 appmenu-addon-private-browsing-message = 除非您在设置中明确允许，否则新装到 { -brand-shorter-name } 的扩展一律无法在隐私窗口中使用。
 appmenu-addon-private-browsing-learn-more = 了解如何管理扩展设置。
+    
+appmenu-new-tab-controlled =
+    .label = 您的新标签页已变更。
+    .buttonlabel = 保留更改
+    .buttonaccesskey = K
+    .secondarybuttonlabel = 禁用扩展
+    .secondarybuttonaccesskey = D
+appmenu-homepage-controlled =
+    .label = 您的主页已变更。
+    .buttonlabel = 保留更改
+    .buttonaccesskey = K
+    .secondarybuttonlabel = 禁用扩展
+    .secondarybuttonaccesskey = D
+appmenu-tab-hide-controlled =
+    .label = 存取您隐藏的标签页
+    .buttonlabel = 保持隐藏标签页
+    .buttonaccesskey = K
+    .secondarybuttonlabel = 禁用扩展
+    .secondarybuttonaccesskey = D
+
+
+# added for Mypal 78.1.2 compatibility: 1 message(s)
+appmenu-addon-install-postponed =
+    .buttonlabel = 好的，知道了
+    .buttonaccesskey = O
+    .secondarybuttonlabel = 强制更新
+    .secondarybuttonaccesskey = F

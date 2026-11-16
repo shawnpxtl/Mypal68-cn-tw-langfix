@@ -11,7 +11,7 @@ panic-button-forget-button =
 ## panic-main-timeframe-desc. For example: "Forget the last: Five minutes".
 ## Please ensure that this remains the case in the translation.
 
-panic-main-timeframe-desc = 抹去最近：
+panic-main-timeframe-desc = 抹去最近的上网痕迹：
 panic-button-5min =
     .label = 5 分钟
 panic-button-2hr =

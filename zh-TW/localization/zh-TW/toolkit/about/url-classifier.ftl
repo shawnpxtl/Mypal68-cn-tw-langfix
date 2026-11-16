@@ -40,6 +40,7 @@ url-classifier-debug-sb-modules = Safe Browsing 記錄模組
 url-classifier-debug-modules = 目前的記錄模組
 url-classifier-debug-sbjs-modules = Safe Browsing JS 記錄
 url-classifier-debug-file = 目前記錄檔
+
 url-classifier-trigger-update = 觸發更新
 url-classifier-not-available = 不適用
 url-classifier-disable-sbjs-log = 停用 Safe Browsing JS 記錄

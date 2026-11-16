@@ -22,6 +22,7 @@ set-password-new-password = 请输入新的密码：
 set-password-reenter-password = 重新输入密码：
 set-password-meter = 密码强度
 set-password-meter-loading = 正在载入
+master-password-admin = 您的管理员要求设置“主密码”才可保存密码。
 master-password-description = 主密码用于保护敏感的数据（如网站密码）。创建主密码后，每次运行 { -brand-short-name } 要用到此类敏感信息时，须要再次输入主密码。
 master-password-warning = 请您一定要记住刚才设置的主密码。如果您忘记了主密码，您将再也不能访问所有被主密码保护的信息。
 remove-password =

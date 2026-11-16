@@ -8,6 +8,8 @@
 
 <!ENTITY learnMore "更多資訊…">
 
+<!ENTITY learnMoreNoEllipsis "了解更多">
+
 <!ENTITY defaultButton.label "好！">
 <!ENTITY defaultButton.accesskey "O">
 

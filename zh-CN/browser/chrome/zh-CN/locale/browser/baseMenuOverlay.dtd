@@ -14,6 +14,7 @@
                        for the help button in the menubar but Gnome does not.   -->
 <!ENTITY helpMenuWin.label        "帮助"> 
 <!ENTITY helpMenuWin.accesskey    "H">
+
 <!ENTITY aboutProduct2.label      "关于 &brandShorterName;">
 <!ENTITY aboutProduct2.accesskey  "A">
 <!ENTITY productHelp2.label       "&brandShorterName; 帮助">
@@ -23,9 +24,9 @@
 <!ENTITY helpKeyboardShortcuts.label     "键盘快捷键">
 <!ENTITY helpKeyboardShortcuts.accesskey "K">
 
-<!ENTITY helpSafeMode.label       "以安全模式重新打开…">
+<!ENTITY helpSafeMode.label       "以安全模式重启浏览器…">
 <!ENTITY helpSafeMode.accesskey   "R">
-<!ENTITY helpSafeMode.stop.label       "重新打开并启用附加组件">
+<!ENTITY helpSafeMode.stop.label       "重启浏览器并启用附加组件">
 <!ENTITY helpSafeMode.stop.accesskey   "R">
 
 <!ENTITY helpTroubleshootingInfo.label      "故障排除信息">

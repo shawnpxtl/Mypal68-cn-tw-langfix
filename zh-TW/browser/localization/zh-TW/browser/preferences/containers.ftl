@@ -10,8 +10,10 @@ containers-window-new =
 containers-window-update =
     .title = { $name } 容器偏好設定
     .style = width: 45em
+
 containers-window-close =
     .key = w
+
 # This is a term to store style to be applied
 # on the three labels in the containers add/edit dialog:
 #   - name
@@ -22,20 +24,26 @@ containers-window-close =
 # of the three messages ensures that all three labels
 # will be aligned correctly.
 -containers-labels-style = min-width: 4rem
+
 containers-name-label = 名稱
     .accesskey = N
     .style = { -containers-labels-style }
+
 containers-name-text =
     .placeholder = 輸入容器名稱
+
 containers-icon-label = 圖示
     .accesskey = I
     .style = { -containers-labels-style }
+
 containers-color-label = 色彩
     .accesskey = o
     .style = { -containers-labels-style }
+
 containers-button-done =
     .label = 完成
     .accesskey = D
+
 containers-color-blue =
     .label = 藍色
 containers-color-turquoise =
@@ -54,6 +62,7 @@ containers-color-purple =
     .label = 紫色
 containers-color-toolbar =
     .label = 與工具列相同
+
 containers-icon-fence =
     .label = 籬笆
 containers-icon-fingerprint =

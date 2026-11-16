@@ -1,4 +1,4 @@
-﻿# This Source Code Form is subject to the terms of the Mozilla Public
+# This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
@@ -61,27 +61,6 @@ menu-file-go-offline =
 menu-edit =
     .label = 编辑
     .accesskey = E
-menu-edit-undo =
-    .label = 撤销
-    .accesskey = U
-menu-edit-redo =
-    .label = 重做
-    .accesskey = R
-menu-edit-cut =
-    .label = 剪切
-    .accesskey = t
-menu-edit-copy =
-    .label = 复制
-    .accesskey = C
-menu-edit-paste =
-    .label = 粘贴
-    .accesskey = P
-menu-edit-delete =
-    .label = 删除
-    .accesskey = D
-menu-edit-select-all =
-    .label = 全选
-    .accesskey = A
 menu-edit-find-on =
     .label = 在此页面中查找…
     .accesskey = F
@@ -121,9 +100,9 @@ menu-view-full-zoom-enlarge =
 menu-view-full-zoom-reduce =
     .label = 缩小
     .accesskey = O
-menu-view-full-zoom-reset =
-    .label = 重置
-    .accesskey = R
+menu-view-full-zoom-actual-size =
+    .label = 实际大小
+    .accesskey = A
 menu-view-full-zoom-toggle =
     .label = 仅缩放文本
     .accesskey = T
@@ -153,7 +132,7 @@ menu-view-full-screen =
     .label = 全屏
     .accesskey = F
 
-
+##
 
 menu-view-show-all-tabs =
     .label = 显示所有标签页
@@ -189,6 +168,10 @@ menu-bookmarks-menu =
     .accesskey = B
 menu-bookmarks-show-all =
     .label = 管理所有书签
+menu-bookmark-this-page =
+    .label = 为此页添加书签
+menu-bookmark-edit =
+    .label = 编辑此书签
 menu-bookmarks-all-tabs =
     .label = 为所有标签页添加书签…
 menu-bookmarks-toolbar =
@@ -209,14 +192,17 @@ menu-tools-downloads =
 menu-tools-addons =
     .label = 附加组件
     .accesskey = A
-menu-tools-sync-sign-in =
-    .label = 登录至{ -sync-brand-short-name }…
-    .accesskey = Y
+menu-tools-fxa-sign-in =
+    .label = 登录到 { -brand-product-name }…
+    .accesskey = g
+menu-tools-turn-on-sync =
+    .label = 开启{ -sync-brand-short-name }…
+    .accesskey = n
 menu-tools-sync-now =
     .label = 立即同步
     .accesskey = S
-menu-tools-sync-re-auth =
-    .label = 重新连接至{ -sync-brand-short-name }…
+menu-tools-fxa-re-auth =
+    .label = 重新绑定 { -brand-product-name }…
     .accesskey = R
 menu-tools-web-developer =
     .label = Web 开发者
@@ -257,13 +243,44 @@ menu-help =
 menu-help-product =
     .label = { -brand-shorter-name } 帮助
     .accesskey = H
+menu-help-show-tour =
+    .label = { -brand-shorter-name } 导览
+    .accesskey = o
+menu-help-import-from-another-browser =
+    .label = 从其他浏览器导入…
+    .accesskey = I
+menu-help-keyboard-shortcuts =
+    .label = 键盘快捷键
+    .accesskey = K
 menu-help-troubleshooting-info =
     .label = 故障排除信息
     .accesskey = T
+menu-help-feedback-page =
+    .label = 提交反馈…
+    .accesskey = S
 menu-help-safe-mode-without-addons =
-    .label = 以安全模式重新打开…
+    .label = 以安全模式重启浏览器…
     .accesskey = R
 menu-help-safe-mode-with-addons =
-    .label = 重新打开并启用附加组件
+    .label = 重启浏览器并启用附加组件
     .accesskey = R
+# Label of the Help menu item. Either this or
+# menu-help-notdeceptive is shown.
+menu-help-report-deceptive-site =
+    .label = 举报诈骗网站…
+    .accesskey = D
+menu-help-not-deceptive =
+    .label = 这不是诈骗网站…
+    .accesskey = d
 
+
+# added for Mypal 78.1.2 compatibility: 3 message(s)
+menu-view-full-zoom-reset =
+    .label = 重置
+    .accesskey = R
+menu-tools-sync-sign-in =
+    .label = 登录 { -sync-brand-short-name }…
+    .accesskey = y
+menu-tools-sync-re-auth =
+    .label = 重新连接 { -sync-brand-short-name }…
+    .accesskey = R

@@ -11,7 +11,7 @@
   - A good criteria is the language in which you'd find the best
   - documentation on web development on the web. -->
 
-<!-- LOCALIZATION NOTE (scratchpad.title):
+<!-- LOCALIZATION NOTE (window.title):
   -  The Scratchpad is intended to provide a simple text editor for creating
   -  and evaluating bits of JavaScript code for the purposes of function
   -  prototyping, experimentation and convenient scripting.
@@ -150,7 +150,6 @@
 <!-- LOCALIZATION NOTE (evalFunction.label): This command allows the developer
   -  to evaluate the top-level function that the cursor is currently at.
   -->
-<!ENTITY evalFunction.label "評估目前函數">
+<!ENTITY evalFunction.label "對目前函數求值">
 <!ENTITY evalFunction.accesskey "v">
 <!ENTITY evalFunction.key "e">
-

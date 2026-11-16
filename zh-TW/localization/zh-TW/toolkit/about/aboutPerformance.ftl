@@ -54,6 +54,7 @@ close-tab =
     .title = 關閉分頁
 show-addon =
     .title = 在附加元件管理員中顯示
+
 # Tooltip when hovering an item of the about:performance table
 # Variables:
 #   $totalDispatches (Number) - how many dispatches occured for this page since it loaded

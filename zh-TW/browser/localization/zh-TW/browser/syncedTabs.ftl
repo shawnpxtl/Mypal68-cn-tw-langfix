@@ -2,9 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-synced-tabs-sidebar-title = 已同步的分頁
+synced-tabs-sidebar-title = 同步的分頁
 synced-tabs-sidebar-noclients-subtitle = 想在這裡看到您其他裝置上開啟的分頁嗎？
 synced-tabs-sidebar-notsignedin = 登入以檢視您其他裝置中的分頁清單。
+synced-tabs-sidebar-intro = 檢視您其他裝置中的分頁清單。
 synced-tabs-sidebar-unverified = 需要驗證您的帳號。
 synced-tabs-sidebar-notabs = 無已開啟的分頁
 synced-tabs-sidebar-openprefs = 開啟 { -sync-brand-short-name } 偏好設定
@@ -37,6 +38,7 @@ synced-tabs-context-manage-devices =
     .label = 管理裝置…
     .accesskey = D
 synced-tabs-context-sync-now =
-    .label = 立即同步
+    .label = 立刻同步
     .accesskey = S
-fxa-sign-in = 登入至 { -sync-brand-short-name }
+fxa-sign-in = 登入 { -sync-brand-short-name }
+turn-on-sync = 開啟 { -sync-brand-short-name }

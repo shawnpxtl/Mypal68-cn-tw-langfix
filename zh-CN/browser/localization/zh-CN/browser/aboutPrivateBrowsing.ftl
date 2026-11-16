@@ -4,6 +4,7 @@
 
 about-private-browsing-learn-more = 详细了解<a data-l10n-name="learn-more">隐私浏览</a>。
 about-private-browsing-info-visited = 访问过的页面
+
 privatebrowsingpage-open-private-window-label = 打开隐私窗口
     .accesskey = P
 about-private-browsing-info-notsaved = 当您在隐私窗口中浏览时，{ -brand-short-name } <strong>不会保存</strong>：
@@ -26,3 +27,16 @@ about-private-browsing-not-private = 您当前不在隐私窗口中。
 content-blocking-title = 内容拦截
 content-blocking-description = 某些网站会使用跟踪器来监控您上网做了什么。在隐私窗口中，{ -brand-short-name } 的内容拦截功能会自动拦截许多试图收集您的上网行为的跟踪器。
 about-private-browsing-info-description = { -brand-short-name } 在您退出本程序或关闭所有隐私浏览标签页和窗口时，将清除您的搜索记录与浏览历史。虽然这样做不会使您对网站或电信运营商匿名，但还是可以更简单地让使用此计算机的人无法得知您在网上的活动。
+
+# This string is the title for the banner for search engine selection
+# in a private window.
+# Variables:
+#   $engineName (String) - The engine name that will currently be used for the private window.
+about-private-browsing-search-banner-title = { $engineName } 是您在隐私窗口中的默认搜索引擎
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] 若要在隐私窗口中使用专门的搜索引擎，请在<a data-l10n-name="link-options">选项</a>中设置
+       *[other] 若要在隐私窗口中使用专门的搜索引擎，请在<a data-l10n-name="link-options">首选项</a>中设置
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = 关闭

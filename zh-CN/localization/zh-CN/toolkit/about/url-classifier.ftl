@@ -40,6 +40,7 @@ url-classifier-debug-sb-modules = 安全浏览日志模块
 url-classifier-debug-modules = 当前日志模块
 url-classifier-debug-sbjs-modules = 安全浏览 JS 日志
 url-classifier-debug-file = 当前日志文件
+
 url-classifier-trigger-update = 触发更新
 url-classifier-not-available = 不可用
 url-classifier-disable-sbjs-log = 禁用安全浏览 JS 日志

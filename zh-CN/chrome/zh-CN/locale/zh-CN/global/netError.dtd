@@ -84,6 +84,9 @@
 <!ENTITY cspBlocked.title "已依照内容安全策略拦截">
 <!ENTITY cspBlocked.longDesc "<p>浏览器已按该页面包含的内容安全策略阻止该页面以该种方式加载。</p>">
 
+<!ENTITY xfoBlocked.title "因 X-Frame-Options 政策阻止">
+<!ENTITY xfoBlocked.longDesc "<p>浏览器已依照该页面的 X-Frame-Options 政策阻止了其在此上下文中的载入。</p>">
+
 <!ENTITY corruptedContentErrorv2.title "内容损坏错误">
 <!ENTITY corruptedContentErrorv2.longDesc "<p>由于检测到传输过程中出错，无法显示您想要查看的页面。</p><ul><li>建议向此网站的管理员反馈这个问题。</li></ul>">
 

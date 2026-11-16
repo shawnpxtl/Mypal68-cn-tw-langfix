@@ -4,6 +4,7 @@
 
 about-private-browsing-learn-more = 了解<a data-l10n-name="learn-more">隱私瀏覽</a>的更多資訊。
 about-private-browsing-info-visited = 造訪過的頁面紀錄
+
 privatebrowsingpage-open-private-window-label = 開啟隱私視窗
     .accesskey = P
 about-private-browsing-info-notsaved = 當您在隱私視窗中瀏覽時，{ -brand-short-name } <strong>將不會儲存</strong>:
@@ -26,3 +27,16 @@ about-private-browsing-not-private = 您目前不在隱私瀏覽視窗當中。
 content-blocking-title = 內容封鎖
 content-blocking-description = 某些網站會使用追蹤器，於您在不同網站上網時監控您的行為。在隱私視窗中，{ -brand-short-name } 的內容封鎖功能會封鎖許多嘗試收集您的上網行為的追蹤器。
 about-private-browsing-info-description = { -brand-short-name } 會在結束或關閉所有隱私瀏覽分頁與視窗時，清除您的搜尋與上網紀錄。雖然這樣做不會讓您對網站或電信業者匿名，但還是可以更簡單就讓與您使用相同電腦的人無法得知您在線上做了什麼事。
+
+# This string is the title for the banner for search engine selection
+# in a private window.
+# Variables:
+#   $engineName (String) - The engine name that will currently be used for the private window.
+about-private-browsing-search-banner-title = 在隱私瀏覽視窗中，會預設使用 { $engineName } 進行搜尋
+about-private-browsing-search-banner-description =
+    { PLATFORM() ->
+        [windows] 可到<a data-l10n-name="link-options">選項</a>切換成不同搜尋引擎
+       *[other] 可到<a data-l10n-name="link-options">偏好設定</a>切換成不同搜尋引擎
+    }
+about-private-browsing-search-banner-close-button =
+    .aria-label = 關閉

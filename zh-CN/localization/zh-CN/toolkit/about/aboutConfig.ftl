@@ -15,11 +15,14 @@ config-about-warning-button =
     .label = 我了解此风险！
 config-about-warning-checkbox =
     .label = 下次仍显示此警告
+
 config-search-prefs =
     .value = 搜索：
     .accesskey = r
+
 config-focus-search =
     .key = r
+
 config-focus-search-2 =
     .key = f
 
@@ -47,45 +50,60 @@ config-copy-pref =
     .key = C
     .label = 复制
     .accesskey = C
+
 config-copy-name =
     .label = 复制名称
     .accesskey = N
+
 config-copy-value =
     .label = 复制值
     .accesskey = V
+
 config-modify =
     .label = 修改
     .accesskey = M
+
 config-toggle =
     .label = 切换
     .accesskey = T
+
 config-reset =
     .label = 重置
     .accesskey = R
+
 config-new =
     .label = 新建
     .accesskey = w
+
 config-string =
     .label = 字符串
     .accesskey = S
+
 config-integer =
     .label = 整数
     .accesskey = I
+
 config-boolean =
     .label = 布尔
     .accesskey = B
+
 config-default = 默认
 config-modified = 已修改
 config-locked = 已锁定
+
 config-property-string = 字符串
 config-property-int = 整数
 config-property-bool = 布尔
+
 config-new-prompt = 输入首选项名称
+
 config-nan-title = 无效的值
 config-nan-text = 您输入的文字不是数字。
+
 # Variables:
 #   $type (String): type of value (boolean, integer or string)
 config-new-title = 新的 { $type } 值
+
 # Variables:
 #   $type (String): type of value (boolean, integer or string)
 config-modify-title = 输入 { $type } 的值

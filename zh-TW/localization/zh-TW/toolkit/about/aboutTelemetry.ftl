@@ -20,7 +20,7 @@ about-telemetry-current-store = 目前的儲存區:
 about-telemetry-more-information = 想了解更多嗎？
 about-telemetry-firefox-data-doc = <a data-l10n-name="data-doc-link">Firefox Data Documentation</a> 當中描述了我們使用資料工具的方式。
 about-telemetry-telemetry-client-doc = <a data-l10n-name="client-doc-link">Firefox Telemetry 客戶端文件</a>當中包含資料收集概念、API 文件以及資料格式的參考資料。
-about-telemetry-telemetry-dashboard = <a data-l10n-name="dashboard-link">Telemetry 儀表板</a>讓您可將 Mozilla 透過 Telemetry 收集到的資料以視覺化的方式呈現。
+about-telemetry-telemetry-dashboard = <a data-l10n-name="dashboard-link">Telemetry 儀錶板</a>讓您可將 Mozilla 透過 Telemetry 收集到的資料以視覺化的方式呈現。
 about-telemetry-telemetry-probe-dictionary = <a data-l10n-name="probe-dictionary-link">Probe Dictionary</a> 當中提供 Telemetry 所收集的探測資料的詳細資訊與說明。
 about-telemetry-show-in-Firefox-json-viewer = 用 JSON 檢視器開啟
 about-telemetry-home-section = 首頁
@@ -30,7 +30,7 @@ about-telemetry-session-info-section = 使用階段資訊
 about-telemetry-scalar-section = Scalars
 about-telemetry-keyed-scalar-section = Keyed Scalars
 about-telemetry-histograms-section = 柱狀圖
-about-telemetry-keyed-histogram-section = Keyed Histograms
+about-telemetry-keyed-histogram-section = 分類柱狀圖
 about-telemetry-events-section = 事件
 about-telemetry-simple-measurements-section = 簡易測量
 about-telemetry-slow-sql-section = 慢速的 SQL 陳述句
@@ -39,7 +39,7 @@ about-telemetry-captured-stacks-section = 捕捉到的堆疊
 about-telemetry-late-writes-section = 慢速寫入
 about-telemetry-raw-payload-section = 原始酬載
 about-telemetry-raw = 原始 JSON
-about-telemetry-full-sql-warning = 注意: 已啟用慢速 SQL 除錯。完整的 SQL 字串將會在下面顯示，但將不會被送出給 Telemetry。
+about-telemetry-full-sql-warning = 註: 已開啟慢速 SQL 除錯。將在下面顯示完整 SQL 字串，但不會送出到 Telemetry。
 about-telemetry-fetch-stack-symbols = 取得堆疊的函數名稱
 about-telemetry-hide-stack-symbols = 顯示原始堆疊資料
 # Selects the correct release version

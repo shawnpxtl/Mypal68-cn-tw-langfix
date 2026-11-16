@@ -9,11 +9,11 @@
   -  In en-US it looks like this:
   -    This page is in [detected language] Translate this page?
   -  "detected language" here is a language name coming from the
-  -  global/languageNames.properties file; for some locales it may not be in
+  -  toolkit/intl/languageNames.ftl file; for some locales it may not be in
   -  the correct grammar case to keep the same structure of the original
   -  sentence. -->
 <!ENTITY translation.thisPageIsIn.label         "此頁面的語言為">
-<!ENTITY translation.translateThisPage.label    "翻譯此頁面？">
+<!ENTITY translation.translateThisPage.label    "要翻譯此頁面嗎？">
 <!ENTITY translation.translate.button           "翻譯">
 <!ENTITY translation.notNow.button              "現在不要">
 
@@ -27,7 +27,7 @@
   -  In en-US it looks like this:
   -    This page has been translated from [from language] to [to language]
   -  "from language" and "to language" here are language names coming from the
-  -  global/languageNames.properties file; for some locales they may not be in
+  -  toolkit/intl/languageNames.ftl file; for some locales they may not be in
   -  the correct grammar case to keep the same structure of the original
   -  sentence.
   -
@@ -54,7 +54,7 @@
   -->
 <!ENTITY translation.options.neverForSite.label "永不翻譯此網站">
 <!ENTITY translation.options.neverForSite.accesskey "e">
-<!ENTITY translation.options.preferences.label  "翻譯偏好">
+<!ENTITY translation.options.preferences.label  "翻譯偏好設定">
 <!ENTITY translation.options.preferences.accesskey "T">
 
 <!-- LOCALIZATION NOTE (translation.options.attribution.beforeLogo,
@@ -73,4 +73,3 @@
   -  user.
   -->
 <!ENTITY translation.options.attribution.yandexTranslate "翻譯服務由 Yandex.Translate 提供">
-

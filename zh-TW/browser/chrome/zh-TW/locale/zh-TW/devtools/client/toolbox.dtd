@@ -134,12 +134,7 @@
 <!-- LOCALIZATION NOTE (options.timestampMessages.label): This is the
    - label for the checkbox that toggles timestamps in the Web Console -->
 <!ENTITY options.timestampMessages.label      "開啟時間戳記">
-<!ENTITY options.timestampMessages.tooltip    "若您啟用設定，網頁主控台的輸出內容將包含時間戳記">
-
-<!-- LOCALIZATION NOTE (options.warningGroups.label): This is the
-   - label for the checkbox that toggles the warningGroups feature in the Web Console -->
-<!ENTITY options.warningGroups.label      "將類似訊息組成一組">
-<!ENTITY options.warningGroups.tooltip    "啟用後，類似的訊息將組合成一組">
+<!ENTITY options.timestampMessages.tooltip    "若您開啟此選項，網頁主控台的輸出內容將包含時間戳記">
 
 <!-- LOCALIZATION NOTE (options.debugger.label): This is the label for the
   -  heading of the group of Debugger preferences in the options panel. -->

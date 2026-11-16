@@ -22,6 +22,7 @@ set-password-new-password = 輸入新密碼:
 set-password-reenter-password = 重新輸入密碼:
 set-password-meter = 密碼品質測量計
 set-password-meter-loading = 載入中
+master-password-admin = 您的系統管理員要求您先設定主控密碼，才能儲存密碼。
 master-password-description = 主控密碼可用來保護敏感的資訊，如網站密碼。 若您建立主控密碼，每次執行 { -brand-short-name } 後要用到此類資訊時都要打入密碼。
 master-password-warning = 請確實記住您所設定的主控密碼。 若不幸忘了，則會完全無法再存取所有被主控密碼保護的資料。
 remove-password =

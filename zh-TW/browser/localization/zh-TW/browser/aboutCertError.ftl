@@ -8,7 +8,7 @@ cert-error-intro = { $hostname } 用了無效的安全憑證。
 cert-error-mitm-intro = 網站會透過憑證機構簽發的憑證來驗明正身。
 cert-error-mitm-mozilla = { -brand-short-name } 是由非營利的 Mozilla 所提供支援的。Mozilla 管理一組完全開放的憑證機構（CA）儲存空間。該儲存空間可確保憑證機構遵循最佳的作業方式，以確保使用者的安全。
 cert-error-mitm-connection = { -brand-short-name } 使用 Mozilla 的憑證機構儲存空間來檢查連線是否安全，而不使用使用者作業系統上的內建憑證。所以如果您的防毒軟體或網路使用不在 Mozilla 憑證機構清單當中的機構所簽發的憑證來攔截網路流量，連線就會被視為不安全。
-cert-error-trust-unknown-issuer-intro = 有心人士可能正在嘗試將別的網站偽裝成您想造訪的網站，您不應繼續開啟。
+cert-error-trust-unknown-issuer-intro = 有心人士可能正在嘗試將別的網站偽裝成您想造訪的網站，不應繼續開啟。
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 cert-error-trust-unknown-issuer = 網站會透過憑證來證明自己的身分。因為簽發者未知、憑證是自簽憑證，或伺服器並未送出正確的中介憑證的關係，{ -brand-short-name } 無法信任 { $hostname }。
@@ -25,11 +25,11 @@ cert-error-domain-mismatch = 網站會透過憑證來證明自己的身分。因
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 # $alt-name (String) - Alternate domain name for which the cert is valid.
-cert-error-domain-mismatch-single = 網站會透過憑證來證明自己的身分。因為伺服器送出不屬於 { $hostname } 的憑證的關係，{ -brand-short-name } 不信任這個網站。 憑證只對 <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> 有效。
+cert-error-domain-mismatch-single = 網站會透過憑證來證明自己的身分。因為伺服器送出不屬於 { $hostname } 的憑證的關係，{ -brand-short-name } 不信任這個網站。該憑證只對 <a data-l10n-name="domain-mismatch-link">{ $alt-name }</a> 有效。
 # Variables:
 # $hostname (String) - Hostname of the website with cert error.
 # $alt-name (String) - Alternate domain name for which the cert is valid.
-cert-error-domain-mismatch-single-nolink = 網站會透過憑證來證明自己的身分。因為伺服器送出不屬於 { $hostname } 的憑證的關係，{ -brand-short-name } 不信任這個網站。 憑證只對 { $alt-name } 有效。
+cert-error-domain-mismatch-single-nolink = 網站會透過憑證來證明自己的身分。因為伺服器送出不屬於 { $hostname } 的憑證的關係，{ -brand-short-name } 不信任這個網站。該憑證只對 { $alt-name } 有效。
 # Variables:
 # $subject-alt-names (String) - Alternate domain names for which the cert is valid.
 cert-error-domain-mismatch-multiple = 網站會透過憑證來證明自己的身分。因為伺服器送出不屬於 { $hostname } 的憑證的關係，{ -brand-short-name } 不信任這個網站。該憑證僅對下列網域名稱有效: { $subject-alt-names }
@@ -55,3 +55,48 @@ cert-error-details-hsts-label = HTTP Strict Transport Security: { $hasHSTS }
 # $hasHPKP (Boolean) - Indicates whether HPKP header is present.
 cert-error-details-key-pinning-label = HTTP Public Key Pinning: { $hasHPKP }
 cert-error-details-cert-chain-label = 憑證鍊:
+open-in-new-window-for-csp-or-xfo-error = 用新視窗開啟網站
+# Variables:
+# $hostname (String) - Hostname of the website blocked by csp or xfo error.
+csp-xfo-blocked-long-desc = 為了保護您的安全，{ $hostname } 不允許在被別的網站嵌入時，讓  { -brand-short-name } 顯示頁面內容。若要見到此頁面，請用新視窗開啟。
+
+## Messages used for certificate error titles
+
+connectionFailure-title = 連線失敗
+deniedPortAccess-title = 此網址已被限制
+# "Hmm" is a sound made when considering or puzzling over something.
+# You don't have to include it in your translation if your language does not have a written word like this.
+dnsNotFound-title = 呃…找不到這個網站。
+fileNotFound-title = 找不到檔案
+fileAccessDenied-title = 對檔案的存取要求已被拒絕
+generic-title = 噢！
+captivePortal-title = 登入到網路
+# "Hmm" is a sound made when considering or puzzling over something.
+# You don't have to include it in your translation if your language does not have a written word like this.
+malformedURI-title = 呃…這個網址好像有錯。
+netInterrupt-title = 連線中斷
+notCached-title = 文件已過期
+netOffline-title = 離線模式
+contentEncodingError-title = 內容編碼錯誤
+unsafeContentType-title = 不安全的檔案格式
+netReset-title = 連線被重設
+netTimeout-title = 連線已逾時
+unknownProtocolFound-title = 無法理解的網址
+proxyConnectFailure-title = Proxy 伺服器拒絕連線
+proxyResolveFailure-title = 找不到 Proxy 伺服器
+redirectLoop-title = 頁面重新導向不正確
+unknownSocketType-title = 伺服器回應錯誤
+nssFailure2-title = 安全連線失敗
+cspBlocked-title = 依內容安全政策封鎖
+xfoBlocked-title = 因 X-Frame-Options 封鎖
+csp-xfo-error-title = { -brand-short-name } 無法開啟此網頁
+corruptedContentError-title = 內容毀損錯誤
+remoteXUL-title = 遠端 XUL
+sslv3Used-title = 無法安全地連線
+inadequateSecurityError-title = 您的連線並不安全
+blockedByPolicy-title = 已封鎖頁面
+clockSkewError-title = 您的電腦時間錯誤
+networkProtocolError-title = 網路通訊協定錯誤
+nssBadCert-title = 警告: 本網站可能有安全性風險
+nssBadCert-sts-title = 未連線: 潛在的安全性問題
+certerror-mitm-title = 有軟體造成 { -brand-short-name } 無法與此網站建立安全連線

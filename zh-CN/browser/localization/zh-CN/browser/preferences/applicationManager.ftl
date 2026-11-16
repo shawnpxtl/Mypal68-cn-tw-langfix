@@ -5,13 +5,15 @@
 app-manager-window =
     .title = 应用程序详细信息
     .style = width: 30em; min-height: 20em;
+
 app-manager-remove =
     .label = 移除
     .accesskey = R
-app-manager-handle-webfeeds = 如下应用程序可用来处理“网站收取点”。
+
 # Variables:
 #   $type (String) - the URI scheme of the link (e.g. mailto:)
 app-manager-handle-protocol = 如下应用程序可用来处理“{ $type } 链接”。
+
 # Variables:
 #   $type (String) - the MIME type (e.g. application/binary)
 app-manager-handle-file = 如下应用程序可用来处理“{ $type } 内容”。
