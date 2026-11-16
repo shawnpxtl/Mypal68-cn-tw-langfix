@@ -1,6 +1,6 @@
 简体中文 | [繁體中文](./README.zh-TW.md)
 
-# Mypal68 简体中文语言包 （停更）
+# Mypal68 简体中文语言包 
 
 ## Mypal68 Simplified Chinese Language Pack
 
